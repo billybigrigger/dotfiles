@@ -1,0 +1,1321 @@
+2013-10-27 17:46:48	-->	billybigrigger (billybigrig@SpotChat-06cuv1.cg.shawcable.net) has joined #linuxmint-help
+2013-10-27 17:46:48	--	Topic for #linuxmint-help is "Official Linux Mint Support Channel | IRC Channel Rules: http://goo.gl/Ic9Gg | Upgrade Instructions: http://goo.gl/l1drP | Mint 15 is out, release announcement: http://goo.gl/rTCeu | Update issues with medibuntu ? See http://goo.gl/TknMrG"
+2013-10-27 17:46:48	--	Topic set by glebihan (glebihan@do.not.disturb) on Sun, 13 Oct 2013 13:45:55
+2013-10-27 17:46:48	--	Nicks #linuxmint-help: [*Kuja @ArcherSeven @ChanServ @devnull @KittyKatt @linXea @oOze @Roin @Rusty1_64 _dd _mel_ admin AdmV0rl03 alexandros_c alichiman alwhaley aniyah artv61 Atani awatt Axlin_ b^43 bael barneygale behnkent billybigrigger biwano biwano_ blackisle bob boboysdadda bones Booker_T briand BullShark canis chattr Cheesewheel cherry christopher cockburn colonia27_ combat corkeh corndog Crazyjust crim d__b daguz damaya davethefan Descartes dittertp_ Djang0 downhome Drag dvirusd edoloughlin Effe elden elkingrey Emmanuel_Chanel ephemer0l erstazi escapegoat evert evilytwisted fnordfnordfnord foobArrr fossegrim frank fukagawa gerzel GitNick gko glebihan GlitchMr gonephishin gu Guest11603 Guest53960 Guest61872 Gycklarn Halikar^afk havokoc hej Helaman heoyea herman hid Htbrdd Imploded13 inahd Jack_Estripador jarif jasic jasonsmr jdragelj jekle jemar jerry jkw265 jlguthri jnix johannes_ jozan kaneda kay KingMichael kirk kiwi kiwicam kneekoo kotten krondur kury kvasyl Kwisher kwyjibo kylearan lachie lataylor lau lek_ linux-ate-my-dog linuxmint lister lonewlf LS ltosz3 luke luke_ m60-pup mantas Marforius maria mark_ matjam Matrixiumn mavhq max03_ max2 Memphizzzzzz_ meschi mikee mikul minter mjrosenb modernbob Moonshine MouseTheLuckyDog mozzy MraMaria mttr mtwebster Nami Namor nasgaia Naughx nic niftylettuce nigel NorthAntrim nowickitmk nutterpc Odd0002 OldRedEyes omouse patrickanthony patron pcdummy petej PhilGee piglit pkoerner Plinker Ponch0 pootis_pensar pox protomouse Provel qnhu rageagainstthem rampageRipper RcyberN rdale rdn RemuN rj1 rjanja roasted robotti roman rypervenche sammyz satamusic sean sime simon simpson__ some1 Spec-Chum species_4981 squinty_ Stardroid steve_ steven_ stian stormy sujal_ SuperCat superlou syu t0x TATA tedorsetto Testing567 ThalinVien thdxo The_Schmidt Therionized thor77 tim timo todd Toi TornadoRex tpo tsunami twig Two_Dogs twobitsprite user8545 vajid valiukevich vallor versusbassz VlperX vxp wantansoup warfaren wei2912 Whiskey wm_duckie x yano Ycarene yumaokao zaeee Zenox zoinkfoo]
+2013-10-27 17:46:48	--	Channel #linuxmint-help: 251 nicks (9 ops, 0 halfops, 0 voices, 242 normals)
+2013-10-27 17:46:48	--	Notice(ChanServ): Welcome to #linuxmint-help | Please read the channel topic, including the channel rules | Use a pastebin service for posting multiple lines: http://dpaste.com | Use #linuxmint-chat for general conversation and #linuxmint-debian for support questions for LMDE
+2013-10-27 17:46:48	-->	ava (hirad@SpotChat-g0h.q3k.98.37.IP) has joined #linuxmint-help
+2013-10-27 17:46:49	--	Mode #linuxmint-help [+Snt]
+2013-10-27 17:46:49	--	Channel created on Sun, 31 Mar 2013 00:57:13
+2013-10-27 17:46:55	sean	but i've still got what i assume is Cinnamon in fallback mode
+2013-10-27 17:47:04	sean	and can't seem to get the full cinnamon back
+2013-10-27 17:47:05	billybigrigger	anyone else having problems with 2.0.6 and not being able to find session?
+2013-10-27 17:47:16	billybigrigger	cinnamon 2.0.6 that is
+2013-10-27 17:47:24	-->	fox (fox@SpotChat-arv5n8.res.rr.com) has joined #linuxmint-help
+2013-10-27 17:47:33	fox	hi all
+2013-10-27 17:47:37	-->	brix (brix@SpotChat-j2s62a.jsgl.97ia.0306.2602.IP) has joined #linuxmint-help
+2013-10-27 17:47:40	evilytwisted	chattr:  http://pastebin.com/TQeSsrmy see
+2013-10-27 17:47:54	evilytwisted	its telling me the process is running but those 2 commands dont do anything
+2013-10-27 17:48:02	fox	does linux mint have a .bashrc somewhere else other than the home directory?
+2013-10-27 17:48:13	<--	dvirusd (dvirusd@SpotChat-sq9jv8.abo.wanadoo.fr) has quit (Quit: Leaving)
+2013-10-27 17:48:45	-->	omegadot (omegadot@SpotChat-vm2i6r.fios.verizon.net) has joined #linuxmint-help
+2013-10-27 17:49:02	Imploded13	http://askubuntu.com/questions/52341/how-to-kill-wine-processes-when-they-crash-or-are-going-to-crash
+2013-10-27 17:49:11	Imploded13	is that any good evilytwisted?
+2013-10-27 17:49:15	chattr	evilytwisted: what line in the pastebin says wine (or something) is already running?
+2013-10-27 17:49:44	chattr	fox: maybe /etc/bash.bashrc
+2013-10-27 17:49:52	-->	aa (aa@SpotChat-tpr.2b4.191.201.IP) has joined #linuxmint-help
+2013-10-27 17:49:53	-->	lacrem (lacrem@SpotChat-mpkels.bigpond.net.au) has joined #linuxmint-help
+2013-10-27 17:50:02	-->	MsJiff (MsJiff@SpotChat-88rf3f.east.verizon.net) has joined #linuxmint-help
+2013-10-27 17:50:02	<--	aa (aa@SpotChat-tpr.2b4.191.201.IP) has quit (Quit: Saliendo)
+2013-10-27 17:50:03	-->	pepe (pepe@SpotChat-66q1tl.dynamicIP.rima-tde.net) has joined #linuxmint-help
+2013-10-27 17:50:08	<--	MsJiff (MsJiff@SpotChat-88rf3f.east.verizon.net) has left #linuxmint-help ("Screw you guys, I'm goin' home!")
+2013-10-27 17:50:20	<--	versusbassz (versusbassz@SpotChat-1op.45h.1.37.IP) has quit (Quit: Leaving)
+2013-10-27 17:50:34	evilytwisted	chattr:  Maximum number of clients reachedMaximum number of clients reachedfixme:win:Enum
+2013-10-27 17:50:37	fox	chattr: this seems like a system wide bashrc
+2013-10-27 17:50:47	evilytwisted	and no Imploded13 
+2013-10-27 17:50:48	sean	if i purge all nvidia drivers from my system, will i end up screwing myself over and ending up with a black screen?
+2013-10-27 17:50:51	<--	ava (hirad@SpotChat-g0h.q3k.98.37.IP) has quit (Ping timeout: 121 seconds)
+2013-10-27 17:50:53	fox	it's okay, i'll just manually create a ~/.bashrc
+2013-10-27 17:50:55	<--	herman (kris@SpotChat-orbk97.wide.net.au) has left #linuxmint-help ("Leaving")
+2013-10-27 17:50:56	fox	thank you
+2013-10-27 17:50:57	Imploded13	:-9 sorry
+2013-10-27 17:50:58	sean	or will mint 14 just go back to the original drivers
+2013-10-27 17:51:03	evilytwisted	Yeah ill just tell them i need to restart
+2013-10-27 17:51:05	chattr	evilytwisted: I don't see that line in http://pastebin.com/TQeSsrmy
+2013-10-27 17:51:37	chattr	fox: yes, that it is (system wide)
+2013-10-27 17:51:42	<--	vxp (vxp@SpotChat-fbgnbr.ca.comcast.net) has quit (Connection closed)
+2013-10-27 17:51:43	<--	pepe (pepe@SpotChat-66q1tl.dynamicIP.rima-tde.net) has quit (Quit: Konversation terminated!)
+2013-10-27 17:51:56	Imploded13	wineserver -k9
+2013-10-27 17:52:00	<--	rdale (rdale@SpotChat-46fd7l.clients.pavlovmedia.com) has quit (Ping timeout: 121 seconds)
+2013-10-27 17:52:02	evilytwisted	did that
+2013-10-27 17:52:05	evilytwisted	lol
+2013-10-27 17:52:05	-->	ksimon (ksimon@SpotChat-r9opep.customers.d1-online.com) has joined #linuxmint-help
+2013-10-27 17:52:08	evilytwisted	ill just restart it
+2013-10-27 17:52:18	Imploded13	lol
+2013-10-27 17:52:21	<--	sean (sean@SpotChat-qr4mvb.cable.virginm.net) has quit (Connection closed)
+2013-10-27 17:52:24	Imploded13	see you in a bit
+2013-10-27 17:52:31	evilytwisted	waiting for the kids to get in a safe area :/
+2013-10-27 17:52:40	-->	Thunder (Thunder@SpotChat-oj6atj.bigpond.net.au) has joined #linuxmint-help
+2013-10-27 17:52:42	Two_Dogs	sean: assuming you purge nvidia drivers, also delete xorg.conf
+2013-10-27 17:52:44	<--	ltosz3 (dfcr2@SpotChat-albgvg.res.rr.com) has quit (Quit: Leaving)
+2013-10-27 17:52:47	Imploded13	safe area? why you gonna explode?
+2013-10-27 17:52:48	-->	anonimo (anonimo@SpotChat-qb0.od1.225.212.IP) has joined #linuxmint-help
+2013-10-27 17:52:48	<--	Namor (Namor@SpotChat-ltn9hu.retail.telecomitalia.it) has quit (Quit: Sto andando via)
+2013-10-27 17:53:45	<--	evilytwisted (silent@silent) has quit (Connection closed)
+2013-10-27 17:53:46	<--	anonimo (anonimo@SpotChat-qb0.od1.225.212.IP) has quit (Quit: Saliendo)
+2013-10-27 17:53:54	-->	team-ravenation (team-ravena@SpotChat-6h21o5.res.rr.com) has joined #linuxmint-help
+2013-10-27 17:54:08	<--	team-ravenation (team-ravena@SpotChat-6h21o5.res.rr.com) has left #linuxmint-help ("Leaving")
+2013-10-27 17:54:11	chattr	back later.
+2013-10-27 17:54:22	-->	team-ravenation (team-ravena@SpotChat-6h21o5.res.rr.com) has joined #linuxmint-help
+2013-10-27 17:54:26	Imploded13	bye bye ghattr
+2013-10-27 17:54:35	Imploded13	lol...sorry
+2013-10-27 17:54:36	<--	kay (kobrien@SpotChat-1k7.dbg.24.185.IP) has quit (Quit: Leaving)
+2013-10-27 17:54:47	<--	team-ravenation (team-ravena@SpotChat-6h21o5.res.rr.com) has quit (Quit: Leaving)
+2013-10-27 17:55:06	<--	lacrem (lacrem@SpotChat-mpkels.bigpond.net.au) has quit (Quit: Leaving)
+2013-10-27 17:55:14	-->	gru (gru@SpotChat-htgrpk.pool.mediaWays.net) has joined #linuxmint-help
+2013-10-27 17:55:17	<--	nigel (nigel@SpotChat-b618oo.exetel.com.au) has quit (Connection closed)
+2013-10-27 17:55:30	-->	david (david@SpotChat-60v7mu.bethere.co.uk) has joined #linuxmint-help
+2013-10-27 17:55:44	<--	david (david@SpotChat-60v7mu.bethere.co.uk) has quit (Quit: Leaving)
+2013-10-27 17:56:17	-->	tok (tobias@SpotChat-0ugt3d.dip0.t-ipconnect.de) has joined #linuxmint-help
+2013-10-27 17:56:35	-->	scavenger (scavenger@SpotChat-7ed.k2r.3.185.IP) has joined #linuxmint-help
+2013-10-27 17:56:38	-->	bhavesh (bhavesh@SpotChat-5dsr80.home.cgocable.net) has joined #linuxmint-help
+2013-10-27 17:56:45	Imploded13	you back evilytwisted?
+2013-10-27 17:57:11	-->	sean (sean@SpotChat-qr4mvb.cable.virginm.net) has joined #linuxmint-help
+2013-10-27 17:57:21	<--	bael (bael@SpotChat-u6bskl.cust.bredbandsbolaget.se) has quit (Ping timeout: 121 seconds)
+2013-10-27 17:57:30	<--	scavenger (scavenger@SpotChat-7ed.k2r.3.185.IP) has quit (Quit: Leaving)
+2013-10-27 17:57:58	-->	danny (danny@SpotChat-bigu01.dyn.optonline.net) has joined #linuxmint-help
+2013-10-27 17:58:25	-->	el_p4drin0 (el_p4drin0@SpotChat-7cc.2fu.7.179.IP) has joined #linuxmint-help
+2013-10-27 17:58:33	Imploded13	is cinnamon 2.o.6 the newest?
+2013-10-27 17:58:42	<--	ksimon (ksimon@SpotChat-r9opep.customers.d1-online.com) has quit (Quit: Verlassend)
+2013-10-27 17:58:58	danny	Anybody here a font expert that can help me with my issue? http://forums.linuxmint.com/viewtopic.php?f=90&t=148625
+2013-10-27 17:59:01	-->	ron (ron@SpotChat-sil.5pt.50.207.IP) has joined #linuxmint-help
+2013-10-27 17:59:36	sean	looks like ppa-purging all nvidia packages sorted my issues! :D
+2013-10-27 17:59:45	-->	rachid (rachid@SpotChat-lf2.mee.249.41.IP) has joined #linuxmint-help
+2013-10-27 17:59:45	-->	rachid_ (rachid@SpotChat-lf2.mee.249.41.IP) has joined #linuxmint-help
+2013-10-27 17:59:52	sean	now to figure out how to get my optimus card working without official nvidia drivers..
+2013-10-27 17:59:53	<--	rachid (rachid@SpotChat-lf2.mee.249.41.IP) has quit (Quit: Sto andando via)
+2013-10-27 17:59:53	<--	rachid_ (rachid@SpotChat-lf2.mee.249.41.IP) has quit (Connection closed)
+2013-10-27 18:01:05	<--	tok (tobias@SpotChat-0ugt3d.dip0.t-ipconnect.de) has quit (Ping timeout: 121 seconds)
+2013-10-27 18:01:13	<--	bhavesh (bhavesh@SpotChat-5dsr80.home.cgocable.net) has quit (Quit: Leaving)
+2013-10-27 18:01:17	-->	EXPLORER_bg_m (EXPLORER_bg@SpotChat-b72veu.adsl-a-4.sezampro.rs) has joined #linuxmint-help
+2013-10-27 18:01:19	<--	el_p4drin0 (el_p4drin0@SpotChat-7cc.2fu.7.179.IP) has quit (Quit: Saliendo)
+2013-10-27 18:01:20	-->	Haywire7 (phil@SpotChat-sosod7.dhcp.embarqhsd.net) has joined #linuxmint-help
+2013-10-27 18:01:59	-->	keri (keri@SpotChat-qhj4k0.ga.comcast.net) has joined #linuxmint-help
+2013-10-27 18:02:00	<--	keri (keri@SpotChat-qhj4k0.ga.comcast.net) has quit (Quit: Leaving)
+2013-10-27 18:02:33	-->	rockey (rockey@SpotChat-ao3mbr.livnmi.sbcglobal.net) has joined #linuxmint-help
+2013-10-27 18:02:55	-->	ava (hirad@SpotChat-35p282.redstation.co.uk) has joined #linuxmint-help
+2013-10-27 18:03:31	ron	Can someone tell me the key combo to open a terminal and the command to open the login windows settings. I changed it to auto & timed now I have an ice authority error and no start button.
+2013-10-27 18:03:39	-->	chlesto (chlesto@SpotChat-c9c2ej.bredband.skanova.com) has joined #linuxmint-help
+2013-10-27 18:04:11	Imploded13	ctrl > alt > t
+2013-10-27 18:05:35	<--	rampageRipper (deepblue@unaffiliated) has quit (Ping timeout: 121 seconds)
+2013-10-27 18:05:53	<--	thdxo (thdxo@SpotChat-ool.a1k.25.59.IP) has left #linuxmint-help ("전 이만 갑니다.")
+2013-10-27 18:05:57	ron	That's what I remembered and it isn't working. any ideas for restoring the login so that it is no longer automatic?
+2013-10-27 18:06:07	kotten	ctrl alt t doesnt work for me either
+2013-10-27 18:06:11	<--	cockburn (skr5e@SpotChat-k0jpqa.dh.suddenlink.net) has quit (Quit: Leaving)
+2013-10-27 18:06:23	Imploded13	sorry no...will look on google if you like?
+2013-10-27 18:06:34	-->	fjhs (fjhs@SpotChat-9kf.hpt.171.187.IP) has joined #linuxmint-help
+2013-10-27 18:06:56	-->	cjenkin2 (christopher@SpotChat-q1c.vjd.193.199.IP) has joined #linuxmint-help
+2013-10-27 18:07:36	<--	fjhs (fjhs@SpotChat-9kf.hpt.171.187.IP) has left #linuxmint-help ("Saliendo")
+2013-10-27 18:07:46	<--	cjenkin2 (christopher@SpotChat-q1c.vjd.193.199.IP) has quit (Quit: Leaving)
+2013-10-27 18:07:50	-->	wrouesnel (wrouesnel@SpotChat-cie7v8.iinet.net.au) has joined #linuxmint-help
+2013-10-27 18:08:00	-->	tok (tobias@SpotChat-0ugt3d.dip0.t-ipconnect.de) has joined #linuxmint-help
+2013-10-27 18:08:13	-->	andrew (andrew@SpotChat-gke6q6.ma.comcast.net) has joined #linuxmint-help
+2013-10-27 18:08:23	kotten	imploded13: thanks =)
+2013-10-27 18:08:26	ron	I can ctrl-alt-f1 to a text only window and could sudo su and edit the config if anyone could tell me what to change.
+2013-10-27 18:08:33	-->	jarvis (jarvis@SpotChat-m61pva.cg.shawcable.net) has joined #linuxmint-help
+2013-10-27 18:08:37	-->	geoff (geoff@SpotChat-j91368.b2b2c.ca) has joined #linuxmint-help
+2013-10-27 18:08:44	-->	hirad_ (hirad@SpotChat-35p282.redstation.co.uk) has joined #linuxmint-help
+2013-10-27 18:08:48	geoff	what's the ETA for LM16 ?
+2013-10-27 18:08:48	<--	hirad_ (hirad@SpotChat-35p282.redstation.co.uk) has left #linuxmint-help ("Leaving")
+2013-10-27 18:09:07	-->	pavel (pavel@SpotChat-857.s36.16.188.IP) has joined #linuxmint-help
+2013-10-27 18:09:18	<--	ava (hirad@SpotChat-35p282.redstation.co.uk) has quit (Ping timeout: 121 seconds)
+2013-10-27 18:09:21	<--	vajid (vajid@SpotChat-ttemph.cable.virginm.net) has quit (Connection closed)
+2013-10-27 18:09:54	jarvis	does anyone have experience changing icons on olivia? I added the extracted file to usr/share/icon and the icons only appear when i'm root
+2013-10-27 18:10:26	<--	andrew (andrew@SpotChat-gke6q6.ma.comcast.net) has quit (Quit: Leaving)
+2013-10-27 18:10:30	-->	opotos (opotos@SpotChat-9q8h2p.bb.dnainternet.fi) has joined #linuxmint-help
+2013-10-27 18:10:33	geoff	jarvis: try ~/.local/share/icon ?
+2013-10-27 18:10:46	geoff	and which edition of olivia?
+2013-10-27 18:10:53	jarvis	sorry, cinnamon
+2013-10-27 18:11:18	<--	opotos (opotos@SpotChat-9q8h2p.bb.dnainternet.fi) has quit (Quit: Lähdössä)
+2013-10-27 18:11:45	geoff	I've used custom icons and themes, I found it's more convenient to use  the local directory. fonts also can be found in ~/.local
+2013-10-27 18:12:01	sean	hmm, is it worth the hassle of trying to get my nvidia drivers to work again, or should i just go with nouveau?
+2013-10-27 18:12:08	<--	tok (tobias@SpotChat-0ugt3d.dip0.t-ipconnect.de) has quit (Ping timeout: 121 seconds)
+2013-10-27 18:12:19	jarvis	geoff: worked like a charm! thanks for the tip
+2013-10-27 18:12:26	<--	jarvis (jarvis@SpotChat-m61pva.cg.shawcable.net) has quit (Quit: Leaving)
+2013-10-27 18:12:27	chattr	geoff: end of next month (Nov)
+2013-10-27 18:12:29	geoff	sean: I would get another graphic card.
+2013-10-27 18:12:41	geoff	jarif, sure!
+2013-10-27 18:12:48	-->	ragbinder (ragbinder@SpotChat-eqt7vs.lv.cox.net) has joined #linuxmint-help
+2013-10-27 18:13:00	<--	ragbinder (ragbinder@SpotChat-eqt7vs.lv.cox.net) has quit (Quit: Leaving)
+2013-10-27 18:13:02	Imploded13	what graphics card do you have sean?
+2013-10-27 18:13:12	sean	it's a 410m
+2013-10-27 18:13:14	Imploded13	I know nvidia but ,,,
+2013-10-27 18:13:25	geoff	chattr, can't wait! I'm eager to try the latest cinnamon
+2013-10-27 18:13:27	sean	not great but works for the games and stuff i'd wanna play
+2013-10-27 18:14:00	Imploded13	so the linux (14) drivers arent working with it?
+2013-10-27 18:14:15	sean	it works okay on a fresh Mint install
+2013-10-27 18:14:25	Imploded13	is the puter old? ram etc?
+2013-10-27 18:14:31	sean	it's a laptop
+2013-10-27 18:14:52	sean	but i think i need either nouveau or nvidia drivers installed so i can get mint to turn off the GPU except when needed
+2013-10-27 18:14:56	sean	sincei t's an optimus card
+2013-10-27 18:15:03	Imploded13	ah...ermmm not sure what to suggest as I have linux mint 15 and it just works out the box
+2013-10-27 18:15:30	<--	fox (fox@SpotChat-arv5n8.res.rr.com) has quit (Connection closed)
+2013-10-27 18:16:02	-->	Axlin (Axlin@SpotChat-0bb1cl.swbr.surewest.net) has joined #linuxmint-help
+2013-10-27 18:16:47	chattr	back later, after work
+2013-10-27 18:16:48	<--	Spec-Chum (quassel@SpotChat-d9t.fua.201.90.IP) has quit (Connection closed)
+2013-10-27 18:17:02	Imploded13	nn chattr
+2013-10-27 18:17:33	<--	Axlin_ (Axlin@SpotChat-0bb1cl.swbr.surewest.net) has quit (Ping timeout: 121 seconds)
+2013-10-27 18:17:54	<--	danny (danny@SpotChat-bigu01.dyn.optonline.net) has quit (Connection closed)
+2013-10-27 18:18:00	-->	giorgosf (giorgosf@SpotChat-qk91bu.pool.mediaWays.net) has joined #linuxmint-help
+2013-10-27 18:18:15	-->	guest2852_web (Mibbit@SpotChat-op81k6.dyn.optonline.net) has joined #linuxmint-help
+2013-10-27 18:18:15	-->	XDX (FJK@SpotChat-iig.kba.58.92.IP) has joined #linuxmint-help
+2013-10-27 18:18:26	Imploded13	have a read of this sean.. http://tuxilero.blogspot.cz/2013/09/how-to-official-nvidia-drivers.html
+2013-10-27 18:18:56	Imploded13	but its for mint on a 64 so no good :-( sorry
+2013-10-27 18:19:00	-->	Axlin_ (Axlin@SpotChat-0bb1cl.swbr.surewest.net) has joined #linuxmint-help
+2013-10-27 18:19:19	<--	giorgosf (giorgosf@SpotChat-qk91bu.pool.mediaWays.net) has left #linuxmint-help ("Αποχώρησε")
+2013-10-27 18:19:48	Imploded13	looks complicated too :-(
+2013-10-27 18:20:14	guest2852_web	may i ask a question about mintbackup?
+2013-10-27 18:20:35	-->	graeme (graeme@SpotChat-44c.id9.2.94.IP) has joined #linuxmint-help
+2013-10-27 18:20:47	<--	graeme (graeme@SpotChat-44c.id9.2.94.IP) has quit (Connection closed)
+2013-10-27 18:20:53	-->	tok (tobias@SpotChat-0ugt3d.dip0.t-ipconnect.de) has joined #linuxmint-help
+2013-10-27 18:20:57	-->	mint (mint@SpotChat-t907t2.bbtec.net) has joined #linuxmint-help
+2013-10-27 18:21:00	<--	mint (mint@SpotChat-t907t2.bbtec.net) has quit (Quit: Leaving)
+2013-10-27 18:21:02	guest2852_web	i am sorry i meant aptoncd
+2013-10-27 18:21:04	Imploded13	you may and hopefully some1 will be able to help
+2013-10-27 18:21:04	-->	nipcat (nipcat@SpotChat-mljesu.oopo.vbvc.e000.2605.IP) has joined #linuxmint-help
+2013-10-27 18:21:28	guest2852_web	the "load" button doesn't work after clicking on the "restore" button...
+2013-10-27 18:21:33	<--	Axlin (Axlin@SpotChat-0bb1cl.swbr.surewest.net) has quit (Ping timeout: 121 seconds)
+2013-10-27 18:21:47	guest2852_web	i google searched... and used the suggestion to install hal.  But it still doesn't work
+2013-10-27 18:22:51	Imploded13	http://community.linuxmint.com/software/view/aptoncd
+2013-10-27 18:22:57	<--	brix (brix@SpotChat-j2s62a.jsgl.97ia.0306.2602.IP) has quit (Quit: Leaving)
+2013-10-27 18:22:57	Imploded13	did you look at that?
+2013-10-27 18:23:07	-->	linuxman (linuxman@SpotChat-ttl.uuo.19.182.IP) has joined #linuxmint-help
+2013-10-27 18:23:09	-->	r00t (Unknown@epicwin.ssh01.com) has joined #linuxmint-help
+2013-10-27 18:23:13	-->	wes (wes@SpotChat-3gr61j.6vna.o7aa.0306.2602.IP) has joined #linuxmint-help
+2013-10-27 18:23:22	<--	wes (wes@SpotChat-3gr61j.6vna.o7aa.0306.2602.IP) has quit (Connection closed)
+2013-10-27 18:23:25	guest2852_web	thnks ... i'm just reading
+2013-10-27 18:23:26	<--	sean (sean@SpotChat-qr4mvb.cable.virginm.net) has quit (Connection closed)
+2013-10-27 18:23:40	-->	gaby (gaby@SpotChat-efolag.ua9l.qtsj.0e35.2a01.IP) has joined #linuxmint-help
+2013-10-27 18:23:58	<--	linuxman (linuxman@SpotChat-ttl.uuo.19.182.IP) has quit (Quit: Leaving)
+2013-10-27 18:24:00	<--	gaby (gaby@SpotChat-efolag.ua9l.qtsj.0e35.2a01.IP) has quit (Quit: Quitte)
+2013-10-27 18:24:04	Imploded13	prob rubbish ;-) seems a few are moaning about it
+2013-10-27 18:24:05	-->	SpeccyMan (nick@SpotChat-uttshr.threembb.co.uk) has joined #linuxmint-help
+2013-10-27 18:24:07	<--	Haywire7 (phil@SpotChat-sosod7.dhcp.embarqhsd.net) has quit (Quit: Leaving)
+2013-10-27 18:24:17	<--	nipcat (nipcat@SpotChat-mljesu.oopo.vbvc.e000.2605.IP) has quit (Client exited)
+2013-10-27 18:24:26	guest2852_web	well some ppl are saying that it worked after installing hal
+2013-10-27 18:24:32	-->	Scare_Crow (Karel@SpotChat-9e3lr7.dhcp.embarqhsd.net) has joined #linuxmint-help
+2013-10-27 18:24:33	guest2852_web	and some are saying it didn't
+2013-10-27 18:24:35	-->	morten77 (user@SpotChat-15sgkj.telia.com) has joined #linuxmint-help
+2013-10-27 18:24:42	guest2852_web	in my case it didn't
+2013-10-27 18:24:43	Imploded13	:-D yup...
+2013-10-27 18:24:47	-->	pimp (pimp@SpotChat-1bmtc2.dynamicIP.rima-tde.net) has joined #linuxmint-help
+2013-10-27 18:24:49	Imploded13	awwww
+2013-10-27 18:25:00	pimp	hi guys!!
+2013-10-27 18:25:07	guest2852_web	well.,.. i could use other tools if there is one
+2013-10-27 18:25:09	Imploded13	hiya pimp
+2013-10-27 18:25:28	-->	mint (mint@SpotChat-t61.o8k.2.96.IP) has joined #linuxmint-help
+2013-10-27 18:25:42	guest2852_web	e.g mintbackup only seems to back up the software selection (not the actual deb files)....
+2013-10-27 18:25:51	guest2852_web	i guess i have to do it manually
+2013-10-27 18:25:58	--	mint is now known as Guest43852
+2013-10-27 18:26:34	-->	zenrox (zenrox@SpotChat-e74.0s2.123.50.IP) has joined #linuxmint-help
+2013-10-27 18:26:35	Imploded13	what are the files from?
+2013-10-27 18:26:36	-->	bjeversole (bjeversole@SpotChat-gav7fv.res.rr.com) has joined #linuxmint-help
+2013-10-27 18:26:40	<--	bjeversole (bjeversole@SpotChat-gav7fv.res.rr.com) has quit (Connection closed)
+2013-10-27 18:26:46	pimp	I need help, i have tried install Java SE 6.0 by myself but its impossible. The reason i need that version is this: "You are attempting to build with the incorrect version of java. Your version is: java version "1.7.0_07". The correct version is: Java SE 1.6."
+2013-10-27 18:26:57	morten77	is all the deb files I use, stored somewhere on the disk?
+2013-10-27 18:26:59	guest2852_web	as i don't want to download a huge 2gb everytime I have to do an upgrade... (the texlive for example, nothing changes from the dist-upgrade)
+2013-10-27 18:27:09	-->	gaetan (gaetan@SpotChat-485j5n.du.xdsl.is) has joined #linuxmint-help
+2013-10-27 18:27:10	-->	rgg (rgg@SpotChat-gpprfv.mn.comcast.net) has joined #linuxmint-help
+2013-10-27 18:27:59	ron	thx for the help Imploded13 I found what config and edited it. Off for a test reboot.
+2013-10-27 18:28:11	Imploded13	good luck ron
+2013-10-27 18:28:18	squinty_	morten77:  ls /var/cache/apt/archives/*.deb 
+2013-10-27 18:28:20	<--	ron (ron@SpotChat-sil.5pt.50.207.IP) has quit (Quit: Leaving)
+2013-10-27 18:28:27	morten77	yeah it would be interesting to have a backup of all packages that was not on the installation dvd
+2013-10-27 18:28:32	morten77	ok thanx
+2013-10-27 18:28:46	squinty_	aptoncd
+2013-10-27 18:29:16	guest2852_web	aptoncd has restore problem -- im having the same issue i guess
+2013-10-27 18:29:24	<--	jarif (jarif@SpotChat-llvvbs.localloop.fi) has quit (Ping timeout: 121 seconds)
+2013-10-27 18:29:30	-->	kevin_ (kevin@SpotChat-hvdufs.res.rr.com) has joined #linuxmint-help
+2013-10-27 18:29:31	-->	lhm_ (lhm@SpotChat-ebgnoc.vvm.com) has joined #linuxmint-help
+2013-10-27 18:29:50	<--	rockey (rockey@SpotChat-ao3mbr.livnmi.sbcglobal.net) has quit (Ping timeout: 121 seconds)
+2013-10-27 18:29:54	<--	tok (tobias@SpotChat-0ugt3d.dip0.t-ipconnect.de) has quit (Ping timeout: 121 seconds)
+2013-10-27 18:30:44	-->	mint (mint@SpotChat-64bmvj.tukw.qwest.net) has joined #linuxmint-help
+2013-10-27 18:30:49	<--	kevin_ (kevin@SpotChat-hvdufs.res.rr.com) has quit (Quit: Leaving)
+2013-10-27 18:30:53	-->	kevin_ (kevin@SpotChat-hvdufs.res.rr.com) has joined #linuxmint-help
+2013-10-27 18:30:57	<--	mint (mint@SpotChat-64bmvj.tukw.qwest.net) has quit (Quit: Leaving)
+2013-10-27 18:31:05	morten77	squinty_: my /var/cache/apt/archives/ is empty except of a file "lock" and an empty folder "partial"
+2013-10-27 18:31:16	guest2852_web	so my question is: can i just copy the texlive*.deb from /var/cache/apt/archives/ and then after clean reinstall copy them back here?
+2013-10-27 18:31:44	<--	kevin_ (kevin@SpotChat-hvdufs.res.rr.com) has left #linuxmint-help ("Leaving")
+2013-10-27 18:31:49	-->	evilytwisted (silent@silent) has joined #linuxmint-help
+2013-10-27 18:32:12	-->	gu_ (gu@SpotChat-ctls9u.dip0.t-ipconnect.de) has joined #linuxmint-help
+2013-10-27 18:33:01	squinty_	morten77:  then you have erased them somewhere along the line     maybe with apt-get
+2013-10-27 18:33:43	-->	sean (sean@SpotChat-qr4mvb.cable.virginm.net) has joined #linuxmint-help
+2013-10-27 18:34:04	<--	EXPLORER_bg_m (EXPLORER_bg@SpotChat-b72veu.adsl-a-4.sezampro.rs) has quit (Quit: Leaving)
+2013-10-27 18:34:13	sean	imploded13: i'm running through that page you linked
+2013-10-27 18:34:15	squinty_	guest2852_web:  from what I gather that is all apton cd does (according to the bottom line on the opening screen).  never used it myself though so can't say for sure
+2013-10-27 18:34:17	-->	lee (lee@SpotChat-8ksunb.fios.verizon.net) has joined #linuxmint-help
+2013-10-27 18:34:22	sean	and i got to to the bit about installing the new kernel
+2013-10-27 18:34:43	sean	and i ran 'sudo ./kernel-3.9.9.sh'
+2013-10-27 18:34:58	sean	and one of the lines of output was "Error! Bad return status for module build on kernel: 3.9.9-030909-generic (x86_64)"
+2013-10-27 18:35:04	Imploded13	oh dear...hate it when it starts on about kernels...getting complicated
+2013-10-27 18:35:06	sean	but the rest seemed to go okay
+2013-10-27 18:35:08	<--	gu (gu@SpotChat-cccaq4.dip0.t-ipconnect.de) has quit (Ping timeout: 121 seconds)
+2013-10-27 18:35:28	-->	nosleal (nosleal@SpotChat-j8k.lpf.36.189.IP) has joined #linuxmint-help
+2013-10-27 18:35:46	Imploded13	it is a 64 machine you have isnt it and not a 32? 
+2013-10-27 18:35:50	sean	yeah
+2013-10-27 18:36:03	Imploded13	ok :-D hope you sort it
+2013-10-27 18:36:07	<--	Guest43852 (mint@SpotChat-t61.o8k.2.96.IP) has left #linuxmint-help ("Leaving")
+2013-10-27 18:36:11	-->	littlesteve (littesteve@SpotChat-541l61.gci.net) has joined #linuxmint-help
+2013-10-27 18:36:30	hid	hi ive got a beand new computer and i wonder if it's worth to install latest linux kernels
+2013-10-27 18:36:40	sean	i'm just gonna carry on, the error logged was something about a pci device table, hoping it's not hugely damaging
+2013-10-27 18:36:45	hid	brand new*
+2013-10-27 18:36:47	<--	hej (hej@SpotChat-7im.mpr.84.106.IP) has quit (Ping timeout: 121 seconds)
+2013-10-27 18:37:03	Imploded13	gulp sean...
+2013-10-27 18:37:08	-->	tok (tobias@SpotChat-0ugt3d.dip0.t-ipconnect.de) has joined #linuxmint-help
+2013-10-27 18:37:12	morten77	squinty_: ok... perhaps something deleted if becuase the filesystem went full earlier? is it possible to refetch all the deb files I would have (if the ppas I used still exist etc) ?
+2013-10-27 18:37:13	Imploded13	sounds ominous
+2013-10-27 18:37:18	-->	dboy (dboy@SpotChat-l3h9vv.ip.windstream.net) has joined #linuxmint-help
+2013-10-27 18:37:22	<--	dboy (dboy@SpotChat-l3h9vv.ip.windstream.net) has left #linuxmint-help ("Leaving")
+2013-10-27 18:37:45	-->	sudhir (sudhir@SpotChat-025.ej8.41.202.IP) has joined #linuxmint-help
+2013-10-27 18:37:47	<--	sudhir (sudhir@SpotChat-025.ej8.41.202.IP) has quit (Quit: Leaving)
+2013-10-27 18:38:47	squinty_	morten77:   just use the "download only" option
+2013-10-27 18:39:14	Ponch0	is there a way to 'auto complete' directories/file names in command line?
+2013-10-27 18:39:34	<--	sean (sean@SpotChat-qr4mvb.cable.virginm.net) has quit (Connection closed)
+2013-10-27 18:39:40	morten77	ok
+2013-10-27 18:39:44	squinty_	morten77:    type  apt-get for examples
+2013-10-27 18:39:50	squinty_	Ponch0:   tab key
+2013-10-27 18:40:05	Ponch0	squinty_: tyvm
+2013-10-27 18:40:26	Ponch0	omg, it's that easy haha ty ty
+2013-10-27 18:40:37	squinty_	heh  yw :)
+2013-10-27 18:42:11	-->	ludger (ludger@SpotChat-qfn.c05.208.77.IP) has joined #linuxmint-help
+2013-10-27 18:42:24	chattr	Ponch0: most bash installs do that ('auto complete' directories/file names in command line) with <tab>
+2013-10-27 18:42:40	<--	ludger (ludger@SpotChat-qfn.c05.208.77.IP) has quit (Quit: Verlassend)
+2013-10-27 18:42:42	-->	arukemo (arukemo@SpotChat-9mgc9c.res.rr.com) has joined #linuxmint-help
+2013-10-27 18:42:50	<--	arukemo (arukemo@SpotChat-9mgc9c.res.rr.com) has left #linuxmint-help ("Leaving")
+2013-10-27 18:42:54	-->	arukemo (arukemo@SpotChat-9mgc9c.res.rr.com) has joined #linuxmint-help
+2013-10-27 18:42:58	littlesteve	Hello. I just installed Mint 13 over version 12 on another pc.  At the end of the installation process it said installation complete, but upon restarting I am getting Mint 12 again.  It's a dual boot with Windows, and I noticed the Mint listing in the grub boot menu was "Linux Mint with 3.2.0 -23-generic" instead of Linux Mint 13 like I was expecting.  Any ideas what went wrong?
+2013-10-27 18:43:01	<--	omegadot (omegadot@SpotChat-vm2i6r.fios.verizon.net) has quit (Connection closed)
+2013-10-27 18:43:18	Ponch0	chattr: lol yeah, I should have found out sooner, but I just realized it's possible watching a youtube video. I could have saved days of my time, typing and retyping file names :x
+2013-10-27 18:43:33	chattr	ok Ponch0 back later, after work. marking myself /away
+2013-10-27 18:43:44	Ponch0	ok enjoy
+2013-10-27 18:43:56	<--	tok (tobias@SpotChat-0ugt3d.dip0.t-ipconnect.de) has quit (Ping timeout: 121 seconds)
+2013-10-27 18:44:18	<--	arukemo (arukemo@SpotChat-9mgc9c.res.rr.com) has quit (Quit: Leaving)
+2013-10-27 18:45:09	-->	priscilla (priscilla@SpotChat-10h.5rc.98.177.IP) has joined #linuxmint-help
+2013-10-27 18:45:21	<--	priscilla (priscilla@SpotChat-10h.5rc.98.177.IP) has quit (Quit: Saindo)
+2013-10-27 18:45:24	-->	mint (mint@SpotChat-3cbl67.optusnet.com.au) has joined #linuxmint-help
+2013-10-27 18:45:47	<--	mint (mint@SpotChat-3cbl67.optusnet.com.au) has quit (Quit: Leaving)
+2013-10-27 18:45:49	<--	rgg (rgg@SpotChat-gpprfv.mn.comcast.net) has quit (Quit: Leaving)
+2013-10-27 18:45:54	-->	mint (mint@SpotChat-3cbl67.optusnet.com.au) has joined #linuxmint-help
+2013-10-27 18:46:00	<--	mint (mint@SpotChat-3cbl67.optusnet.com.au) has quit (Connection closed)
+2013-10-27 18:46:56	-->	irina (irina@SpotChat-ndt4t7.pa.comcast.net) has joined #linuxmint-help
+2013-10-27 18:47:45	-->	tok (tobias@SpotChat-0ugt3d.dip0.t-ipconnect.de) has joined #linuxmint-help
+2013-10-27 18:47:55	<--	Marforius (Marforius@SpotChat-bt0.8d5.36.69.IP) has quit (Ping timeout: 121 seconds)
+2013-10-27 18:48:02	squinty_	littlesteve:  please type the following in a terminal    sudo inxi -U    (note the captial U)
+2013-10-27 18:48:53	squinty_	littlesteve:  after inxi has finished upgrading please type in xchat    /exec -o inxi -Sx   (again note the capital S)
+2013-10-27 18:49:28	littlesteve	squinty_:  Will do.  Will get back to here then afterwards. thx.
+2013-10-27 18:50:04	squinty_	littlesteve:  I am going to be away from keyboard for 10 minutes or so
+2013-10-27 18:50:55	-->	eric (eric@SpotChat-vnrmkl.home.cgocable.net) has joined #linuxmint-help
+2013-10-27 18:51:05	-->	sean (sean@SpotChat-qr4mvb.cable.virginm.net) has joined #linuxmint-help
+2013-10-27 18:51:12	-->	EyeR (EyeR@SpotChat-vkf.373.8.141.IP) has joined #linuxmint-help
+2013-10-27 18:51:24	<--	eric (eric@SpotChat-vnrmkl.home.cgocable.net) has quit (Quit: Leaving)
+2013-10-27 18:51:33	<--	Toi (heitor@SpotChat-n4p.18e.180.108.IP) has quit (Quit: Leaving)
+2013-10-27 18:51:51	-->	guy (guy@SpotChat-emot05.abo.wanadoo.fr) has joined #linuxmint-help
+2013-10-27 18:51:56	-->	maxwux (maxwux@SpotChat-006lgs.veetime.com) has joined #linuxmint-help
+2013-10-27 18:51:57	<--	guy (guy@SpotChat-emot05.abo.wanadoo.fr) has quit (Connection closed)
+2013-10-27 18:51:58	sean	this is actually no longer fun, lost my cinnamon again
+2013-10-27 18:52:06	sean	and purging nvidia packages didn't help this time
+2013-10-27 18:52:16	-->	optiplex-134 (optiplex-13@SpotChat-6v6.ati.255.213.IP) has joined #linuxmint-help
+2013-10-27 18:52:39	-->	mint (mint@SpotChat-aoaj3i.wa.comcast.net) has joined #linuxmint-help
+2013-10-27 18:52:46	-->	rockey (rockey@SpotChat-ao3mbr.livnmi.sbcglobal.net) has joined #linuxmint-help
+2013-10-27 18:53:09	--	mint is now known as Guest46786
+2013-10-27 18:53:10	-->	matheus (matheus@SpotChat-f84.eos.36.177.IP) has joined #linuxmint-help
+2013-10-27 18:53:39	<--	matheus (matheus@SpotChat-f84.eos.36.177.IP) has quit (Quit: Saindo)
+2013-10-27 18:53:54	<--	optiplex-134 (optiplex-13@SpotChat-6v6.ati.255.213.IP) has quit (Quit: Leaving)
+2013-10-27 18:54:17	<--	guest2852_web (Mibbit@SpotChat-op81k6.dyn.optonline.net) has quit (Quit: http://www.mibbit.com ajax IRC Client)
+2013-10-27 18:54:17	-->	areitz (areitz@SpotChat-cvjold.mn.comcast.net) has joined #linuxmint-help
+2013-10-27 18:54:29	-->	oreiimo (oreiimo@SpotChat-lnvrun.rev.sfr.net) has joined #linuxmint-help
+2013-10-27 18:54:44	<--	oreiimo (oreiimo@SpotChat-lnvrun.rev.sfr.net) has quit (Quit: Quitte)
+2013-10-27 18:54:57	<--	tok (tobias@SpotChat-0ugt3d.dip0.t-ipconnect.de) has quit (Ping timeout: 121 seconds)
+2013-10-27 18:55:29	<--	gru (gru@SpotChat-htgrpk.pool.mediaWays.net) has quit (Ping timeout: 121 seconds)
+2013-10-27 18:56:00	<--	sean (sean@SpotChat-qr4mvb.cable.virginm.net) has quit (Connection closed)
+2013-10-27 18:57:02	<--	superlou (superlou@SpotChat-p5merd.dyn.optonline.net) has quit (Quit: Leaving)
+2013-10-27 18:57:04	<--	areitz (areitz@SpotChat-cvjold.mn.comcast.net) has quit (Quit: Leaving)
+2013-10-27 18:57:10	-->	areitz (areitz@SpotChat-cvjold.mn.comcast.net) has joined #linuxmint-help
+2013-10-27 18:57:11	<--	Guest46786 (mint@SpotChat-aoaj3i.wa.comcast.net) has quit (Quit: Leaving)
+2013-10-27 18:57:26	-->	maximi89 (maximi89@SpotChat-3v2.dij.215.190.IP) has joined #linuxmint-help
+2013-10-27 18:57:34	<--	morten77 (user@SpotChat-15sgkj.telia.com) has left #linuxmint-help
+2013-10-27 18:57:35	<--	Rusty1_64 (Rusty1@free.as.in.beer) has quit (Quit: Leaving)
+2013-10-27 18:57:42	<--	littlesteve (littesteve@SpotChat-541l61.gci.net) has quit (Ping timeout: 121 seconds)
+2013-10-27 18:57:46	<--	rockey (rockey@SpotChat-ao3mbr.livnmi.sbcglobal.net) has quit (Quit: Leaving)
+2013-10-27 18:57:46	-->	mint (mint@SpotChat-aoaj3i.wa.comcast.net) has joined #linuxmint-help
+2013-10-27 18:57:59	<--	areitz (areitz@SpotChat-cvjold.mn.comcast.net) has quit (Quit: Leaving)
+2013-10-27 18:57:59	<--	sujal_ (quassel@SpotChat-gfm.taa.246.46.IP) has quit (Ping timeout: 121 seconds)
+2013-10-27 18:58:00	-->	littlesteve (littlesteve@SpotChat-6sllu1.gci.net) has joined #linuxmint-help
+2013-10-27 18:58:16	--	mint is now known as Guest65293
+2013-10-27 18:58:26	-->	sean (sean@SpotChat-qr4mvb.cable.virginm.net) has joined #linuxmint-help
+2013-10-27 18:59:20	<--	littlesteve (littlesteve@SpotChat-6sllu1.gci.net) has quit (Connection closed)
+2013-10-27 18:59:37	Imploded13	whats root -system-bin?
+2013-10-27 19:00:00	-->	thomas (thomas@SpotChat-fj593l.rev.sfr.net) has joined #linuxmint-help
+2013-10-27 19:00:08	<--	thomas (thomas@SpotChat-fj593l.rev.sfr.net) has quit (Quit: Quitte)
+2013-10-27 19:00:20	-->	donald_ (donald@SpotChat-f0hle0.ma.comcast.net) has joined #linuxmint-help
+2013-10-27 19:00:20	-->	donald (donald@SpotChat-f0hle0.ma.comcast.net) has joined #linuxmint-help
+2013-10-27 19:00:26	<--	donald (donald@SpotChat-f0hle0.ma.comcast.net) has quit (Connection closed)
+2013-10-27 19:00:27	<--	donald_ (donald@SpotChat-f0hle0.ma.comcast.net) has quit (Connection closed)
+2013-10-27 19:00:44	<--	Guest65293 (mint@SpotChat-aoaj3i.wa.comcast.net) has quit (Quit: Leaving)
+2013-10-27 19:00:56	Imploded13	awww sorry to hear that sean
+2013-10-27 19:01:03	-->	ross (ross@SpotChat-msak7b.dsl.bell.ca) has joined #linuxmint-help
+2013-10-27 19:01:05	-->	aditya (aditya@SpotChat-esh.dt8.45.175.IP) has joined #linuxmint-help
+2013-10-27 19:01:19	<--	ross (ross@SpotChat-msak7b.dsl.bell.ca) has quit (Quit: Leaving)
+2013-10-27 19:02:12	<--	jlguthri (jlguthri@SpotChat-s2i.gvm.222.209.IP) has quit (Connection closed)
+2013-10-27 19:02:30	sean	like, my graphics work okay out of the box
+2013-10-27 19:02:39	sean	but for gaming and stuff i wanted to have some proper drivers for my nvidia card
+2013-10-27 19:02:49	sean	and to have optimus working so my laptop isn't constantly overheating
+2013-10-27 19:02:56	sean	but this is far too much hassle
+2013-10-27 19:03:09	Imploded13	what games you planning on running? are the exe ie windows?
+2013-10-27 19:03:24	Imploded13	8they
+2013-10-27 19:03:31	-->	littlesteve (littlesteve@SpotChat-6sllu1.gci.net) has joined #linuxmint-help
+2013-10-27 19:03:45	sean	no, they're just some linux stea mgames
+2013-10-27 19:03:57	sean	i had everything working but formatted my laptop to remove my win partition
+2013-10-27 19:04:07	sean	and now i can't seem to not fuck up this install of mint
+2013-10-27 19:04:12	Imploded13	have you down loaded the steam thing for linux?
+2013-10-27 19:04:14	sean	i've reinstalled it like 3 times already
+2013-10-27 19:04:18	<--	pootis_pensar (stuart@SpotChat-4ck9j2.fios.verizon.net) has quit (Connection closed)
+2013-10-27 19:04:24	sean	yeah
+2013-10-27 19:04:41	<--	EyeR (EyeR@SpotChat-vkf.373.8.141.IP) has quit (Quit: Leaving.)
+2013-10-27 19:04:57	-->	lofas (lofas@SpotChat-psbka1.pa.frontiernet.net) has joined #linuxmint-help
+2013-10-27 19:05:20	<--	lofas (lofas@SpotChat-psbka1.pa.frontiernet.net) has quit (Quit: Leaving)
+2013-10-27 19:05:32	Imploded13	not sure what to suggest.. (please dont swear as it can get you kicked) I know its frustrating
+2013-10-27 19:05:37	littlesteve	squinty_: ok, on the pc with the issue I do not even seem to have a way to access a terminal with this generic linux mint 12 desktop environment.
+2013-10-27 19:05:47	-->	perry (perry@SpotChat-dpclkm.sc.charter.com) has joined #linuxmint-help
+2013-10-27 19:05:53	<--	tpo (tpo@SpotChat-cjir2c.tx.comcast.net) has quit (Ping timeout: 121 seconds)
+2013-10-27 19:06:17	perry	hi
+2013-10-27 19:06:30	-->	EyeR (EyeR@SpotChat-vkf.373.8.141.IP) has joined #linuxmint-help
+2013-10-27 19:06:33	-->	ian (iangabriels@SpotChat-q5p.60g.198.112.IP) has joined #linuxmint-help
+2013-10-27 19:06:35	<--	Naughx (naughx@SpotChat-8pc97r.telebecinternet.net) has quit (Ping timeout: 121 seconds)
+2013-10-27 19:06:49	-->	tok (tobias@SpotChat-0ugt3d.dip0.t-ipconnect.de) has joined #linuxmint-help
+2013-10-27 19:07:14	perry	hi
+2013-10-27 19:07:20	Imploded13	hi perry
+2013-10-27 19:07:37	perry	i'm new
+2013-10-27 19:07:45	Imploded13	welcome
+2013-10-27 19:07:57	-->	pootis_pensar (stuart@SpotChat-4ck9j2.fios.verizon.net) has joined #linuxmint-help
+2013-10-27 19:08:14	-->	danny (danny@SpotChat-rfpaar.wa.comcast.net) has joined #linuxmint-help
+2013-10-27 19:08:23	<--	danny (danny@SpotChat-rfpaar.wa.comcast.net) has quit (Quit: Leaving)
+2013-10-27 19:08:34	sean	i think i've cracked it.... maybe
+2013-10-27 19:08:36	squinty_	littlesteve:  try right clicking on desktop maybe
+2013-10-27 19:08:38	sean	possibly too early to tell
+2013-10-27 19:08:46	perry	what's the point of thi
+2013-10-27 19:08:47	sean	but i think i was misunderstanding the drivers on linux
+2013-10-27 19:08:52	<--	linux-ate-my-dog (matti@SpotChat-78il01.elisa-laajakaista.fi) has quit (Connection closed)
+2013-10-27 19:09:04	Imploded13	mmmm....
+2013-10-27 19:09:11	wm_duckie	mint 12?
+2013-10-27 19:09:16	Imploded13	wassup perry?
+2013-10-27 19:09:20	perry	whats the point of this
+2013-10-27 19:09:26	Imploded13	of what?
+2013-10-27 19:09:26	littlesteve	squinty_: ok that did it.  I'll type in the command you suggested.
+2013-10-27 19:09:29	<--	sean (sean@SpotChat-qr4mvb.cable.virginm.net) has quit (Connection closed)
+2013-10-27 19:10:05	perry	just typing to other people
+2013-10-27 19:10:05	EyeR	Perry: type:  /topic
+2013-10-27 19:10:41	squinty_	perry: it is an area of the internet that was especially setup to confuse you...  well, maybe not.   type  /topic and be enlightened
+2013-10-27 19:10:57	<--	tok (tobias@SpotChat-0ugt3d.dip0.t-ipconnect.de) has quit (Ping timeout: 121 seconds)
+2013-10-27 19:11:08	<--	thor77 (Thor77@SpotChat-cns1ts.pools.arcor-ip.net) has quit (Quit: ZNC - http://znc.in)
+2013-10-27 19:11:30	-->	kouichi (kouichi@SpotChat-p621qq.s1qr.tg5m.6b00.2402.IP) has joined #linuxmint-help
+2013-10-27 19:11:34	<--	kouichi (kouichi@SpotChat-p621qq.s1qr.tg5m.6b00.2402.IP) has quit (Connection closed)
+2013-10-27 19:11:40	-->	guest1562_web (Mibbit@SpotChat-pho7i5.sub-70-199-144.myvzw.com) has joined #linuxmint-help
+2013-10-27 19:11:41	-->	geek (geek@SpotChat-18s00p.mi.comcast.net) has joined #linuxmint-help
+2013-10-27 19:11:43	-->	geek_ (geek@SpotChat-18s00p.mi.comcast.net) has joined #linuxmint-help
+2013-10-27 19:11:45	-->	rakibmursaleenkhan (rakibmursal@SpotChat-c16.uf6.147.27.IP) has joined #linuxmint-help
+2013-10-27 19:11:54	rakibmursaleenkhan	this is a shit
+2013-10-27 19:11:55	-->	tpo (tpo@SpotChat-cjir2c.tx.comcast.net) has joined #linuxmint-help
+2013-10-27 19:11:57	rakibmursaleenkhan	:@
+2013-10-27 19:11:59	-->	Azir (eres@SpotChat-v1l.p0b.183.72.IP) has joined #linuxmint-help
+2013-10-27 19:12:05	geek	h5
+2013-10-27 19:12:08	Imploded13	how do I open root? I seem to have lost permission as admin
+2013-10-27 19:12:09	<--	geek (geek@SpotChat-18s00p.mi.comcast.net) has quit (Quit: Leaving)
+2013-10-27 19:12:10	EyeR	There's other, incredibly similar places to this - like linuxmint-chat next door, Where the specific focus is to type to other users for real basic(but incredibly reliable, and low footprint) comms -=- This room however is more devoted to the assitance and suport of mint users' problems
+2013-10-27 19:12:12	<--	rakibmursaleenkhan (rakibmursal@SpotChat-c16.uf6.147.27.IP) has quit (Quit: Leaving)
+2013-10-27 19:12:13	littlesteve	squinty_:  /exec -o inxi -Sx
+2013-10-27 19:12:15	<--	geek_ (geek@SpotChat-18s00p.mi.comcast.net) has quit (Quit: Leaving)
+2013-10-27 19:12:21	perry	a lot of people joining
+2013-10-27 19:12:28	-->	hack-per (hack-per@SpotChat-4s2.k44.34.187.IP) has joined #linuxmint-help
+2013-10-27 19:12:28	<--	Azir (eres@SpotChat-v1l.p0b.183.72.IP) has quit (Quit: Leaving)
+2013-10-27 19:12:39	EyeR	Mint is a popular project...
+2013-10-27 19:12:47	littlesteve	squinty_: /exec -o inxi -Sx
+2013-10-27 19:13:41	<--	hack-per (hack-per@SpotChat-4s2.k44.34.187.IP) has quit (Quit: Saindo)
+2013-10-27 19:13:46	<--	gaetan (gaetan@SpotChat-485j5n.du.xdsl.is) has quit (Quit: Leaving)
+2013-10-27 19:13:50	EyeR	littlesteve:  try it w/o his name - the 1'st char needs to be the "/" so the client knows what follows is an instruction, and shouldn't be sent to room
+2013-10-27 19:13:53	-->	david (david@SpotChat-hl4.o9f.45.74.IP) has joined #linuxmint-help
+2013-10-27 19:13:55	perry	...
+2013-10-27 19:13:56	<--	david (david@SpotChat-hl4.o9f.45.74.IP) has left #linuxmint-help ("Leaving")
+2013-10-27 19:14:05	<--	nowickitmk (tn@SpotChat-1s49vn.public.wayport.net) has quit (Ping timeout: 121 seconds)
+2013-10-27 19:14:19	-->	tok (tobias@SpotChat-0ugt3d.dip0.t-ipconnect.de) has joined #linuxmint-help
+2013-10-27 19:14:24	-->	charlene (charlene@SpotChat-6km0g5.dynamic.acsalaska.net) has joined #linuxmint-help
+2013-10-27 19:14:30	littlesteve	EyeR: ok, thanks. will do.
+2013-10-27 19:14:43	perry	it won't let me go to Firefox
+2013-10-27 19:14:53	EyeR	ant particular error?
+2013-10-27 19:14:57	EyeR	*any
+2013-10-27 19:15:09	<--	edoloughlin (edoloughlin@SpotChat-1vr.5gf.79.109.IP) has quit (Ping timeout: 121 seconds)
+2013-10-27 19:15:17	littlesteve	System:    Host steve-OptiPlex-GX280 Kernel 3.2.0-23-generic i686 (32 bit, gcc 4.6.3) 
+2013-10-27 19:15:17	littlesteve	           Desktop Gnome Distro Linux Mint 13 Maya
+2013-10-27 19:15:21	guest1562_web	hey all... Spotify tells me to edit sources.list but no can save file.  Major NuB here... Thanx!           
+2013-10-27 19:15:28	<--	charlene (charlene@SpotChat-6km0g5.dynamic.acsalaska.net) has quit (Connection closed)
+2013-10-27 19:15:45	-->	sreberle (sreberle@SpotChat-j6g1f7.res.rr.com) has joined #linuxmint-help
+2013-10-27 19:16:19	Imploded13	grrrrr this is really bugging me now. want to install testdisk but can't get the command right
+2013-10-27 19:16:22	-->	aspire1 (aspire1@SpotChat-ee6.nn9.210.201.IP) has joined #linuxmint-help
+2013-10-27 19:16:37	<--	aspire1 (aspire1@SpotChat-ee6.nn9.210.201.IP) has quit (Quit: Saliendo)
+2013-10-27 19:16:43	wm_duckie	try using synaptic
+2013-10-27 19:17:07	EyeR	guest1562_web:  file permissions problems...   it's something what's "protected" and as such, not anyone can mess with - quite wise as it mitigates the oppertunity to add unautherised additions to repositories - the solution is to temporally elevate your users prlivlidges - how was you trying previously?
+2013-10-27 19:17:29	littlesteve	squinty_: see output I posted above.  Further advice please?
+2013-10-27 19:17:36	<--	sreberle (sreberle@SpotChat-j6g1f7.res.rr.com) has quit (Quit: Leaving)
+2013-10-27 19:18:20	-->	haroldo (haroldo@SpotChat-9hgsgs.veloxzone.com.br) has joined #linuxmint-help
+2013-10-27 19:18:27	<--	haroldo (haroldo@SpotChat-9hgsgs.veloxzone.com.br) has quit (Quit: Saindo)
+2013-10-27 19:18:33	perry	why won't it lt me go to Firefox
+2013-10-27 19:18:53	<--	modernbob (modernbob@SpotChat-h3h95v.info) has quit (Quit: Leaving)
+2013-10-27 19:18:55	-->	eigun (eigun@SpotChat-d52.rj1.79.114.IP) has joined #linuxmint-help
+2013-10-27 19:19:04	<--	tok (tobias@SpotChat-0ugt3d.dip0.t-ipconnect.de) has quit (Ping timeout: 121 seconds)
+2013-10-27 19:19:05	<--	eigun (eigun@SpotChat-d52.rj1.79.114.IP) has quit (Connection closed)
+2013-10-27 19:19:06	EyeR	perry I has no clue - does it retort with some error?
+2013-10-27 19:19:07	guest1562_web	RClick file - properties - permissions - ownership = me and owner = can read and write
+2013-10-27 19:19:16	perry	ya
+2013-10-27 19:19:24	-->	francis (francis@SpotChat-gd7.8cf.200.190.IP) has joined #linuxmint-help
+2013-10-27 19:19:29	<--	francis (francis@SpotChat-gd7.8cf.200.190.IP) has quit (Connection closed)
+2013-10-27 19:19:56	-->	modernbob (modernbob@SpotChat-h3h95v.info) has joined #linuxmint-help
+2013-10-27 19:20:05	Imploded13	I have done the synaptic one many times and its the same... it either wont load or it tells me I dont have permission or not in root
+2013-10-27 19:20:31	<--	Scare_Crow (Karel@SpotChat-9e3lr7.dhcp.embarqhsd.net) has quit (Quit: Leaving)
+2013-10-27 19:21:07	perry	...
+2013-10-27 19:21:30	squinty_	littlesteve:  it would appear you have mint 13 installed but you may be in "fallback mode".  Check Driver Manager or Additional Drivers to see if any other video driver is recommended,  BTW, did you update inxi first before posting the above.  if not, update inxi first and then see what the output is
+2013-10-27 19:21:48	-->	gold (gold@SpotChat-qbf.fo9.173.222.IP) has joined #linuxmint-help
+2013-10-27 19:21:56	gold	i
+2013-10-27 19:22:06	-->	StephynuX (quassel@SpotChat-8ho.lml.113.186.IP) has joined #linuxmint-help
+2013-10-27 19:22:15	m60-pup	perry: You might enjoy the -chat channel, this channel is best for just help :)
+2013-10-27 19:22:30	perry	thanks
+2013-10-27 19:22:49	EyeR	guest1562_web:  Possibly not the best methodology, if that had of worked then you'd enable any autonomous rouge process launched with your user rights potential ability to alter without consent...  if you changed the owner, this may case problems at some point.  a more sensible method would be to open a text editor with enough aith to be able to write there -=- To assume you'd used gedit, then in a terminal the command: gksudo gedit /path/to/sour
+2013-10-27 19:22:52	modernbob	os[Linux 3.8.0-32-generic x86_64] distro[LinuxMint "olivia" 15] cpu[8 x Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz (GenuineIntel) @ 3.50GHz] mem[Physical: 31.4GB, 90.1% free] disk[Total: 6.1TB, 90.0% free] video[NVIDIA Corporation GK104 [GeForce GTX 660 Ti]] sound[HDA-Intel - HDA Intel PCH1: HDA-Intel - HDA NVidia2: USB-Audio - HP USB Webcam]
+2013-10-27 19:23:24	<--	simon (simon@SpotChat-fmt.s3p.181.173.IP) has quit (Ping timeout: 121 seconds)
+2013-10-27 19:23:28	EyeR	*with enough auth
+2013-10-27 19:23:32	-->	ray (ray@SpotChat-10v0tf.asm.bellsouth.net) has joined #linuxmint-help
+2013-10-27 19:23:43	<--	ray (ray@SpotChat-10v0tf.asm.bellsouth.net) has quit (Quit: Leaving)
+2013-10-27 19:23:44	littlesteve	squinty_: I ran the command sudo inxi-U and the output was Successfully updated to svn server version: 1.9.16.  and "To run the new version, just start inxi again."
+2013-10-27 19:24:06	perry	can anyone help me because i can't get to Firefox
+2013-10-27 19:24:19	-->	alex (alex@SpotChat-2sbo9j.res.rr.com) has joined #linuxmint-help
+2013-10-27 19:24:26	-->	assur (assur1@SpotChat-erko8n.sntcca.sbcglobal.net) has joined #linuxmint-help
+2013-10-27 19:24:27	<--	alex (alex@SpotChat-2sbo9j.res.rr.com) has quit (Connection closed)
+2013-10-27 19:24:42	squinty_	Imploded13:  copy paste the following commands into a terminal and if no errors displayed try using Synaptic again.
+2013-10-27 19:24:50	squinty_	Imploded13:   sudo rm -rf /var/lib/apt/lists/ && sudo mkdir -p /var/lib/apt/lists/partial && sudo apt-get update
+2013-10-27 19:24:52	EyeR	perry:  Not going to consider divulging the error?  we can't see your screen?
+2013-10-27 19:24:59	-->	taufan (taufan@SpotChat-k4o.b18.228.139.IP) has joined #linuxmint-help
+2013-10-27 19:25:03	pimp	I need help, i have tried install Java SE 6.0 by myself but its impossible. The reason i need that version is this: "You are attempting to build with the incorrect version of java. Your version is: java version "1.7.0_07". The correct version is: Java SE 1.6."
+2013-10-27 19:25:18	taufan	hello 
+2013-10-27 19:25:25	guest1562_web	i'll give that a try... thanx
+2013-10-27 19:25:26	squinty_	littlesteve:  ok you are up to date with inxi then.  next step is to check your video drivers
+2013-10-27 19:25:32	<--	taufan (taufan@SpotChat-k4o.b18.228.139.IP) has quit (Quit: Leaving)
+2013-10-27 19:25:40	-->	mint (mint@SpotChat-se5.3sa.240.50.IP) has joined #linuxmint-help
+2013-10-27 19:25:44	-->	georgebush (georgebush@SpotChat-7q3mn6.ph.cox.net) has joined #linuxmint-help
+2013-10-27 19:25:53	<--	georgebush (georgebush@SpotChat-7q3mn6.ph.cox.net) has quit (Connection closed)
+2013-10-27 19:25:56	perry	i'm new so i don't know what to do
+2013-10-27 19:26:03	-->	mint_ (mint@SpotChat-q8vq3o.va.comcast.net) has joined #linuxmint-help
+2013-10-27 19:26:07	-->	tok (tobias@SpotChat-0ugt3d.dip0.t-ipconnect.de) has joined #linuxmint-help
+2013-10-27 19:26:07	--	mint is now known as Guest74141
+2013-10-27 19:26:14	squinty_	perry:  try starting firefox in a terminal with the following argument   firefox -safemode
+2013-10-27 19:26:15	mint_	yes
+2013-10-27 19:26:23	<--	mint_ (mint@SpotChat-q8vq3o.va.comcast.net) has quit (Quit: Leaving)
+2013-10-27 19:26:46	-->	tom (tom@SpotChat-vs2850.austtx.sbcglobal.net) has joined #linuxmint-help
+2013-10-27 19:26:55	<--	ian (iangabriels@SpotChat-q5p.60g.198.112.IP) has quit (Quit: Leaving)
+2013-10-27 19:27:01	perry	when i click on Firefox it dose nothing.
+2013-10-27 19:27:03	-->	Old_Dog (don@SpotChat-h9tsb9.ip.windstream.net) has joined #linuxmint-help
+2013-10-27 19:27:25	-->	JosephM (joseph@SpotChat-cocdop.ca.charter.com) has joined #linuxmint-help
+2013-10-27 19:27:29	<--	StephynuX (quassel@SpotChat-8ho.lml.113.186.IP) has quit (Connection closed)
+2013-10-27 19:27:31	<--	Guest74141 (mint@SpotChat-se5.3sa.240.50.IP) has quit (Quit: Konversation terminated!)
+2013-10-27 19:27:35	-->	usuario (usuario@SpotChat-hmq28b.fornet.com.br) has joined #linuxmint-help
+2013-10-27 19:27:58	<--	tom (tom@SpotChat-vs2850.austtx.sbcglobal.net) has quit (Quit: Leaving)
+2013-10-27 19:28:36	Imploded13	had a load of stuff whizz by when I put that in squinty
+2013-10-27 19:28:45	-->	pkoerner_ (pkoerner@SpotChat-a93.if3.183.85.IP) has joined #linuxmint-help
+2013-10-27 19:28:48	-->	fer (fer@SpotChat-ebo.306.174.90.IP) has joined #linuxmint-help
+2013-10-27 19:28:55	<--	fer (fer@SpotChat-ebo.306.174.90.IP) has quit (Connection closed)
+2013-10-27 19:29:18	squinty_	perry:  right click on your desktop and select "Open In Terminal".   then type   firefox -safemode
+2013-10-27 19:29:25	-->	shiningsnow (shiningsnow@SpotChat-4j5.862.224.122.IP) has joined #linuxmint-help
+2013-10-27 19:29:27	<--	tim (tim@SpotChat-0g0l9f.luxdsl.pt.lu) has quit (Quit: Leaving)
+2013-10-27 19:29:58	<--	shiningsnow (shiningsnow@SpotChat-4j5.862.224.122.IP) has quit (Quit: 离开)
+2013-10-27 19:30:00	squinty_	Imploded13:  that is normal.  what you are looking for is that it completes downloading the sources lists without any errors
+2013-10-27 19:30:01	-->	asdsa (cobalt@SpotChat-hp1.fr2.178.76.IP) has joined #linuxmint-help
+2013-10-27 19:30:09	<--	asdsa (cobalt@SpotChat-hp1.fr2.178.76.IP) has quit (Quit: Leaving)
+2013-10-27 19:30:11	Imploded13	it did yes
+2013-10-27 19:30:14	<--	tok (tobias@SpotChat-0ugt3d.dip0.t-ipconnect.de) has quit (Ping timeout: 121 seconds)
+2013-10-27 19:30:24	-->	chispa (chispa@SpotChat-5la.duk.126.200.IP) has joined #linuxmint-help
+2013-10-27 19:30:24	squinty_	Imploded13:  ok try synaptic again
+2013-10-27 19:30:29	<--	chispa (chispa@SpotChat-5la.duk.126.200.IP) has quit (Connection closed)
+2013-10-27 19:30:30	-->	Guest50891 (mint@SpotChat-qm1s6b.hlrn.qwest.net) has joined #linuxmint-help
+2013-10-27 19:30:34	Guest50891	hello?
+2013-10-27 19:30:48	<--	JosephM (joseph@SpotChat-cocdop.ca.charter.com) has quit (Connection closed)
+2013-10-27 19:30:52	<--	usuario (usuario@SpotChat-hmq28b.fornet.com.br) has quit (Quit: Saindo)
+2013-10-27 19:31:06	<--	christopher (christopher@SpotChat-ao903h.asm.bellsouth.net) has quit (Quit: Leaving)
+2013-10-27 19:31:09	-->	tok (tobias@SpotChat-0ugt3d.dip0.t-ipconnect.de) has joined #linuxmint-help
+2013-10-27 19:31:11	-->	sandhy (sandhy@SpotChat-4p0.fao.83.36.IP) has joined #linuxmint-help
+2013-10-27 19:31:18	perry	it said can not be found
+2013-10-27 19:31:28	Old_Dog	hello, Guest50891 
+2013-10-27 19:31:29	<--	pkoerner (pkoerner@SpotChat-r33rps.superkabel.de) has quit (Ping timeout: 121 seconds)
+2013-10-27 19:31:36	Guest50891	Anyone knowledgeable in installing Linux Mint from usb drive?
+2013-10-27 19:31:40	-->	paas (paas@SpotChat-tnn.ddf.204.14.IP) has joined #linuxmint-help
+2013-10-27 19:31:50	<--	paas (paas@SpotChat-tnn.ddf.204.14.IP) has quit (Quit: 离开)
+2013-10-27 19:31:58	<--	gold (gold@SpotChat-qbf.fo9.173.222.IP) has quit (Quit: 离开)
+2013-10-27 19:31:59	sandhy	PLEASE help how to download libreoffice on linux mint
+2013-10-27 19:32:04	-->	joost (joost@SpotChat-mh8tns.static.versatel.nl) has joined #linuxmint-help
+2013-10-27 19:32:15	<--	joost (joost@SpotChat-mh8tns.static.versatel.nl) has quit (Quit: Konversation terminated!)
+2013-10-27 19:32:18	Guest50891	sudo apt-get install libreoffice
+2013-10-27 19:32:22	Guest50891	O_0
+2013-10-27 19:32:29	perry	...
+2013-10-27 19:32:36	squinty_	sandhy:  libre office is installed by default dureing the installation
+2013-10-27 19:32:46	Old_Dog	sandhy: LibreOffice should already be installed
+2013-10-27 19:33:16	Imploded13	itsits just not showing up squinty :-(
+2013-10-27 19:33:26	-->	fox (fox@SpotChat-arv5n8.res.rr.com) has joined #linuxmint-help
+2013-10-27 19:33:32	squinty_	Guest50891:   polls are conducted in linuxmint-chat.  if you have a question please type it in and if someone can help they will reply
+2013-10-27 19:33:48	Old_Dog	Guest50891: what do you need to know about installing LM from USB
+2013-10-27 19:33:53	sandhy	how to update to the newer
+2013-10-27 19:34:31	squinty_	sandhy:   LibreOffice - Xchat --> Network List --> Freenode --> Connect   and then type /join #libreoffice   would be the more applicable venus
+2013-10-27 19:34:39	squinty_	venue to ask
+2013-10-27 19:34:48	Guest50891	Okay so I am currently installing Mint to my HDD as the only OS, but when I reboot it says there's an error with Grub and then nothing boots up
+2013-10-27 19:34:48	sandhy	ok thank you all
+2013-10-27 19:34:55	-->	pasquale (pasquale@SpotChat-2rl.r4e.77.151.IP) has joined #linuxmint-help
+2013-10-27 19:34:56	<--	tedorsetto (ted@SpotChat-gmcuqv.dsl.optinet.hr) has quit (Ping timeout: 121 seconds)
+2013-10-27 19:35:02	Guest50891	I chose NOT to install grub though :/
+2013-10-27 19:35:16	<--	tok (tobias@SpotChat-0ugt3d.dip0.t-ipconnect.de) has quit (Ping timeout: 121 seconds)
+2013-10-27 19:35:43	squinty_	Imploded13:   try   sudo synaptic   in a terminal    see what that does
+2013-10-27 19:36:26	Old_Dog	Guest50891: You're going to need GRUB, in order to boot Linux Mint.
+2013-10-27 19:36:30	<--	pasquale (pasquale@SpotChat-2rl.r4e.77.151.IP) has quit (Quit: Sto andando via)
+2013-10-27 19:36:35	Guest50891	....
+2013-10-27 19:36:43	<--	sandhy (sandhy@SpotChat-4p0.fao.83.36.IP) has quit (Quit: Leaving)
+2013-10-27 19:36:47	Imploded13	it opened up synaptic window squinty
+2013-10-27 19:36:54	Guest50891	but isn't that only for multiple OSs?
+2013-10-27 19:36:54	<--	tpo (tpo@SpotChat-cjir2c.tx.comcast.net) has quit (Ping timeout: 121 seconds)
+2013-10-27 19:37:15	-->	kam (kam@SpotChat-0ics28.dyn.optonline.net) has joined #linuxmint-help
+2013-10-27 19:37:23	--	kam is now known as The_lochness
+2013-10-27 19:37:24	squinty_	Imploded13:   ok good.  try installing testdisk now
+2013-10-27 19:37:25	-->	UD2 (UD2@SpotChat-9ri0kt.vc22.ru) has joined #linuxmint-help
+2013-10-27 19:37:38	littlesteve	squinty_: Upon checking Additional Drivers I am presented with this result: http://imagebin.org/274987
+2013-10-27 19:37:50	<--	UD2 (UD2@SpotChat-9ri0kt.vc22.ru) has left #linuxmint-help ("Ухожу я от вас (xchat 2.4.5 или старше)")
+2013-10-27 19:37:53	Guest50891	well how can I configure Grub manually? the last time I included it LM didn't install because grub wasn't configured correctly
+2013-10-27 19:38:55	Old_Dog	Guest50891: I don't know of any way except to boot a live CD (or USB) and install Grub from there.
+2013-10-27 19:39:19	Guest50891	Old_Dog: okay well I'm using a USB and I've only had issues
+2013-10-27 19:39:23	Guest50891	:/
+2013-10-27 19:39:35	-->	linuxman (linuxman@SpotChat-ttl.uuo.19.182.IP) has joined #linuxmint-help
+2013-10-27 19:39:42	Imploded13	keeps saying Gtk-WARNING GtkNotebook 0x89e4128 is mapped but visible child GtKLabel 0x8e59508 is not mapped...a load of those came up with lots of diff numbers but same warning
+2013-10-27 19:39:45	squinty_	Guest50891:   need some kind of boot loader.  you can install another (ie lilo maybe) but grub2 is pretty much the standard for Ubuntu based distro's these days.   you need to install grub to the mbr of  /dev/sda   (notice there is no number after the "a")  
+2013-10-27 19:40:03	<--	linuxman (linuxman@SpotChat-ttl.uuo.19.182.IP) has quit (Quit: Leaving)
+2013-10-27 19:40:14	<--	Ponch0 (kam@SpotChat-0ics28.dyn.optonline.net) has quit (Quit: Leaving)
+2013-10-27 19:40:20	--	The_lochness is now known as Ponch0
+2013-10-27 19:40:21	Imploded13	gtk -CRITICAL
+2013-10-27 19:40:30	<--	perry (perry@SpotChat-dpclkm.sc.charter.com) has quit (Quit: Leaving)
+2013-10-27 19:40:31	Guest50891	let me reboot and maybe someone can walk me through it? I need an OS and right now my laptop doesn't have one
+2013-10-27 19:40:32	squinty_	littlesteve:  install the recommended one
+2013-10-27 19:40:35	Guest50891	I'm working from a usb
+2013-10-27 19:40:47	-->	tpo (tpo@SpotChat-cjir2c.tx.comcast.net) has joined #linuxmint-help
+2013-10-27 19:41:07	littlesteve	squinty_: perhaps I should do the command sudo apt-get install nvidia-current ?  Or just install that recommended one as you suggest?
+2013-10-27 19:41:09	-->	mint (mint@SpotChat-dnc.95f.56.190.IP) has joined #linuxmint-help
+2013-10-27 19:41:38	--	mint is now known as Guest55196
+2013-10-27 19:41:38	-->	romain (romain@SpotChat-t9pa1b.rev.numericable.fr) has joined #linuxmint-help
+2013-10-27 19:42:03	--	Guest50891 is now known as Energyzed
+2013-10-27 19:42:31	-->	kam_ (kam@SpotChat-0ics28.dyn.optonline.net) has joined #linuxmint-help
+2013-10-27 19:42:34	squinty_	Imploded13:  supper time here.  will try and make it back later.  might want to try reinstalling  with apt-get  (type apt-get --help) to see all the options
+2013-10-27 19:42:39	Energyzed	finally got that figured out >_> time to reboot
+2013-10-27 19:42:42	<--	Energyzed (mint@SpotChat-qm1s6b.hlrn.qwest.net) has quit (Quit: Leaving)
+2013-10-27 19:42:45	Imploded13	ok
+2013-10-27 19:42:53	--	Ponch0 is now known as PonchO
+2013-10-27 19:43:06	squinty_	littlesteve:  same thing iirc.   anyway supper time here .   might be back later :)
+2013-10-27 19:43:06	--	kam_ is now known as Ponch0
+2013-10-27 19:43:23	littlesteve	squinty_: thank you.  
+2013-10-27 19:43:25	Imploded13	http://pastebin.com/usnJP3Fh squinty
+2013-10-27 19:43:40	<--	PonchO (kam@SpotChat-0ics28.dyn.optonline.net) has quit (Quit: Leaving)
+2013-10-27 19:43:47	<--	Guest55196 (mint@SpotChat-dnc.95f.56.190.IP) has quit (Quit: Saliendo)
+2013-10-27 19:43:54	-->	joseph (joseph@SpotChat-2uje1f.mi.charter.com) has joined #linuxmint-help
+2013-10-27 19:44:04	<--	joseph (joseph@SpotChat-2uje1f.mi.charter.com) has quit (Quit: Leaving)
+2013-10-27 19:44:29	-->	mint (mint@SpotChat-dnc.95f.56.190.IP) has joined #linuxmint-help
+2013-10-27 19:44:48	mint	{{{{{
+2013-10-27 19:44:56	--	mint is now known as Guest26626
+2013-10-27 19:45:00	-->	sdmws6_web (Mibbit@SpotChat-gj3i9q.sm.ptd.net) has joined #linuxmint-help
+2013-10-27 19:45:14	<--	guest1562_web (Mibbit@SpotChat-pho7i5.sub-70-199-144.myvzw.com) has quit (Quit: http://www.mibbit.com ajax IRC Client)
+2013-10-27 19:45:23	<--	_dd (vesa@SpotChat-f0ssi4.nebulazone.fi) has quit (Connection closed)
+2013-10-27 19:45:39	Guest26626	Hi to everybody
+2013-10-27 19:45:46	sdmws6_web	Has anyone had issues with Firefox crashing Linux immediately when opened?
+2013-10-27 19:45:49	-->	mint (mint@SpotChat-ao903h.asm.bellsouth.net) has joined #linuxmint-help
+2013-10-27 19:46:04	-->	przhevalski (przhevalski@SpotChat-tqu.fpj.52.77.IP) has joined #linuxmint-help
+2013-10-27 19:46:18	--	mint is now known as Guest88847
+2013-10-27 19:46:33	-->	maye (maye@SpotChat-hd8.5oi.171.189.IP) has joined #linuxmint-help
+2013-10-27 19:46:41	-->	mint_ (mint@SpotChat-qm1s6b.hlrn.qwest.net) has joined #linuxmint-help
+2013-10-27 19:46:44	maye	Hola?
+2013-10-27 19:46:47	--	mint_ is now known as Energyzed
+2013-10-27 19:46:52	<--	roman (r@SpotChat-4iqqbh.95-102-75.t-com.sk) has quit (Ping timeout: 121 seconds)
+2013-10-27 19:47:04	<--	przhevalski (przhevalski@SpotChat-tqu.fpj.52.77.IP) has quit (Quit: Ухожу я от вас (xchat 2.4.5 или старше))
+2013-10-27 19:47:09	<--	Guest26626 (mint@SpotChat-dnc.95f.56.190.IP) has quit (Quit: Saliendo)
+2013-10-27 19:47:24	-->	roman (roman3x@SpotChat-4iqqbh.95-102-75.t-com.sk) has joined #linuxmint-help
+2013-10-27 19:47:32	-->	rdale (rdale@SpotChat-46fd7l.clients.pavlovmedia.com) has joined #linuxmint-help
+2013-10-27 19:47:40	Energyzed	Okay so I'm back :/ how can I CORRECTLY install LinuxMint with Grub so I can have an operational pc?
+2013-10-27 19:47:48	<--	maye (maye@SpotChat-hd8.5oi.171.189.IP) has left #linuxmint-help ("Saliendo")
+2013-10-27 19:47:52	-->	tok (tobias@SpotChat-0ugt3d.dip0.t-ipconnect.de) has joined #linuxmint-help
+2013-10-27 19:48:32	-->	Axlin (Axlin@SpotChat-0bb1cl.swbr.surewest.net) has joined #linuxmint-help
+2013-10-27 19:49:02	-->	Azir (eres@SpotChat-v1l.p0b.183.72.IP) has joined #linuxmint-help
+2013-10-27 19:49:43	<--	sdmws6_web (Mibbit@SpotChat-gj3i9q.sm.ptd.net) has left #linuxmint-help
+2013-10-27 19:49:47	-->	xerxess (xerxess@SpotChat-8mp.onq.236.189.IP) has joined #linuxmint-help
+2013-10-27 19:49:52	<--	xerxess (xerxess@SpotChat-8mp.onq.236.189.IP) has quit (Connection closed)
+2013-10-27 19:50:36	Energyzed	I don't remember LinuxMint being so difficult to install in the past
+2013-10-27 19:51:10	Energyzed	These newer versions don't give the option to use the entire drive anymore :/
+2013-10-27 19:51:27	-->	nipcat (nipcat@SpotChat-mljesu.oopo.vbvc.e000.2605.IP) has joined #linuxmint-help
+2013-10-27 19:51:43	-->	mint (mint@SpotChat-tosckl.ca.comcast.net) has joined #linuxmint-help
+2013-10-27 19:51:54	-->	meschi_ (meschi@SpotChat-pktsj0.pool.mediaWays.net) has joined #linuxmint-help
+2013-10-27 19:52:01	<--	mint (mint@SpotChat-tosckl.ca.comcast.net) has left #linuxmint-help ("Leaving")
+2013-10-27 19:52:08	<--	Axlin_ (Axlin@SpotChat-0bb1cl.swbr.surewest.net) has quit (Ping timeout: 121 seconds)
+2013-10-27 19:53:13	<--	Guest88847 (mint@SpotChat-ao903h.asm.bellsouth.net) has quit (Connection closed)
+2013-10-27 19:53:16	Energyzed	how would I even install grub to /dev/sda? /sda isn't an option...there's sda1, sda2, and sda5
+2013-10-27 19:54:04	<--	tok (tobias@SpotChat-0ugt3d.dip0.t-ipconnect.de) has quit (Ping timeout: 121 seconds)
+2013-10-27 19:54:05	-->	christopher (christopher@SpotChat-ao903h.asm.bellsouth.net) has joined #linuxmint-help
+2013-10-27 19:54:25	<--	rdale (rdale@SpotChat-46fd7l.clients.pavlovmedia.com) has quit (Ping timeout: 121 seconds)
+2013-10-27 19:54:27	wm_duckie	you sure you have a current .iso Energyzed, afaik all mint installers do - you should see a drop down list for installing grub, 1st one listed should be /dev/sda  with no number after
+2013-10-27 19:54:37	-->	pedro (pedro@SpotChat-hi9fq2.veloxzone.com.br) has joined #linuxmint-help
+2013-10-27 19:54:41	crim	Energyzed: bottom of the window which asks you to identify which partition is / and which is /home etc, is a drop menu for that
+2013-10-27 19:54:47	<--	pedro (pedro@SpotChat-hi9fq2.veloxzone.com.br) has quit (Quit: Saindo)
+2013-10-27 19:54:56	<--	roman (roman3x@SpotChat-4iqqbh.95-102-75.t-com.sk) has quit (Ping timeout: 121 seconds)
+2013-10-27 19:55:14	<--	meschi (meschi@SpotChat-jk3vvk.pool.mediaWays.net) has quit (Ping timeout: 121 seconds)
+2013-10-27 19:55:26	Energyzed	I downloaded LM15 then used LiLiUSB to download "Linux Mint Cinnamon" which didn't specify the LM version #
+2013-10-27 19:55:47	Energyzed	both .ISO files gave me errors for the install
+2013-10-27 19:56:18	-->	brian (brian@SpotChat-n65vio.dsl.bell.ca) has joined #linuxmint-help
+2013-10-27 19:56:21	-->	alex (alex@SpotChat-3qpb6l.fios.verizon.net) has joined #linuxmint-help
+2013-10-27 19:56:27	-->	tephlon (tephlon@SpotChat-u32m5h.static.bresnan.net) has joined #linuxmint-help
+2013-10-27 19:56:54	<--	alex (alex@SpotChat-3qpb6l.fios.verizon.net) has quit (Connection closed)
+2013-10-27 19:57:11	Energyzed	wm_duckie: the partition screen forced me to chose a partition to set for "/" and the format type (i chose Ext4). the second screen asked about Grub and I've done both the install and then not installed it. I'm trying once more
+2013-10-27 19:57:14	Ponch0	hmm, I'm not good with hard drives, but i'd say unetbootin, download the iso from the website and give it a second spin
+2013-10-27 19:57:33	Ponch0	aaah
+2013-10-27 19:57:38	-->	michael (michael@SpotChat-321tvq.dhcp.insightbb.com) has joined #linuxmint-help
+2013-10-27 19:57:41	<--	michael (michael@SpotChat-321tvq.dhcp.insightbb.com) has quit (Connection closed)
+2013-10-27 19:57:44	wm_duckie	try this instead Energyzed: http://community.linuxmint.com/tutorial/view/744
+2013-10-27 19:57:54	Imploded13	keep getting this in terminal when i open one bash: /usr/bin/mint-fortune: No such file or directory
+2013-10-27 19:57:56	<--	tephlon (tephlon@SpotChat-u32m5h.static.bresnan.net) has left #linuxmint-help ("Leaving")
+2013-10-27 19:57:56	Energyzed	Well I'll have to bug someone to borrow their computer because I'm using linux from a usb stick while I attempt the installation...again
+2013-10-27 19:58:02	-->	gecko (gecko@SpotChat-q86.qj7.193.64.IP) has joined #linuxmint-help
+2013-10-27 19:58:04	Imploded13	what have I messed up?
+2013-10-27 19:58:07	<--	gecko (gecko@SpotChat-q86.qj7.193.64.IP) has left #linuxmint-help ("Leaving")
+2013-10-27 19:58:22	-->	steven (steven@SpotChat-0h8mls.fios.verizon.net) has joined #linuxmint-help
+2013-10-27 19:59:21	-->	buzzybee (buzzybee@SpotChat-3ft.30k.97.162.IP) has joined #linuxmint-help
+2013-10-27 19:59:31	-->	m (m@SpotChat-hhf.gnd.0.5.IP) has joined #linuxmint-help
+2013-10-27 19:59:32	steven	hey, all of a sudden a few days ago, my updater stopped working; the icon is a shield with an x on it.  Is the mint repository having any issues?
+2013-10-27 19:59:35	-->	buzzybee_ (buzzybee@SpotChat-3ft.30k.97.162.IP) has joined #linuxmint-help
+2013-10-27 19:59:35	<--	buzzybee (buzzybee@SpotChat-3ft.30k.97.162.IP) has quit (Quit: Leaving)
+2013-10-27 19:59:38	<--	buzzybee_ (buzzybee@SpotChat-3ft.30k.97.162.IP) has quit (Connection closed)
+2013-10-27 20:00:20	<--	brian (brian@SpotChat-n65vio.dsl.bell.ca) has left #linuxmint-help ("Leaving")
+2013-10-27 20:00:27	Energyzed	wm_duckie: That honestly doesn't tell me anything I don't already know. Not to be rude, but I don't know what I'm doing wrong..and I don't know if LM15 is just horrible for installing or what
+2013-10-27 20:00:37	wm_duckie	steven: you'll see medibuntu has been dropped, type: /topic for the link to repair
+2013-10-27 20:00:42	-->	rdale (rdale@SpotChat-46fd7l.clients.pavlovmedia.com) has joined #linuxmint-help
+2013-10-27 20:00:53	wm_duckie	Energyzed: i don't think you have a proper lm15
+2013-10-27 20:00:53	<--	m (m@SpotChat-hhf.gnd.0.5.IP) has quit (Quit: Leaving)
+2013-10-27 20:01:06	-->	m (m@SpotChat-hhf.gnd.0.5.IP) has joined #linuxmint-help
+2013-10-27 20:01:10	<--	m (m@SpotChat-hhf.gnd.0.5.IP) has quit (Connection closed)
+2013-10-27 20:01:18	-->	jhonathan (jhonathan@SpotChat-8360lp.baf.movistar.cl) has joined #linuxmint-help
+2013-10-27 20:01:23	<--	jhonathan (jhonathan@SpotChat-8360lp.baf.movistar.cl) has quit (Quit: Saliendo)
+2013-10-27 20:01:29	Energyzed	don't know how else to get a proper one. I used the official site, and the LiLiUSB program to download two .ISOs of it :/
+2013-10-27 20:02:03	-->	seth (seth@SpotChat-4vkm9d.md.comcast.net) has joined #linuxmint-help
+2013-10-27 20:02:05	wm_duckie	avoid the liliusb part, use the directions on that page or use mintstick or unetbootin
+2013-10-27 20:02:14	Energyzed	if this install tells me grub wasn't configured properly I'm going to throw something...
+2013-10-27 20:02:46	<--	nipcat (nipcat@SpotChat-mljesu.oopo.vbvc.e000.2605.IP) has quit (Client exited)
+2013-10-27 20:02:49	Energyzed	the first attempt was with unetbootin which failed. I've always had success with LiLi until tonight :/
+2013-10-27 20:02:56	<--	seth (seth@SpotChat-4vkm9d.md.comcast.net) has quit (Quit: Leaving)
+2013-10-27 20:03:06	steven	what is medibuntu, and how big a deal is losing it?
+2013-10-27 20:03:35	-->	DrZ (tv1049@SpotChat-kiohni.res.rr.com) has joined #linuxmint-help
+2013-10-27 20:03:37	wm_duckie	steven: your updater will have issues until you disable or remove it
+2013-10-27 20:03:38	-->	freddy (freddy@SpotChat-hv6.aqb.167.186.IP) has joined #linuxmint-help
+2013-10-27 20:03:57	-->	demetrius (demetrius@SpotChat-ndlrr9.res.rr.com) has joined #linuxmint-help
+2013-10-27 20:04:05	<--	jasic (jasic@SpotChat-5l5.jge.244.49.IP) has quit (Ping timeout: 121 seconds)
+2013-10-27 20:04:05	<--	DrZ (tv1049@SpotChat-kiohni.res.rr.com) has quit (Quit: Leaving)
+2013-10-27 20:04:09	-->	khwarizmi (stingray@SpotChat-tuq.9s4.53.39.IP) has joined #linuxmint-help
+2013-10-27 20:04:33	<--	freddy (freddy@SpotChat-hv6.aqb.167.186.IP) has left #linuxmint-help ("Saliendo")
+2013-10-27 20:04:40	<--	cherry (quassel@SpotChat-ftv.git.47.178.IP) has quit (Ping timeout: 121 seconds)
+2013-10-27 20:04:53	steven	i know, but i meant what is being lost by the shutdown.  i just read the part where it says css2 is being lost.  is there another way to watch dvds on linux?
+2013-10-27 20:05:05	<--	rdn (jam@SpotChat-c525n1.res.rr.com) has quit (Connection closed)
+2013-10-27 20:05:35	wm_duckie	steven: http://blog.linuxmint.com/?p=2469
+2013-10-27 20:06:41	<--	SpeccyMan (nick@SpotChat-uttshr.threembb.co.uk) has quit (Quit: Leaving)
+2013-10-27 20:06:51	<--	awatt (awatt@SpotChat-rh8.pa9.141.209.IP) has quit (Connection closed)
+2013-10-27 20:07:02	-->	josh (josh@SpotChat-ak9.719.219.173.IP) has joined #linuxmint-help
+2013-10-27 20:07:09	-->	awatt (awatt@SpotChat-rh8.pa9.141.209.IP) has joined #linuxmint-help
+2013-10-27 20:07:23	Energyzed	wm_duckie: "WARNING: The grub bootloader was not configured properly! You need to configure it manually." that's the error I got after telling GRUB to install to /dev/sda from the dropdown menu...
+2013-10-27 20:07:33	<--	Imploded13 (Imploded13@SpotChat-ivc1he.cable.virginm.net) has quit (Quit: Leaving)
+2013-10-27 20:07:40	<--	RcyberN (john@SpotChat-2f1qbc.res.rr.com) has left #linuxmint-help
+2013-10-27 20:08:02	Ponch0	energyzed: were you trying to dual boot install?
+2013-10-27 20:08:20	<--	rdale (rdale@SpotChat-46fd7l.clients.pavlovmedia.com) has quit (Ping timeout: 121 seconds)
+2013-10-27 20:08:22	Energyzed	Ponch0: no. I just want one OS
+2013-10-27 20:08:34	wm_duckie	that's pretty dern rare Energyzed, is this dual boot or have you check the hdd?
+2013-10-27 20:08:35	Ponch0	ok, is this a new install?
+2013-10-27 20:08:38	-->	Old-Dog (don@SpotChat-8lgqap.ip.windstream.net) has joined #linuxmint-help
+2013-10-27 20:08:50	Energyzed	I originally had Ubuntu 12.10 but the update to 13.04 was a mistake. now I cant get LM to install properly
+2013-10-27 20:09:21	wm_duckie	Energyzed: try creating a new partition table for your hdd from gparted on the install usb
+2013-10-27 20:09:29	-->	borba (borba@SpotChat-pv0.rhf.123.189.IP) has joined #linuxmint-help
+2013-10-27 20:09:32	Ponch0	^
+2013-10-27 20:09:37	Helaman	ping
+2013-10-27 20:09:45	borba	#brasil
+2013-10-27 20:09:48	Energyzed	are you able to walk me through it wm_duckie?
+2013-10-27 20:10:00	wm_duckie	sure Energyzed it isn't difficult
+2013-10-27 20:10:09	<--	elden (moondog@SpotChat-674g5c.wa.comcast.net) has quit (Quit: Later...)
+2013-10-27 20:10:11	-->	vsrm (vsrm@SpotChat-j5u.rm0.99.14.IP) has joined #linuxmint-help
+2013-10-27 20:10:24	-->	Randal6393 (randal@SpotChat-49kr4m.chrlnc.sbcglobal.net) has joined #linuxmint-help
+2013-10-27 20:10:27	<--	MraMaria (MraMr@Try.Again) has quit (Ping timeout: 121 seconds)
+2013-10-27 20:10:32	-->	jarjar0x2a (jarjar@SpotChat-arbjq3.in.frontiernet.net) has joined #linuxmint-help
+2013-10-27 20:10:33	<--	borba (borba@SpotChat-pv0.rhf.123.189.IP) has quit (Quit: Saindo)
+2013-10-27 20:10:44	Energyzed	alright, I've got GParted opened
+2013-10-27 20:10:47	-->	JP (Jush@SpotChat-ak9.719.219.173.IP) has joined #linuxmint-help
+2013-10-27 20:10:50	-->	tok (tobias@SpotChat-0ugt3d.dip0.t-ipconnect.de) has joined #linuxmint-help
+2013-10-27 20:11:00	wm_duckie	if you are on the install usb just fire up gparted and hit the device drop down list & select create partition table
+2013-10-27 20:11:13	<--	Randal6393 (randal@SpotChat-49kr4m.chrlnc.sbcglobal.net) has quit (Quit: Leaving)
+2013-10-27 20:11:31	-->	MraMaria (MraMr@Try.Again) has joined #linuxmint-help
+2013-10-27 20:11:33	<--	Old_Dog (don@SpotChat-h9tsb9.ip.windstream.net) has quit (Ping timeout: 121 seconds)
+2013-10-27 20:11:36	-->	cherry (quassel@SpotChat-ftv.git.47.178.IP) has joined #linuxmint-help
+2013-10-27 20:11:38	<--	JP (Jush@SpotChat-ak9.719.219.173.IP) has quit (Quit: Leaving)
+2013-10-27 20:11:38	<--	josh (josh@SpotChat-ak9.719.219.173.IP) has quit (Quit: Leaving)
+2013-10-27 20:11:39	wm_duckie	should make the entire disk grey
+2013-10-27 20:12:04	-->	clara (clara@SpotChat-mtsi1e.res.rr.com) has joined #linuxmint-help
+2013-10-27 20:12:14	Energyzed	wm_duckie: alright, now it only shows "unallocated - 465.76 GiB"
+2013-10-27 20:12:39	wm_duckie	good deal Energyzed, now you should be able to close it and start the installer
+2013-10-27 20:12:44	<--	steven_ (steven@SpotChat-tccai0.dynamic.mnet-online.de) has quit (Ping timeout: 121 seconds)
+2013-10-27 20:13:09	littlesteve	I ran the command sudo inxi -U and it said it successfully updated the svn server.  Then it says to run the new version just start inxi again.  What is inxi and how do I start it again exactly, please.?
+2013-10-27 20:13:14	-->	brli (brli7848@SpotChat-krfcql.NCTU.edu.tw) has joined #linuxmint-help
+2013-10-27 20:13:14	Energyzed	and do install grub, wm_duckie?
+2013-10-27 20:13:26	brli	 hi, anyone have experience with firefox globalmenu working with kde?
+2013-10-27 20:13:33	wm_duckie	no, you'll need to create partitions before you get to that point Energyzed 
+2013-10-27 20:13:39	Energyzed	.....
+2013-10-27 20:13:53	-->	simon (simon@SpotChat-bfv.o6l.12.128.IP) has joined #linuxmint-help
+2013-10-27 20:13:54	Energyzed	okay so then uncheck "Install GRUB"?
+2013-10-27 20:14:06	-->	raif (raif@SpotChat-ua6gg0.ijhp.cb7c.e000.2605.IP) has joined #linuxmint-help
+2013-10-27 20:14:08	-->	hej (hej@SpotChat-b8o.f88.177.222.IP) has joined #linuxmint-help
+2013-10-27 20:14:15	<--	awatt (awatt@SpotChat-rh8.pa9.141.209.IP) has quit (Connection closed)
+2013-10-27 20:14:57	-->	awatt (awatt@SpotChat-rh8.pa9.141.209.IP) has joined #linuxmint-help
+2013-10-27 20:15:03	wm_duckie	you shouldn't see the install grub section until after you set the partitions, if you are seeing it right off the bat i'd wait for the advanced help & verify your drive has passed smart status & 3x check your install .iso
+2013-10-27 20:15:42	-->	amanda (amanda@SpotChat-54m.bb3.170.173.IP) has joined #linuxmint-help
+2013-10-27 20:15:44	-->	moondog (moondog@SpotChat-674g5c.wa.comcast.net) has joined #linuxmint-help
+2013-10-27 20:15:49	brli	I can't get firefox globalmenu work with window menu bar plasmoid nor can I click on menu bar
+2013-10-27 20:15:51	<--	amanda (amanda@SpotChat-54m.bb3.170.173.IP) has quit (Quit: Leaving)
+2013-10-27 20:15:59	Energyzed	wm_duckie: well I set the partition for "/" and set the format type. or else it wouldn't allow me to go farther
+2013-10-27 20:16:24	Energyzed	wm_duckie: now it says "Bootloader" with the option to install GRUB or not.
+2013-10-27 20:16:29	wm_duckie	when you set / did you verify there is 1mb of space preceeding?
+2013-10-27 20:16:40	<--	vsrm (vsrm@SpotChat-j5u.rm0.99.14.IP) has quit (Quit: Leaving)
+2013-10-27 20:16:45	<--	Crazyjust (Crazyjust@SpotChat-ii6b58.sebh.ptd.net) has quit (Connection closed)
+2013-10-27 20:17:02	-->	maj0rturk3y (maj0rturk3y@SpotChat-ln0fq5.wa.comcast.net) has joined #linuxmint-help
+2013-10-27 20:17:07	<--	cherry (quassel@SpotChat-ftv.git.47.178.IP) has quit (Ping timeout: 121 seconds)
+2013-10-27 20:17:15	Energyzed	the only partition I could set "/" to was the space that has a size of 476694
+2013-10-27 20:17:16	-->	Crazyjust (Crazyjust@SpotChat-ii6b58.sebh.ptd.net) has joined #linuxmint-help
+2013-10-27 20:18:02	raif	Hola folks...I just did a fresh install of Mint 13 in order to utilize the majority of my unallocated drive, and am wondering if I can somehow restore my files, programs, tweaking, etc from my external. I used the "Restore Files" option in Backup Tool, but I don't think I used the "Restore Software Selection", because it was not intuitive for restoring my computer session. There seems to be quite a lot of files in my external, bu
+2013-10-27 20:18:02	raif	t I don't know how to import them.
+2013-10-27 20:18:04	<--	tok (tobias@SpotChat-0ugt3d.dip0.t-ipconnect.de) has quit (Ping timeout: 121 seconds)
+2013-10-27 20:18:05	-->	mrrsn (mrrsn@SpotChat-9k2.i6s.7.186.IP) has joined #linuxmint-help
+2013-10-27 20:18:08	wm_duckie	go back and open the advanced partitioning tool in the installer, it should indicate there is a 1mb space preceeding the partition you created Energyzed 
+2013-10-27 20:18:14	<--	mrrsn (mrrsn@SpotChat-9k2.i6s.7.186.IP) has quit (Quit: Leaving)
+2013-10-27 20:18:18	-->	anders (anders@SpotChat-vl3ekb.vc.shawcable.net) has joined #linuxmint-help
+2013-10-27 20:18:22	<--	fox (fox@SpotChat-arv5n8.res.rr.com) has quit (Quit: Leaving)
+2013-10-27 20:18:43	-->	rahul (rahul@SpotChat-pq2v5e.fios.verizon.net) has joined #linuxmint-help
+2013-10-27 20:18:51	<--	maj0rturk3y (maj0rturk3y@SpotChat-ln0fq5.wa.comcast.net) has quit (Quit: Leaving)
+2013-10-27 20:19:08	-->	gbvoris_web (Mibbit@SpotChat-m6kkdb.dsl.pgtc.com) has joined #linuxmint-help
+2013-10-27 20:19:26	Energyzed	wm_duckie: I can create it, but it's not there by default. should I create it as the primary partition? and what file system format should it be?
+2013-10-27 20:19:26	<--	rahul (rahul@SpotChat-pq2v5e.fios.verizon.net) has quit (Quit: Leaving)
+2013-10-27 20:19:36	<--	anders (anders@SpotChat-vl3ekb.vc.shawcable.net) has quit (Quit: Leaving)
+2013-10-27 20:20:15	raif	Apparently restoring a session+files+settings is not a point and click operation?
+2013-10-27 20:20:19	wm_duckie	no, leave it unallocated Energyzed, remove your partition and replace it, just make sure there is a 1 in the preceeding section of the assignment box Energyzed 
+2013-10-27 20:20:34	-->	fea (fea@SpotChat-b30.m1h.110.113.IP) has joined #linuxmint-help
+2013-10-27 20:20:37	-->	Hackerfox (HackerFox24@SpotChat-iceq03.wa.comcast.net) has joined #linuxmint-help
+2013-10-27 20:20:50	<--	Hackerfox (HackerFox24@SpotChat-iceq03.wa.comcast.net) has left #linuxmint-help ("Leaving")
+2013-10-27 20:20:53	-->	nipcat (nipcat@SpotChat-mljesu.oopo.vbvc.e000.2605.IP) has joined #linuxmint-help
+2013-10-27 20:20:55	-->	mint (mint@SpotChat-kn355n.dynamic.ziggo.nl) has joined #linuxmint-help
+2013-10-27 20:21:02	<--	mint (mint@SpotChat-kn355n.dynamic.ziggo.nl) has quit (Connection closed)
+2013-10-27 20:21:11	raif	Looks like you're already helping someone with something similar.
+2013-10-27 20:21:14	<--	littlesteve (littlesteve@SpotChat-6sllu1.gci.net) has quit (Connection closed)
+2013-10-27 20:21:21	-->	DrZ (tv1049@SpotChat-kiohni.res.rr.com) has joined #linuxmint-help
+2013-10-27 20:21:26	wm_duckie	fyi Energyzed this is only a problem when using ubuntu based installer partitioning utlity
+2013-10-27 20:21:28	gbvoris_web	I have lost boot to either hard drive.  Both were working (Fedora and Mint, with Mint 15 the last install and default) until I tried to put my back-up drive in the Fedora connection.
+2013-10-27 20:21:36	<--	DrZ (tv1049@SpotChat-kiohni.res.rr.com) has quit (Quit: Leaving)
+2013-10-27 20:21:40	Energyzed	wm_duckie: the unallocated partition does nothing at all. I selected "new" which has everything filled in but the "label". Just want to make sure I don't need to change the Create As field or the File System format type from ext2
+2013-10-27 20:21:52	<--	awatt (awatt@SpotChat-rh8.pa9.141.209.IP) has quit (Connection closed)
+2013-10-27 20:21:54	gbvoris_web	I only have two power connectors for sata.
+2013-10-27 20:21:56	-->	ramiro (ramiro@SpotChat-3li.6b5.87.187.IP) has joined #linuxmint-help
+2013-10-27 20:22:04	-->	awatt (awatt@SpotChat-rh8.pa9.141.209.IP) has joined #linuxmint-help
+2013-10-27 20:22:22	ramiro	boa noite
+2013-10-27 20:22:24	gbvoris_web	Now the only way I can get up is on live dvd
+2013-10-27 20:22:35	Energyzed	wm_duckie I don't recall having this much trouble back in 09 with LM
+2013-10-27 20:22:40	wm_duckie	Energyzed: just create the 1 ext4 / partition making sure the 1st box has a 1 and the second box has the balance of your hdd space and the 3rd box is 0
+2013-10-27 20:22:55	<--	ramiro (ramiro@SpotChat-3li.6b5.87.187.IP) has quit (Quit: Saindo)
+2013-10-27 20:23:08	wm_duckie	installers back then used gparted, they don't anymore :(
+2013-10-27 20:23:10	-->	user (user@SpotChat-bp2kdd.md.comcast.net) has joined #linuxmint-help
+2013-10-27 20:23:17	<--	user (user@SpotChat-bp2kdd.md.comcast.net) has quit (Connection closed)
+2013-10-27 20:23:54	wm_duckie	in fact it may just be easier for you to go back and use gparted, it will take care of it for you
+2013-10-27 20:23:55	<--	Azir (eres@SpotChat-v1l.p0b.183.72.IP) has quit (Ping timeout: 121 seconds)
+2013-10-27 20:24:00	squinty_	wm_duckie:   you can pre-setup your partitions with gparted before starting the installation.   gparted is included on the livedvd 
+2013-10-27 20:24:02	Energyzed	so now do I install or uncheck the grub box?
+2013-10-27 20:24:24	<--	clara (clara@SpotChat-mtsi1e.res.rr.com) has quit (Quit: Leaving)
+2013-10-27 20:24:31	-->	clara (clara@SpotChat-mtsi1e.res.rr.com) has joined #linuxmint-help
+2013-10-27 20:24:33	<--	brli (brli7848@SpotChat-krfcql.NCTU.edu.tw) has quit (Quit: Konversation terminated!)
+2013-10-27 20:24:43	simon	hi - can anyone here answer a question about developing cinnamon applet settings-ui?
+2013-10-27 20:24:55	wm_duckie	if you use gparted & format the drive it will resize your partitions, if you don't formate the fm will read the sizes incorrectly
+2013-10-27 20:24:59	squinty_	wm_duckie:   sorry sent that to the wrong person.  :)
+2013-10-27 20:24:59	<--	clara (clara@SpotChat-mtsi1e.res.rr.com) has quit (Quit: Leaving)
+2013-10-27 20:25:05	-->	clara (clara@SpotChat-mtsi1e.res.rr.com) has joined #linuxmint-help
+2013-10-27 20:25:06	wm_duckie	no worries
+2013-10-27 20:25:07	<--	christopher (christopher@SpotChat-ao903h.asm.bellsouth.net) has quit (Ping timeout: 121 seconds)
+2013-10-27 20:25:10	clara	hi
+2013-10-27 20:25:12	-->	DrZ (tv1049@SpotChat-kiohni.res.rr.com) has joined #linuxmint-help
+2013-10-27 20:25:12	gbvoris_web	I need help with grub, I think
+2013-10-27 20:25:24	<--	clara (clara@SpotChat-mtsi1e.res.rr.com) has quit (Quit: Leaving)
+2013-10-27 20:25:38	<--	DrZ (tv1049@SpotChat-kiohni.res.rr.com) has quit (Quit: Leaving)
+2013-10-27 20:25:43	wm_duckie	Energyzed: if that 1mb space shows up in the partition utility then you are good to go to install grub
+2013-10-27 20:25:57	Energyzed	okay
+2013-10-27 20:26:10	squinty_	gbvoris_web:  https://help.ubuntu.com/community/Grub2/Troubleshooting#Boot-Repair
+2013-10-27 20:26:28	Energyzed	wm_duckie: here goes nothing
+2013-10-27 20:26:54	wm_duckie	just make sure you point it at /dev/sda
+2013-10-27 20:27:13	Energyzed	i did :P
+2013-10-27 20:27:27	<--	RemuN (RemuN@SpotChat-tos.j18.245.84.IP) has quit (Client exited)
+2013-10-27 20:27:32	-->	cherry (quassel@SpotChat-ftv.git.47.178.IP) has joined #linuxmint-help
+2013-10-27 20:27:40	-->	mint (mint@SpotChat-3lfas4.plateautel.net) has joined #linuxmint-help
+2013-10-27 20:28:00	-->	littlesteve (littlesteve@SpotChat-6sllu1.gci.net) has joined #linuxmint-help
+2013-10-27 20:28:09	--	mint is now known as Guest10276
+2013-10-27 20:28:17	<--	Guest10276 (mint@SpotChat-3lfas4.plateautel.net) has quit (Quit: Leaving)
+2013-10-27 20:28:27	-->	Muvlon (Muvlon@SpotChat-o2g0a7.unitymediagroup.de) has joined #linuxmint-help
+2013-10-27 20:28:28	<--	Muvlon (Muvlon@SpotChat-o2g0a7.unitymediagroup.de) has quit (Quit: Bye)
+2013-10-27 20:28:29	littlesteve	System:    Host steve-OptiPlex-GX280 Kernel 3.2.0-23-generic i686 (32 bit, gcc 4.6.3) 
+2013-10-27 20:28:29	littlesteve	           Desktop Cinnamon 1.4.0  Distro Linux Mint 13 Maya
+2013-10-27 20:28:32	-->	mint_ (mint@SpotChat-3lfas4.plateautel.net) has joined #linuxmint-help
+2013-10-27 20:28:37	-->	dylan (dylan@SpotChat-ru0.6sn.172.187.IP) has joined #linuxmint-help
+2013-10-27 20:28:51	Energyzed	if this doesn't work I'm getting LM10
+2013-10-27 20:28:56	-->	euvius (euvius@SpotChat-8vaccq.wa.charter.com) has joined #linuxmint-help
+2013-10-27 20:29:09	<--	dylan (dylan@SpotChat-ru0.6sn.172.187.IP) has quit (Quit: Saliendo)
+2013-10-27 20:29:38	wm_duckie	no longer supported :P  -- this should do it, i think you were missing that leading space is all
+2013-10-27 20:29:38	-->	maximi89_ (maximi89@SpotChat-3v2.dij.215.190.IP) has joined #linuxmint-help
+2013-10-27 20:29:57	-->	mint (mint@SpotChat-5f5gg9.md.comcast.net) has joined #linuxmint-help
+2013-10-27 20:30:27	--	mint is now known as Guest28737
+2013-10-27 20:30:28	Energyzed	wm_duckie: I'm aware it isn't supported, lol. but at least back then I never had any issues installing
+2013-10-27 20:30:29	<--	euvius (euvius@SpotChat-8vaccq.wa.charter.com) has quit (Quit: Leaving)
+2013-10-27 20:31:17	wm_duckie	you are welcome to join me in the ubuntu based installer partition utility is junk corner
+2013-10-27 20:31:40	<--	mint_ (mint@SpotChat-3lfas4.plateautel.net) has quit (Quit: Leaving)
+2013-10-27 20:31:56	Energyzed	well right now it's trying to install. If I have anymore problems I'll try something else :P
+2013-10-27 20:32:17	-->	DrZ (tv1049@SpotChat-kiohni.res.rr.com) has joined #linuxmint-help
+2013-10-27 20:32:21	<--	littlesteve (littlesteve@SpotChat-6sllu1.gci.net) has quit (Quit: Leaving)
+2013-10-27 20:32:23	Energyzed	not sure how I can get a different partitioner to work on a usb stick 
+2013-10-27 20:32:27	wm_duckie	you should see the issues it creates for those adding mint to dual boot windows
+2013-10-27 20:32:42	wm_duckie	gparted is much better tool
+2013-10-27 20:32:44	-->	hfranqui (hfranqui@SpotChat-8ql.fpd.248.206.IP) has joined #linuxmint-help
+2013-10-27 20:32:53	<--	DrZ (tv1049@SpotChat-kiohni.res.rr.com) has quit (Quit: Leaving)
+2013-10-27 20:32:53	Energyzed	wm_duckie: I really don't wanna know, lol. 
+2013-10-27 20:32:56	<--	hfranqui (hfranqui@SpotChat-8ql.fpd.248.206.IP) has quit (Quit: Leaving)
+2013-10-27 20:33:23	-->	nil (nil@SpotChat-eoj0v6.peoril.sbcglobal.net) has joined #linuxmint-help
+2013-10-27 20:33:26	Energyzed	wm_duckie: again, if it fails this time Idk what I'll do. I need to be able to write a research paper
+2013-10-27 20:33:31	<--	nil (nil@SpotChat-eoj0v6.peoril.sbcglobal.net) has left #linuxmint-help ("Leaving")
+2013-10-27 20:34:32	--	Drag is now known as draggie
+2013-10-27 20:34:53	<--	moondog (moondog@SpotChat-674g5c.wa.comcast.net) has quit (Quit: Later...)
+2013-10-27 20:34:54	-->	dustin_ (dustin@SpotChat-bu0n0e.tukrga.sbcglobal.net) has joined #linuxmint-help
+2013-10-27 20:34:56	-->	littlesteve (littlesteve@SpotChat-6sllu1.gci.net) has joined #linuxmint-help
+2013-10-27 20:34:56	wm_duckie	personally i just use gparted, don't format and deal with the incorrect size listed in the fm, it's never given me problems since i adopted that proceedure
+2013-10-27 20:35:05	<--	dustin_ (dustin@SpotChat-bu0n0e.tukrga.sbcglobal.net) has quit (Connection closed)
+2013-10-27 20:35:25	Energyzed	as in making a new partition table?
+2013-10-27 20:35:28	-->	alex (alex@SpotChat-u9r6n9.dsl.bell.ca) has joined #linuxmint-help
+2013-10-27 20:35:35	wm_duckie	and partitions
+2013-10-27 20:35:41	<--	alex (alex@SpotChat-u9r6n9.dsl.bell.ca) has quit (Quit: Quitte)
+2013-10-27 20:35:48	Energyzed	gotcha
+2013-10-27 20:35:49	wm_duckie	i use a seperate /swap & /home
+2013-10-27 20:35:58	-->	alpha (alpha@SpotChat-gsju12.ma.comcast.net) has joined #linuxmint-help
+2013-10-27 20:36:14	-->	tom (tom@SpotChat-u4uch7.res.rr.com) has joined #linuxmint-help
+2013-10-27 20:36:16	Energyzed	how do you use a different /home? aren't they all in the same location?
+2013-10-27 20:36:49	-->	lib0 (lib0@SpotChat-eqd.ca4.48.121.IP) has joined #linuxmint-help
+2013-10-27 20:36:49	-->	liuhk (liuhk@SpotChat-mmm.v3u.116.118.IP) has joined #linuxmint-help
+2013-10-27 20:36:53	wm_duckie	not if you specify using a different location, just a matter of adding the correct partitions
+2013-10-27 20:37:13	-->	dustin (dustin@SpotChat-bu0n0e.tukrga.sbcglobal.net) has joined #linuxmint-help
+2013-10-27 20:37:16	<--	barneygale (barneygale@SpotChat-rg2.gr2.241.149.IP) has quit (Ping timeout: 121 seconds)
+2013-10-27 20:37:23	wm_duckie	and assigning them proper*
+2013-10-27 20:37:25	<--	tom (tom@SpotChat-u4uch7.res.rr.com) has left #linuxmint-help ("Leaving")
+2013-10-27 20:37:55	dustin	wtf...
+2013-10-27 20:37:58	--	dustin is now known as unclezipper
+2013-10-27 20:38:01	Energyzed	well, I'm not that much of a Linux user anymore. used to be during high school, then I left it all behind :/
+2013-10-27 20:38:06	<--	lister (lister@SpotChat-3q8fav.sd.cox.net) has quit (Quit: Leaving)
+2013-10-27 20:38:07	gbvoris_web	boot-repair isn't recognized
+2013-10-27 20:38:44	gbvoris_web	I do get a lot of things like  "W: Failed to fetch http://packages.medibuntu.org/dists/raring/non-free/binary-amd64/Packages  Something wicked happened resolving 'packages.medibuntu.org:http' (-11 - System error)"
+2013-10-27 20:38:51	-->	lxj (lxj@SpotChat-mmm.v3u.116.118.IP) has joined #linuxmint-help
+2013-10-27 20:38:54	<--	max2 (max@SpotChat-lngs0c.ca.comcast.net) has quit (Connection closed)
+2013-10-27 20:39:05	<--	lib0 (lib0@SpotChat-eqd.ca4.48.121.IP) has quit (Quit: Leaving)
+2013-10-27 20:39:09	<--	alpha (alpha@SpotChat-gsju12.ma.comcast.net) has left #linuxmint-help ("Leaving")
+2013-10-27 20:39:14	-->	lib0 (lib0@SpotChat-mmm.v3u.116.118.IP) has joined #linuxmint-help
+2013-10-27 20:39:14	<--	awatt (awatt@SpotChat-rh8.pa9.141.209.IP) has quit (Connection closed)
+2013-10-27 20:39:17	wm_duckie	gbvoris_web: if you type: /topic  here in xchat you'll find a link to repair that
+2013-10-27 20:39:31	lxj	;
+2013-10-27 20:39:33	gbvoris_web	I'm running live dvd and I have 4 gig of rom, is this a prob?
+2013-10-27 20:40:05	wm_duckie	won't be a problem until you install gbvoris_web 
+2013-10-27 20:40:32	Energyzed	wm_duckie: it's nearing reboot time
+2013-10-27 20:40:40	wm_duckie	gl Energyzed 
+2013-10-27 20:40:44	gbvoris_web	I was refering to all the "Something wicked happened" entries I get
+2013-10-27 20:40:46	Energyzed	thanks for the help
+2013-10-27 20:40:58	wm_duckie	no worries
+2013-10-27 20:41:06	wm_duckie	you can ignore that for now gbvoris_web 
+2013-10-27 20:41:24	Energyzed	I'll be back if it doesn't work this time
+2013-10-27 20:41:46	gbvoris_web	when I try to run "boot-repair as a command I get command not found
+2013-10-27 20:42:01	<--	Kwisher (kevin@SpotChat-bu31h0.in.comcast.net) has quit (Quit: Leaving)
+2013-10-27 20:42:26	wm_duckie	gbvoris_web: https://help.ubuntu.com/community/Boot-Repair
+2013-10-27 20:42:58	-->	ross (ross@SpotChat-bn5.ljm.154.192.IP) has joined #linuxmint-help
+2013-10-27 20:42:58	squinty_	gbvoris_web:  http://blog.linuxmint.com/?p=2469   for the meditbuntu.   for the boot-repair you need to read the instructions on that page.  you don't have to burn an iso though so don't bother going to the boot-repair main page
+2013-10-27 20:43:02	-->	infected_ (infected_@SpotChat-con.iro.129.217.IP) has joined #linuxmint-help
+2013-10-27 20:43:06	<--	infected_ (infected_@SpotChat-con.iro.129.217.IP) has quit (Connection closed)
+2013-10-27 20:43:13	littlesteve	I upgraded from Mint version 12 to 13 just a while ago.  But my startup desktop with the default Linux Mint wallpaper says Linux Mint 12, not Maya.  What could be wrong?
+2013-10-27 20:43:47	squinty_	gbvoris_web:   are you planning to put your Fedora hard drive back in?  If you are you will be having the same troubles all over again
+2013-10-27 20:44:13	-->	Marforius (Marforius@SpotChat-bt0.8d5.36.69.IP) has joined #linuxmint-help
+2013-10-27 20:44:20	<--	r00t (Unknown@epicwin.ssh01.com) has quit (Connection closed)
+2013-10-27 20:44:20	<--	draggie (Dragenesis@SpotChat-nufq8q.fios.verizon.net) has quit (Connection closed)
+2013-10-27 20:44:29	-->	draggie (Dragenesis@SpotChat-nufq8q.fios.verizon.net) has joined #linuxmint-help
+2013-10-27 20:44:34	-->	kevin_ (kevin@SpotChat-4rd.0sm.97.108.IP) has joined #linuxmint-help
+2013-10-27 20:44:35	-->	eigun (eigun@SpotChat-0hf.fm2.97.118.IP) has joined #linuxmint-help
+2013-10-27 20:44:36	-->	r00t (Unknown@epicwin.ssh01.com) has joined #linuxmint-help
+2013-10-27 20:44:38	unclezipper	littlesteve, not all of the config files are upgraded when you do an upgrade like that
+2013-10-27 20:44:43	<--	eigun (eigun@SpotChat-0hf.fm2.97.118.IP) has quit (Connection closed)
+2013-10-27 20:45:08	unclezipper	Nothing's wrong, it just didn't touch your user settings, under the assumption that you like your desktop the way you had it
+2013-10-27 20:45:35	<--	Energyzed (mint@SpotChat-qm1s6b.hlrn.qwest.net) has quit (Ping timeout: 121 seconds)
+2013-10-27 20:45:54	gbvoris_web	https://help.ubuntu.com/community/Boot-Repair   is where I found boot repair. the install returned the errors I noted.  the directions are:  launch Boot-Repair from either :      the Dash (the Ubuntu logo at the top-left of the screen)      or System->Administration->Boot-Repair menu (Ubuntu 10.04 only)     or by typing 'boot-repair' in a terminal   
+2013-10-27 20:45:56	gbvoris_web	Then click the "Recommended repair" button. When repair is finished, note the URL (paste.ubuntu.com/XXXXX) that appeared on a paper, then reboot and check if you recovered access to your OSs. If the repair did not succeed, indicate the URL to people who help you by email or forum. 
+2013-10-27 20:46:08	-->	WraithRIOT (WSecure@SpotChat-paoaaf.eoni.com) has joined #linuxmint-help
+2013-10-27 20:46:14	littlesteve	squinty_: after installing the graphics driver from the one suggested in the list at Additional Drivers, I do have a fine desktop now, good graphics and good working interface and all, however the Mint 12 is still appearing as the default desktop screen.
+2013-10-27 20:46:29	<--	lib0 (lib0@SpotChat-mmm.v3u.116.118.IP) has quit (Quit: Leaving)
+2013-10-27 20:46:29	littlesteve	although I am running 13.
+2013-10-27 20:46:38	-->	los7 (los7@SpotChat-dt3.hlc.29.23.IP) has joined #linuxmint-help
+2013-10-27 20:46:40	gbvoris_web	the only one I know how to do is the terminal.  Itried normal and sudo
+2013-10-27 20:46:52	<--	WraithRIOT (WSecure@SpotChat-paoaaf.eoni.com) has quit (Quit: Leaving)
+2013-10-27 20:47:06	-->	WraithRIOT (WSecure@SpotChat-paoaaf.eoni.com) has joined #linuxmint-help
+2013-10-27 20:47:36	-->	mint (mint@SpotChat-6te.p6v.82.177.IP) has joined #linuxmint-help
+2013-10-27 20:47:50	<--	mint (mint@SpotChat-6te.p6v.82.177.IP) has quit (Quit: Leaving)
+2013-10-27 20:48:01	unclezipper	littlesteve, you can change the wallpaper if you want. If you really want to see that you're running 13 you can run this in the terminal: cat /etc/*-release
+2013-10-27 20:48:03	littlesteve	unclezipper: so if it didnt touch my user settings, what can i do about it now. to make it show 13.  or 
+2013-10-27 20:48:29	littlesteve	unclezipper: I've checked and I am running 13, really.
+2013-10-27 20:48:40	<--	gbvoris_web (Mibbit@SpotChat-m6kkdb.dsl.pgtc.com) has quit (Quit: http://www.mibbit.com ajax IRC Client)
+2013-10-27 20:48:43	-->	d_man95 (d_man95@SpotChat-870h4h.ns.bellaliant.net) has joined #linuxmint-help
+2013-10-27 20:48:48	<--	d_man95 (d_man95@SpotChat-870h4h.ns.bellaliant.net) has left #linuxmint-help ("Leaving")
+2013-10-27 20:48:54	unclezipper	If you're using Gnome, you should just be able to right click on the desktop somewhere and change the wallpaper. Though you might have to download the LM13 wallpaper as well
+2013-10-27 20:49:04	<--	yumaokao (yumaokao@SpotChat-bsj.6p9.55.198.IP) has quit (Connection closed)
+2013-10-27 20:49:14	unclezipper	I'm not clear on whether or not things like that are installed with an upgrade
+2013-10-27 20:49:28	squinty_	g
+2013-10-27 20:49:54	-->	kalista (kalista@SpotChat-3dqj8c.anc.clearwire-dns.net) has joined #linuxmint-help
+2013-10-27 20:50:23	<--	kalista (kalista@SpotChat-3dqj8c.anc.clearwire-dns.net) has quit (Quit: Leaving)
+2013-10-27 20:50:38	littlesteve	unclezipper: okay I went to my wallpaper options.  there lo and behold was mint 13 wallpaper.  I chose it, and have it now.
+2013-10-27 20:50:48	-->	DeNcHiK (pc-1@SpotChat-83f.n23.0.188.IP) has joined #linuxmint-help
+2013-10-27 20:50:56	<--	DeNcHiK (pc-1@SpotChat-83f.n23.0.188.IP) has quit (Connection closed)
+2013-10-27 20:51:37	unclezipper	littlesteve: Awesome. Glad you found it
+2013-10-27 20:52:01	littlesteve	unclezipper:  Me too.  Thanks man.  I was totally confused by this. 
+2013-10-27 20:52:03	squinty_	littlesteve:  that is weird but not dire.  as mentioned all that is is a wallpaper that can be changed via a right click on desktop > Change Desktop Background.   try that and see if the mint 13 wallpaper is offered there
+2013-10-27 20:52:30	littlesteve	squinty_:  I did just as you suggest.  got the mint 13 wallpaper.
+2013-10-27 20:52:34	-->	awatt (awatt@SpotChat-sst.dbo.141.209.IP) has joined #linuxmint-help
+2013-10-27 20:52:35	billybigrigger	anyone else having problems with 2.0.6 and not being able to find session?
+2013-10-27 20:52:39	squinty_	heh...  to late.  good to hear though. :)
+2013-10-27 20:52:50	unclezipper	littlesteve, if you want you can find some other Linux Mint themed wallpapers here: http://linuxmint-art.org/index.php?xsortmode=high&page=0&xcontentmode=8300
+2013-10-27 20:52:50	--	littlesteve is now known as happycamper
+2013-10-27 20:53:03	unclezipper	Ha :P
+2013-10-27 20:53:05	-->	inahd_ (inahd@SpotChat-7ne6fe.dhcp.embarqhsd.net) has joined #linuxmint-help
+2013-10-27 20:53:07	<--	lxj (lxj@SpotChat-mmm.v3u.116.118.IP) has quit (Quit: Leaving)
+2013-10-27 20:53:13	happycamper	you guys rock.  thanks.
+2013-10-27 20:53:17	inahd_	sooo
+2013-10-27 20:53:25	<--	pimp (pimp@SpotChat-1bmtc2.dynamicIP.rima-tde.net) has quit (Quit: Leaving)
+2013-10-27 20:53:45	<--	romain (romain@SpotChat-t9pa1b.rev.numericable.fr) has quit (Ping timeout: 121 seconds)
+2013-10-27 20:53:57	inahd_	gosh darn bcm4321 wireless card...
+2013-10-27 20:54:11	squinty_	happycamper:  or  http://cinnamon-spices.linuxmint.com/themes
+2013-10-27 20:54:14	-->	Energyzed (jamesbradle@SpotChat-qm1s6b.hlrn.qwest.net) has joined #linuxmint-help
+2013-10-27 20:54:20	inahd_	i am thoroughly confused by this
+2013-10-27 20:54:34	-->	Kwisher (kevin@SpotChat-bu31h0.in.comcast.net) has joined #linuxmint-help
+2013-10-27 20:54:48	<--	evilytwisted (silent@silent) has quit (Quit: Leaving)
+2013-10-27 20:55:05	<--	nipcat (nipcat@SpotChat-mljesu.oopo.vbvc.e000.2605.IP) has quit (Client exited)
+2013-10-27 20:55:07	<--	Jack_Estripador (pedro@SpotChat-p7f.jf6.64.144.IP) has quit (Quit: Saindo)
+2013-10-27 20:55:09	Energyzed	Wtf is wrong with this OS? I downloaded the .deb file for Google Chrome, and it installed, then removed the program...
+2013-10-27 20:55:27	-->	mike1 (mike1@SpotChat-ue4jsg.blng.qwest.net) has joined #linuxmint-help
+2013-10-27 20:55:31	<--	MraMaria (MraMr@Try.Again) has quit (Quit: )
+2013-10-27 20:55:35	<--	mike1 (mike1@SpotChat-ue4jsg.blng.qwest.net) has quit (Quit: Micro.killed.me!)
+2013-10-27 20:55:40	happycamper	squinty_: ok ok 
+2013-10-27 20:55:47	<--	r00t (Unknown@epicwin.ssh01.com) has quit (Quit: (╯°□°)╯︵ ┻━┻)
+2013-10-27 20:55:56	squinty_	Energyzed:   please read the channel rules... not even acronyms are allowed in here.  thanks
+2013-10-27 20:56:24	Energyzed	Roger
+2013-10-27 20:56:51	wm_duckie	Energyzed: try using the software manager or synaptic, most likely an incorrect .deb
+2013-10-27 20:57:05	<--	geoff (geoff@SpotChat-j91368.b2b2c.ca) has quit (Connection closed)
+2013-10-27 20:57:22	unclezipper	Energyzed: You might want to try Chromium instead. It's available in the repositories for easy install
+2013-10-27 20:57:36	squinty_	Energyzed:  originally you posted in the linuxmint-debian channel.   are you using linux mint debian edition?  If so you need to use debian rather than ubuntu based debs and 2) as per the topic when logging on seek help in linuxmint-debian for lmde related issues.  ")
+2013-10-27 20:57:45	unclezipper	I've found it to be a little more conservative with CPU resources as well
+2013-10-27 20:57:54	-->	wesw (wesw@SpotChat-hmp.3j0.239.72.IP) has joined #linuxmint-help
+2013-10-27 20:57:57	<--	todd (todd@SpotChat-ktr54p.dhcp.embarqhsd.net) has quit (Quit: Leaving)
+2013-10-27 20:58:35	Energyzed	squinty: I wasn't aware that this channel was for other LM distros.
+2013-10-27 20:58:43	inahd_	does anyone know why my wireless driver (bcmwl-kernel-source) is showing up in driver manager, but it will not apply the changes  when i select it?
+2013-10-27 20:59:11	-->	andrew (andrew@SpotChat-g2jl7r.irvnca.sbcglobal.net) has joined #linuxmint-help
+2013-10-27 20:59:13	-->	candra (candra@SpotChat-8lo.rur.3.103.IP) has joined #linuxmint-help
+2013-10-27 20:59:32	Two_Dogs	inahd_ , type here: /exec -o inxi -Nnx
+2013-10-27 20:59:51	squinty_	Energyzed:  this is linuxmint-help for all the non debian linux mint releases.   mint debian has it's own channel (you were on it earler tonight)
+2013-10-27 20:59:55	inahd_	type here?
+2013-10-27 21:00:04	inahd_	Network:   Card-1: Broadcom BCM4321 802.11b/g/n driver b43-pci-bridge bus-ID 04:06.0
+2013-10-27 21:00:05	inahd_	           IF: N/A state N/A mac N/A
+2013-10-27 21:00:05	inahd_	           Card-2: Realtek RTL8111/8168 PCI Express Gigabit Ethernet controller 
+2013-10-27 21:00:05	inahd_	           driver r8169 ver 2.3LK-NAPI port c000 bus-ID 05:00.0
+2013-10-27 21:00:05	inahd_	           IF: eth0 state down mac <filter>
+2013-10-27 21:00:06	inahd_	           Card-3: NetGear WG111v3 54 Mbps Wireless [realtek RTL8187B] driver rtl8187 usb-ID 0846:4260
+2013-10-27 21:00:09	inahd_	           IF: wlan0 state up mac <filter>
+2013-10-27 21:00:11	inahd_	whoah
+2013-10-27 21:00:17	-->	user (user@SpotChat-oj0.jcf.112.187.IP) has joined #linuxmint-help
+2013-10-27 21:00:27	Energyzed	squinty_: going back there then
+2013-10-27 21:00:38	<--	Energyzed (jamesbradle@SpotChat-qm1s6b.hlrn.qwest.net) has left #linuxmint-help ("Leaving")
+2013-10-27 21:00:47	<--	awatt (awatt@SpotChat-sst.dbo.141.209.IP) has quit (Ping timeout: 121 seconds)
+2013-10-27 21:01:45	<--	user (user@SpotChat-oj0.jcf.112.187.IP) has quit (Quit: Saindo)
+2013-10-27 21:01:53	-->	user (user@SpotChat-oj0.jcf.112.187.IP) has joined #linuxmint-help
+2013-10-27 21:02:13	<--	Kwisher (kevin@SpotChat-bu31h0.in.comcast.net) has quit (Quit: Leaving)
+2013-10-27 21:02:33	<--	Htbrdd (htbrdd11@SpotChat-kecjm5.sc.charter.com) has quit (Ping timeout: 121 seconds)
+2013-10-27 21:03:03	-->	mario (mario@SpotChat-73q.9a3.66.186.IP) has joined #linuxmint-help
+2013-10-27 21:03:10	Two_Dogs	inahd_: since choosing the wifi driver, have you rebooted?
+2013-10-27 21:03:19	<--	mario (mario@SpotChat-73q.9a3.66.186.IP) has quit (Quit: Leaving)
+2013-10-27 21:03:20	<--	Therionized (robert@SpotChat-9im.anq.7.50.IP) has quit (Connection closed)
+2013-10-27 21:03:44	inahd_	Two_Dogs: yes
+2013-10-27 21:04:28	-->	mint (mint@SpotChat-l910k5.wa.comcast.net) has joined #linuxmint-help
+2013-10-27 21:04:32	-->	Htbrdd (htbrdd11@SpotChat-kecjm5.sc.charter.com) has joined #linuxmint-help
+2013-10-27 21:04:57	--	mint is now known as Guest87655
+2013-10-27 21:05:00	-->	jasic (jasic@SpotChat-tr5.igp.244.49.IP) has joined #linuxmint-help
+2013-10-27 21:05:30	jasic	mtwebster:hello, did we start the development of bluetooth UI ?
+2013-10-27 21:05:42	-->	henry (henry@SpotChat-dn2.mom.116.206.IP) has joined #linuxmint-help
+2013-10-27 21:05:53	Guest87655	Does anyone know how to use the Looking Glass with Event Pass through?
+2013-10-27 21:06:04	-->	Axlin_ (Axlin@SpotChat-0bb1cl.swbr.surewest.net) has joined #linuxmint-help
+2013-10-27 21:06:22	-->	evilytwisted (silent@silent) has joined #linuxmint-help
+2013-10-27 21:06:29	-->	romain (romain@SpotChat-t9pa1b.rev.numericable.fr) has joined #linuxmint-help
+2013-10-27 21:06:34	-->	yingjiechen (yingjiechen@SpotChat-74i.4kl.90.125.IP) has joined #linuxmint-help
+2013-10-27 21:06:35	Guest87655	Or at least an alternative to inspect cinnamon elements like applets?
+2013-10-27 21:06:49	-->	dboy (dboy@SpotChat-l3h9vv.ip.windstream.net) has joined #linuxmint-help
+2013-10-27 21:06:52	yingjiechen	how to install apache??
+2013-10-27 21:06:53	<--	maximi89 (maximi89@SpotChat-3v2.dij.215.190.IP) has quit (Ping timeout: 121 seconds)
+2013-10-27 21:06:54	<--	andrew (andrew@SpotChat-g2jl7r.irvnca.sbcglobal.net) has left #linuxmint-help ("Leaving")
+2013-10-27 21:06:55	<--	dboy (dboy@SpotChat-l3h9vv.ip.windstream.net) has left #linuxmint-help ("Leaving")
+2013-10-27 21:07:05	jasic	yingjiechen: sudo apt-get install apache2
+2013-10-27 21:07:21	yingjiechen	thank you
+2013-10-27 21:07:28	Two_Dogs	inahd_: were any bmc drivers installed previous to the one chosen as shown?
+2013-10-27 21:07:30	jasic	you are welcomed
+2013-10-27 21:08:01	-->	yoques (yoques@SpotChat-58a04m.staticIP.rima-tde.net) has joined #linuxmint-help
+2013-10-27 21:08:07	<--	Axlin (Axlin@SpotChat-0bb1cl.swbr.surewest.net) has quit (Ping timeout: 121 seconds)
+2013-10-27 21:08:07	yoques	Hi
+2013-10-27 21:08:13	-->	gertrude (gertrude@SpotChat-ta8sv0.gol.net.gy) has joined #linuxmint-help
+2013-10-27 21:08:23	inahd_	it.. was recommended that i install the bcmwl manually, although there was something showing in the device manager before i did so
+2013-10-27 21:08:59	Two_Dogs	inahd_: were any bmc drivers installed previous to the one chosen as shown? is that a yes answer then?
+2013-10-27 21:09:01	yoques	I'm trying to install a .iso in my SDcard, but unetbootin can't do it
+2013-10-27 21:09:09	yoques	another program possible?
+2013-10-27 21:09:15	inahd_	Two_Dogs: i think it may be possible
+2013-10-27 21:09:27	<--	gertrude (gertrude@SpotChat-ta8sv0.gol.net.gy) has quit (Quit: Leaving)
+2013-10-27 21:09:38	jasic	yoques: dude try the USB Image Writer ;)
+2013-10-27 21:09:53	-->	guest-kbRWjC (guest-kbRWj@SpotChat-6amath.staticIP.rima-tde.net) has joined #linuxmint-help
+2013-10-27 21:10:06	jasic	yoques: else, c if your SD card shows when you choose in Hard DIsk in Unetbootin
+2013-10-27 21:10:21	-->	eigba (eigba@SpotChat-fp3gii.rcsntx.sbcglobal.net) has joined #linuxmint-help
+2013-10-27 21:10:23	<--	WraithRIOT (WSecure@SpotChat-paoaaf.eoni.com) has quit (Quit: Leaving)
+2013-10-27 21:10:31	<--	eigba (eigba@SpotChat-fp3gii.rcsntx.sbcglobal.net) has quit (Connection closed)
+2013-10-27 21:10:53	<--	guest-kbRWjC (guest-kbRWj@SpotChat-6amath.staticIP.rima-tde.net) has quit (Quit: Saliendo)
+2013-10-27 21:11:07	<--	aditya (aditya@SpotChat-esh.dt8.45.175.IP) has quit (Quit: Leaving)
+2013-10-27 21:11:20	-->	christopher (christopher@SpotChat-j3pb71.dhcp.embarqhsd.net) has joined #linuxmint-help
+2013-10-27 21:11:20	<--	christopher (christopher@SpotChat-j3pb71.dhcp.embarqhsd.net) has quit (Quit: Leaving)
+2013-10-27 21:11:20	<--	romain (romain@SpotChat-t9pa1b.rev.numericable.fr) has quit (Ping timeout: 121 seconds)
+2013-10-27 21:11:42	-->	user_ (user@SpotChat-94f.ivh.82.80.IP) has joined #linuxmint-help
+2013-10-27 21:11:43	<--	user_ (user@SpotChat-94f.ivh.82.80.IP) has quit (Quit: Konversation terminated!)
+2013-10-27 21:11:43	Two_Dogs	inahd_: you have an alternate method to connect to wifi, as i can see, so, i would suggest you remove completely via synaptic all bmc drivers presently installed,  that would be akin to apt-get purge, and then reboot, then use use the driver installer again
+2013-10-27 21:11:47	-->	mint (mint@SpotChat-iu1.vj9.62.202.IP) has joined #linuxmint-help
+2013-10-27 21:11:50	yoques	the usb image writer works?
+2013-10-27 21:12:06	yoques	normally it spend a lot of time
+2013-10-27 21:12:15	--	mint is now known as Guest55869
+2013-10-27 21:12:26	jasic	yoques: yaa I agree
+2013-10-27 21:12:46	<--	user (user@SpotChat-oj0.jcf.112.187.IP) has quit (Quit: Saindo)
+2013-10-27 21:12:49	<--	jasonsmr (jasonsmr@SpotChat-bge3hp.mi.charter.com) has quit (Ping timeout: 121 seconds)
+2013-10-27 21:12:53	Guest55869	hello
+2013-10-27 21:12:57	jasic	yoques: try choosing Hard Disk , first format the SD as Fat 32 and then munt it
+2013-10-27 21:13:01	jasic	*mount
+2013-10-27 21:13:12	--	Guest55869 is now known as indonesia
+2013-10-27 21:13:16	inahd_	Two_Dogs: so the little usb dongle will not use the bcm drivers?
+2013-10-27 21:25:23	-->	billybigrigger (billybigrig@SpotChat-06cuv1.cg.shawcable.net) has joined #linuxmint-help
+2013-10-27 21:25:23	--	Topic for #linuxmint-help is "Official Linux Mint Support Channel | IRC Channel Rules: http://goo.gl/Ic9Gg | Upgrade Instructions: http://goo.gl/l1drP | Mint 15 is out, release announcement: http://goo.gl/rTCeu | Update issues with medibuntu ? See http://goo.gl/TknMrG"
+2013-10-27 21:25:23	--	Topic set by glebihan (glebihan@do.not.disturb) on Sun, 13 Oct 2013 13:45:55
+2013-10-27 21:25:23	--	Nicks #linuxmint-help: [*Kuja @ArcherSeven @ChanServ @devnull @KittyKatt @linXea @oOze @Roin _mel_ admin AdmV0rl03 alexandros_c alichiman alwhaley aniyah artv61 Atani awatt Axlin_ b^43 behnkent billybigrigger biwano biwano_ blackisle bob boboysdadda bones Booker_T briand BullShark canis chattr Cheesewheel cherry chlesto colonia27_ combat corkeh corndog Crazyjust crim d__b daguz damaya davethefan demetrius Descartes dittertp_ Djang0 downhome draggie Effe elkingrey Emmanuel_Chanel ephemer0l erstazi escapegoat evert evilytwisted EyeR fnordfnordfnord foobArrr fossegrim frank fukagawa gerzel GitNick gko glebihan GlitchMr gonephishin gu_ Guest11603 Guest19315 Guest28737 Guest53960 Guest61872 Guest87655 Gycklarn Halikar^afk havokoc Helaman henry heoyea hid Htbrdd inahd inahd_ irina jarjar0x2a jay jdragelj jekle jemar jerry jkw265 jnix johannes_ jozan kaneda KingMichael kirk kiwi kiwicam kneekoo kotten krondur kury kvasyl kwyjibo kylearan lachie lataylor lau lee lek_ lhm_ linuxmint liuhk lonewlf los7 LS luke luke_ m60-pup mantas Marforius maria mark_ matjam Matrixiumn mavhq max03_ maximi89_ maxwux Memphizzzzzz_ meschi_ mikee mikul minter mjrosenb modernbob monkeyrat Moonshine MouseTheLuckyDog mozzy mttr mtwebster Nami nasgaia nic niftylettuce NorthAntrim nosleal nutterpc Odd0002 Old-Dog OldRedEyes omouse patrickanthony patron pavel pcdummy petej PhilGee piglit pkoerner_ Plinker Ponch0 pootis_pensar pox protomouse Provel qnhu rageagainstthem raif rj1 rjanja roasted robotti rypervenche sammyz satamusic sime simon simpson__ some1 species_4981 squinty_ Stardroid steve_ steven stian stormy SuperCat syu t0x TATA ThalinVien The_Schmidt Thunder timo TornadoRex tpo tsunami twig Two_Dogs twobitsprite unclezipper user8545 valiukevich vallor VlperX wantansoup warfaren wei2912 Whiskey wm_duckie wrouesnel x XDX yano Ycarene yingjiechen zaeee Zenox zenrox zoinkfoo]
+2013-10-27 21:25:23	--	Channel #linuxmint-help: 229 nicks (8 ops, 0 halfops, 0 voices, 221 normals)
+2013-10-27 21:25:24	--	Notice(ChanServ): Welcome to #linuxmint-help | Please read the channel topic, including the channel rules | Use a pastebin service for posting multiple lines: http://dpaste.com | Use #linuxmint-chat for general conversation and #linuxmint-debian for support questions for LMDE
+2013-10-27 21:25:25	--	Mode #linuxmint-help [+Snt]
+2013-10-27 21:25:25	--	Channel created on Sun, 31 Mar 2013 00:57:13
+2013-10-27 21:25:28	billybigrigger	any devs around?
+2013-10-27 21:25:38	-->	eigba (eigba@SpotChat-fp3gii.rcsntx.sbcglobal.net) has joined #linuxmint-help
+2013-10-27 21:26:01	-->	hej (hej@SpotChat-b8o.f88.177.222.IP) has joined #linuxmint-help
+2013-10-27 21:26:08	billybigrigger	after the lastest update to 2.0.6 me and alot of other arch users can't seem to start cinnamon-session https://bugs.archlinux.org/task/37517
+2013-10-27 21:26:13	raif	I think I've got everything, but I don't know how to extract(?) what I've got
+2013-10-27 21:26:13	Two_Dogs	henry: there is nothing to replace medibuntu
+2013-10-27 21:26:25	billybigrigger	there's the bug report... and here is the error... Oct 27 19:49:36 claire cinnamon-session[592]: WARNING: Unable to find required component 'cinnamon-fallback-mount-helper'[/code]
+2013-10-27 21:26:37	yingjiechen	Two_Dogs:I failed to locate it
+2013-10-27 21:26:37	Two_Dogs	billybigrigger , has a bug report been submitted? https://bugs.launchpad.net/linuxmint , if not consider submitting one.
+2013-10-27 21:26:52	henry	ok thanks 
+2013-10-27 21:26:58	-->	oscar (oscar@SpotChat-760.uot.141.201.IP) has joined #linuxmint-help
+2013-10-27 21:27:16	squinty_	and try reading C lems comments that Cinnamon 2 is not recommended to be installed
+2013-10-27 21:27:16	Two_Dogs	yingjiechen: use synaptic to locate the file, use 'file location tab'
+2013-10-27 21:27:24	Two_Dogs	yingjiechen , fyi, synaptic is your friend,(also called 'package manager), http://www.nongnu.org/synaptic/action.html and http://en.wikipedia.org/wiki/Synaptic_(software), and a how to, https://help.ubuntu.com/community/SynapticHowto
+2013-10-27 21:27:26	billybigrigger	i assume cinnamon 2.0.6 was pushed to mint, no one else is having this problem eh? this is arch specific?
+2013-10-27 21:27:44	<--	oscar (oscar@SpotChat-760.uot.141.201.IP) has quit (Quit: Saliendo)
+2013-10-27 21:28:24	billybigrigger	ahh 2.0.6 isnt' available to olivia yet :D
+2013-10-27 21:28:25	squinty_	billybigrigger:  for devs  try   #linuxmint-dev.   cinnamon 2 has **not** be released for general use in mint as of yet.  installers of such do so at their own risk
+2013-10-27 21:28:29	Two_Dogs	billybigrigger: was the de found in repos?
+2013-10-27 21:28:39	billybigrigger	ya it's in arch repos
+2013-10-27 21:28:48	billybigrigger	cinnamon 1.8.8+olivia
+2013-10-27 21:28:56	Two_Dogs	billybigrigger: thats nice, for arch, this is mint
+2013-10-27 21:28:59	billybigrigger	^^ this is why it's an arch-only problem so far :D
+2013-10-27 21:29:06	billybigrigger	Two_Dogs: it's still cinnamon :P
+2013-10-27 21:29:08	squinty_	that is not cinnamon 2
+2013-10-27 21:29:13	billybigrigger	squinty_: exactly
+2013-10-27 21:29:15	-->	Meaux (Meaux@SpotChat-oljidc.austin.hp.com) has joined #linuxmint-help
+2013-10-27 21:29:26	-->	senlis (senlis@SpotChat-flv48h.ok.cox.net) has joined #linuxmint-help
+2013-10-27 21:29:27	billybigrigger	petra is beta i assume?
+2013-10-27 21:29:34	billybigrigger	or RC?
+2013-10-27 21:29:52	billybigrigger	Two_Dogs: anyway, thanks for pointing me to the dev channel!
+2013-10-27 21:29:53	Two_Dogs	billybigrigger: its not in mint-repos, and you installed it , seems like a test to me, test failed
+2013-10-27 21:30:00	billybigrigger	cheers guys take care
+2013-10-27 21:30:02	squinty_	neither
+2013-10-27 21:30:31	<--	Guest19315 (joe@SpotChat-kjp.al7.17.23.IP) has quit (Quit: Leaving)
+2013-10-27 21:30:36	<--	monkeyrat (monkeyrat@SpotChat-dch0b1.dyn.telnor.net) has left #linuxmint-help ("Leaving")
+2013-10-27 21:30:58	squinty_	.....and fwiw, it wasn't him either.  sigh
+2013-10-27 21:31:05	-->	jay_ (jay@SpotChat-blv2tr.pa.comcast.net) has joined #linuxmint-help
+2013-10-27 21:31:14	<--	jay_ (jay@SpotChat-blv2tr.pa.comcast.net) has quit (Quit: Leaving)
+2013-10-27 21:31:40	Guest87655	Anyone familiar with the Looking Glass Inspector or Clutter? 
+2013-10-27 21:32:00	Two_Dogs	Guest87655 , ask/share opinion in #linuxmint-chat
+2013-10-27 21:32:09	<--	henry (henry@SpotChat-dn2.mom.116.206.IP) has quit (Quit: Leaving)
+2013-10-27 21:32:16	-->	henry (henry@SpotChat-dn2.mom.116.206.IP) has joined #linuxmint-help
+2013-10-27 21:32:26	Guest87655	I need help not just to chat
+2013-10-27 21:32:26	<--	jay (jay@SpotChat-blv2tr.pa.comcast.net) has quit (Quit: Leaving)
+2013-10-27 21:32:34	-->	Axlin__ (Axlin@SpotChat-0bb1cl.swbr.surewest.net) has joined #linuxmint-help
+2013-10-27 21:32:34	<--	kotten (kotten@SpotChat-l2pusn.priv.bahnhof.se) has quit (Ping timeout: 121 seconds)
+2013-10-27 21:33:02	Two_Dogs	Guest87655 , you need to be more specific, the question/description of the issue/problem is too general. For example, 'i am using mint-(version) on (desktop) and having a problem with the (program/process), the issue is (fill in the rest).
+2013-10-27 21:33:12	-->	monkeyrat (monkeyrat@SpotChat-dch0b1.dyn.telnor.net) has joined #linuxmint-help
+2013-10-27 21:33:12	<--	eigba (eigba@SpotChat-fp3gii.rcsntx.sbcglobal.net) has left #linuxmint-help ("Leaving")
+2013-10-27 21:33:18	<--	downhome (downhome@SpotChat-0ub.fss.251.64.IP) has quit (Ping timeout: 121 seconds)
+2013-10-27 21:33:39	-->	mint (mint@SpotChat-iu1.vj9.62.202.IP) has joined #linuxmint-help
+2013-10-27 21:33:54	-->	frozenuggz (frozenuggz@SpotChat-p9u9lr.mtaonline.net) has joined #linuxmint-help
+2013-10-27 21:34:03	<--	yingjiechen (yingjiechen@SpotChat-74i.4kl.90.125.IP) has quit (Ping timeout: 121 seconds)
+2013-10-27 21:34:04	mint	can anybody help me???
+2013-10-27 21:34:06	-->	troy (troy@SpotChat-16q50u.in-addr.btopenworld.com) has joined #linuxmint-help
+2013-10-27 21:34:09	--	mint is now known as Guest79665
+2013-10-27 21:34:10	-->	kam_ (kam@SpotChat-0ics28.dyn.optonline.net) has joined #linuxmint-help
+2013-10-27 21:34:13	<--	kam_ (kam@SpotChat-0ics28.dyn.optonline.net) has quit (Connection closed)
+2013-10-27 21:34:25	<--	henry (henry@SpotChat-dn2.mom.116.206.IP) has quit (Quit: Leaving)
+2013-10-27 21:34:31	--	Guest79665 is now known as chiles
+2013-10-27 21:34:39	troy	Hi, does any one know the code for terminal of VLC Media Player?
+2013-10-27 21:34:42	<--	frozenuggz (frozenuggz@SpotChat-p9u9lr.mtaonline.net) has quit (Quit: Leaving)
+2013-10-27 21:34:43	chiles	i'm from indonesia
+2013-10-27 21:34:47	-->	shalucdamint (shalucdamin@SpotChat-01a.9th.247.189.IP) has joined #linuxmint-help
+2013-10-27 21:34:55	-->	oem (oem@SpotChat-n0ab5r.access.telenet.be) has joined #linuxmint-help
+2013-10-27 21:35:01	<--	shalucdamint (shalucdamin@SpotChat-01a.9th.247.189.IP) has quit (Quit: Saliendo)
+2013-10-27 21:35:08	Two_Dogs	troy: 'vlc' in terminal
+2013-10-27 21:35:11	-->	christopher (christopher@SpotChat-j3pb71.dhcp.embarqhsd.net) has joined #linuxmint-help
+2013-10-27 21:35:15	<--	christopher (christopher@SpotChat-j3pb71.dhcp.embarqhsd.net) has quit (Connection closed)
+2013-10-27 21:35:16	-->	Testing567 (Testing567@SpotChat-uprfnl.dyn.optonline.net) has joined #linuxmint-help
+2013-10-27 21:35:19	squinty_	troy: vlc --help
+2013-10-27 21:35:23	<--	oem (oem@SpotChat-n0ab5r.access.telenet.be) has quit (Quit: Ik ga weg)
+2013-10-27 21:35:27	chiles	hi, can anyone help me...
+2013-10-27 21:35:42	-->	cseal (cseal@SpotChat-nbo97s.mi.comcast.net) has joined #linuxmint-help
+2013-10-27 21:35:57	<--	cseal (cseal@SpotChat-nbo97s.mi.comcast.net) has quit (Quit: Leaving)
+2013-10-27 21:36:00	chiles	i can't install linux to my computer
+2013-10-27 21:36:01	Ponch0	troy: cvlc [name of mp3/video while in directory]
+2013-10-27 21:36:03	Guest87655	I am using cinnamon 1.8.8 and I am building a Theme.  I am using Looking Glass to Inspect Cinnamon Elements, but the Inspector does seem to allow for Event Passthrough.  Does anyone know how to use the Looking Glass Inspector with Event Pass Through?
+2013-10-27 21:36:11	-->	khwarizmi (stingray@SpotChat-p9h.e8e.53.39.IP) has joined #linuxmint-help
+2013-10-27 21:36:22	raif	Hola folks...I just did a fresh install of Mint 13 in order to utilize the majority of my unallocated drive, and am wondering if I can somehow restore my files, programs, tweaking, etc from my external. I used the "Restore Files" option in Backup Tool, but I don't think I used the "Restore Software Selection", because it was not intuitive for restoring my computer session. There seems to be quite a lot of files in my external, bu
+2013-10-27 21:36:22	raif	<raif> t I don't know how to import them.
+2013-10-27 21:36:23	<--	Axlin_ (Axlin@SpotChat-0bb1cl.swbr.surewest.net) has quit (Ping timeout: 121 seconds)
+2013-10-27 21:36:28	senlis	chiles: what version of linux are you attempting to install?
+2013-10-27 21:36:45	troy	Yeah I just downloaded VLC Media Player from software manager and tried to play a dvd but didn't work and so I wondered if there was some code for pre-install
+2013-10-27 21:36:48	squinty_	Guest87655:   if no answer here might want to try #linuxmint-dev
+2013-10-27 21:37:00	Guest87655	Will do, Thanks
+2013-10-27 21:37:06	-->	kir (kir@SpotChat-p4t.er9.167.5.IP) has joined #linuxmint-help
+2013-10-27 21:37:07	troy	I mean post-install
+2013-10-27 21:37:28	<--	irina (irina@SpotChat-ndt4t7.pa.comcast.net) has quit (Connection closed)
+2013-10-27 21:37:28	raif	Actually, I think I did maybe "Restore Software Selection"
+2013-10-27 21:37:36	<--	monkeyrat (monkeyrat@SpotChat-dch0b1.dyn.telnor.net) has left #linuxmint-help ("Leaving")
+2013-10-27 21:37:43	Ponch0	ah dvd 
+2013-10-27 21:37:53	chiles	senlis: cinnamon 1.8.6
+2013-10-27 21:37:57	Ponch0	I think there's some codecs or something for dvd, i'm not even sure
+2013-10-27 21:38:18	<--	kir (kir@SpotChat-p4t.er9.167.5.IP) has quit (Quit: Ухожу я от вас (xchat 2.4.5 или старше))
+2013-10-27 21:38:43	troy	uh, well it's a real bad storm over here at 3am and wanted to watch a film lol, I'll google it
+2013-10-27 21:39:52	raif	All the tutorials that I can find are videos or third-party solutions, (and I've already crossed that bridge using the stock program), and I don't currently have sound. Can anyone help?
+2013-10-27 21:40:41	 *	XDX despega
+2013-10-27 21:41:22	<--	XDX (FJK@SpotChat-iig.kba.58.92.IP) has quit (Quit: Saliendo)
+2013-10-27 21:41:25	-->	aaron (aaron@SpotChat-3qjp9g.tukrga.sbcglobal.net) has joined #linuxmint-help
+2013-10-27 21:41:27	chiles	i'm sory to anyone cause my english really bad
+2013-10-27 21:41:54	-->	lizhimin (lizhimin@SpotChat-pq0.fou.28.121.IP) has joined #linuxmint-help
+2013-10-27 21:41:59	<--	aaron (aaron@SpotChat-3qjp9g.tukrga.sbcglobal.net) has quit (Quit: Leaving)
+2013-10-27 21:42:02	<--	lizhimin (lizhimin@SpotChat-pq0.fou.28.121.IP) has quit (Connection closed)
+2013-10-27 21:42:17	-->	brothermarkinter (brothermark@SpotChat-0hs047.hou.ygnition.net) has joined #linuxmint-help
+2013-10-27 21:42:21	<--	brothermarkinter (brothermark@SpotChat-0hs047.hou.ygnition.net) has quit (Quit: Leaving)
+2013-10-27 21:42:25	chiles	anyone want to talk to me???
+2013-10-27 21:42:36	-->	Azir (eres@SpotChat-v1l.p0b.183.72.IP) has joined #linuxmint-help
+2013-10-27 21:43:10	-->	co_b40n (SJL@SpotChat-e0b.8ls.247.103.IP) has joined #linuxmint-help
+2013-10-27 21:43:17	<--	co_b40n (SJL@SpotChat-e0b.8ls.247.103.IP) has left #linuxmint-help ("Leaving")
+2013-10-27 21:43:22	-->	rumpel (rumpel@SpotChat-je8.gtk.85.114.IP) has joined #linuxmint-help
+2013-10-27 21:43:30	senlis	chiles: which version of Linux are you trying to install?
+2013-10-27 21:43:45	-->	tristan (tristan@SpotChat-3g2.65t.194.180.IP) has joined #linuxmint-help
+2013-10-27 21:44:11	tristan	hi
+2013-10-27 21:44:37	squinty_	chiles:  for help you need to provide more information about what occurs when you try to install?   Where abouts in the installation are you?  Provide information without people having to ask you every step of the way where the problem is
+2013-10-27 21:44:59	tristan	can any one help me 
+2013-10-27 21:45:45	tristan	im having problems with skype...my cam is to dark, what can i do?
+2013-10-27 21:45:50	-->	verbal (verbal@SpotChat-0l4v4p.cicril.sbcglobal.net) has joined #linuxmint-help
+2013-10-27 21:46:01	<--	verbal (verbal@SpotChat-0l4v4p.cicril.sbcglobal.net) has quit (Quit: Leaving)
+2013-10-27 21:46:28	tristan	i a new to linux mint but loving it
+2013-10-27 21:47:39	<--	admin (admin@SpotChat-4gm8t1.mia.bellsouth.net) has quit (Connection closed)
+2013-10-27 21:47:42	The_Schmidt	I'd try replugging it, turning the light on, and making sure you have a decent vid driver in that box .. if you got all that, I have no idea where else to check
+2013-10-27 21:48:53	-->	mint (mint@SpotChat-hv1qoi.cable.rcn.com) has joined #linuxmint-help
+2013-10-27 21:48:58	<--	mint (mint@SpotChat-hv1qoi.cable.rcn.com) has quit (Connection closed)
+2013-10-27 21:49:23	-->	Rusty1_64 (Rusty1@free.as.in.beer) has joined #linuxmint-help
+2013-10-27 21:49:23	--	Mode #linuxmint-help [+o Rusty1_64] by ChanServ
+2013-10-27 21:49:35	-->	ken (ken@SpotChat-chhbls.so-net.ne.jp) has joined #linuxmint-help
+2013-10-27 21:49:44	<--	ken (ken@SpotChat-chhbls.so-net.ne.jp) has quit (Connection closed)
+2013-10-27 21:50:10	tristan	the schmidt-is that for me?how do i make sure of vid?
+2013-10-27 21:50:24	-->	moksha (moksha@SpotChat-oot7gc.bigpond.net.au) has joined #linuxmint-help
+2013-10-27 21:50:34	<--	moksha (moksha@SpotChat-oot7gc.bigpond.net.au) has quit (Quit: Leaving)
+2013-10-27 21:50:40	squinty_	tristan:  http://community.linuxmint.com/tutorial/view/219   has a reference to some software called v4l2ucp which may or may not be of use to you
+2013-10-27 21:51:14	<--	Azir (eres@SpotChat-v1l.p0b.183.72.IP) has quit (Ping timeout: 121 seconds)
+2013-10-27 21:51:16	<--	EyeR (EyeR@SpotChat-vkf.373.8.141.IP) has quit (Ping timeout: 121 seconds)
+2013-10-27 21:52:15	raif	Anyone know the command to restore my desktop/session after a fresh install? I reinstalled Mint to reclaim my unallocated space
+2013-10-27 21:52:27	<--	Marforius (Marforius@SpotChat-bt0.8d5.36.69.IP) has quit (Ping timeout: 121 seconds)
+2013-10-27 21:53:21	<--	steven (steven@SpotChat-0h8mls.fios.verizon.net) has quit (Ping timeout: 121 seconds)
+2013-10-27 21:53:33	<--	senlis (senlis@SpotChat-flv48h.ok.cox.net) has quit (Connection closed)
+2013-10-27 21:53:40	-->	user (user@SpotChat-jaq.7rm.23.217.IP) has joined #linuxmint-help
+2013-10-27 21:53:45	<--	user (user@SpotChat-jaq.7rm.23.217.IP) has quit (Connection closed)
+2013-10-27 21:53:50	tristan	thanks squinty, ill try to chk that
+2013-10-27 21:55:13	<--	Guest87655 (mint@SpotChat-l910k5.wa.comcast.net) has left #linuxmint-help ("Leaving")
+2013-10-27 21:55:13	Two_Dogs	raif  , you might want to search here,  http://forums.linuxmint.com/index.php
+2013-10-27 21:56:05	-->	siedas (siedas@SpotChat-3qm.lfn.45.75.IP) has joined #linuxmint-help
+2013-10-27 21:56:14	siedas	how can i adjust my screen resolution in linux mint 15 cinnamon?
+2013-10-27 21:57:40	-->	metusa (up@SpotChat-b3koah.bigpond.net.au) has joined #linuxmint-help
+2013-10-27 21:57:44	-->	maccdrew (maccdrew@SpotChat-ais81i.dyn.optonline.net) has joined #linuxmint-help
+2013-10-27 21:57:50	<--	maccdrew (maccdrew@SpotChat-ais81i.dyn.optonline.net) has quit (Connection closed)
+2013-10-27 21:58:01	<--	siedas (siedas@SpotChat-3qm.lfn.45.75.IP) has quit (Quit: Leaving)
+2013-10-27 21:58:04	-->	francis (francis@SpotChat-qo9.sb6.180.173.IP) has joined #linuxmint-help
+2013-10-27 21:58:26	-->	up (up@SpotChat-b3koah.bigpond.net.au) has joined #linuxmint-help
+2013-10-27 21:59:32	raif	Um...okay. It's not as simple as moving a home file in the terminal?
+2013-10-27 21:59:45	<--	evilytwisted (silent@silent) has quit (Connection closed)
+2013-10-27 21:59:57	raif	I can't find a thread that addresses exactly how ignorant I am.
+2013-10-27 22:00:23	<--	metusa (up@SpotChat-b3koah.bigpond.net.au) has quit (Quit: Leaving)
+2013-10-27 22:00:23	<--	up (up@SpotChat-b3koah.bigpond.net.au) has quit (Quit: Leaving)
+2013-10-27 22:00:28	-->	metusa (up@SpotChat-b3koah.bigpond.net.au) has joined #linuxmint-help
+2013-10-27 22:00:38	-->	evanvarvell (evanvarvell@SpotChat-glk1dj.mo.charter.com) has joined #linuxmint-help
+2013-10-27 22:00:45	-->	user1 (user1@SpotChat-7pf.ej6.109.38.IP) has joined #linuxmint-help
+2013-10-27 22:01:11	-->	daniel (daniel@SpotChat-v7dt6v.res.rr.com) has joined #linuxmint-help
+2013-10-27 22:01:12	-->	daniel_ (daniel@SpotChat-v7dt6v.res.rr.com) has joined #linuxmint-help
+2013-10-27 22:01:12	-->	gbe (gbe@SpotChat-7vfgeb.ca.comcast.net) has joined #linuxmint-help
+2013-10-27 22:01:16	-->	up (up@SpotChat-b3koah.bigpond.net.au) has joined #linuxmint-help
+2013-10-27 22:01:18	-->	mint (mint@SpotChat-o0udrq.fios.verizon.net) has joined #linuxmint-help
+2013-10-27 22:01:21	<--	daniel (daniel@SpotChat-v7dt6v.res.rr.com) has quit (Connection closed)
+2013-10-27 22:01:22	-->	ton (ton@SpotChat-i2f.c6p.215.186.IP) has joined #linuxmint-help
+2013-10-27 22:01:25	<--	user1 (user1@SpotChat-7pf.ej6.109.38.IP) has quit (Quit: Leaving)
+2013-10-27 22:01:29	<--	mint (mint@SpotChat-o0udrq.fios.verizon.net) has quit (Quit: Leaving)
+2013-10-27 22:01:32	<--	daniel_ (daniel@SpotChat-v7dt6v.res.rr.com) has quit (Quit: Leaving)
+2013-10-27 22:01:36	-->	mint (mint@SpotChat-o0udrq.fios.verizon.net) has joined #linuxmint-help
+2013-10-27 22:01:41	<--	francis (francis@SpotChat-qo9.sb6.180.173.IP) has quit (Quit: Leaving)
+2013-10-27 22:01:44	<--	mint (mint@SpotChat-o0udrq.fios.verizon.net) has quit (Connection closed)
+2013-10-27 22:02:01	<--	ton (ton@SpotChat-i2f.c6p.215.186.IP) has quit (Quit: Leaving)
+2013-10-27 22:02:37	gbe	is there a way to troubleshoot why the Software Manager just stops after I type in the root password?
+2013-10-27 22:02:50	-->	mint (mint@SpotChat-o0udrq.fios.verizon.net) has joined #linuxmint-help
+2013-10-27 22:02:55	<--	mint (mint@SpotChat-o0udrq.fios.verizon.net) has quit (Connection closed)
+2013-10-27 22:03:38	-->	senny (senny@SpotChat-g4c.plv.161.95.IP) has joined #linuxmint-help
+2013-10-27 22:04:10	@Rusty1_64	gbe:  close it and try package manager instead http://community.linuxmint.com/tutorial/view/1266
+2013-10-27 22:04:16	-->	corkeh_again (BUTTES@SpotChat-048i81.mi.frontiernet.net) has joined #linuxmint-help
+2013-10-27 22:05:03	-->	simpson___ (simpson@SpotChat-e00lq6.dip0.t-ipconnect.de) has joined #linuxmint-help
+2013-10-27 22:05:17	<--	liuhk (liuhk@SpotChat-mmm.v3u.116.118.IP) has quit (Quit: Leaving)
+2013-10-27 22:05:34	-->	User (chatzilla@SpotChat-6r4.p6p.127.74.IP) has joined #linuxmint-help
+2013-10-27 22:05:42	-->	SonikkuAmerica (benmoose@SpotChat-uqb.mne.129.64.IP) has joined #linuxmint-help
+2013-10-27 22:06:20	User	hello I am trying to install mint 13 again
+2013-10-27 22:06:34	<--	SonikkuAmerica (benmoose@SpotChat-uqb.mne.129.64.IP) has left #linuxmint-help ("")
+2013-10-27 22:06:42	<--	hej (hej@SpotChat-b8o.f88.177.222.IP) has quit (Ping timeout: 121 seconds)
+2013-10-27 22:06:50	User	I have downloaded a copy of mint 13 on my windows XP laptop
+2013-10-27 22:06:55	-->	hej (hej@SpotChat-b8o.f88.177.222.IP) has joined #linuxmint-help
+2013-10-27 22:07:01	<--	corkeh (BUTTES@SpotChat-3hq.i4m.124.50.IP) has quit (Ping timeout: 121 seconds)
+2013-10-27 22:07:24	User	I have checked the md5 sum and it is perfect. Now I want to copy it to a thumb drive
+2013-10-27 22:08:03	-->	murat (murat@SpotChat-4oe3dc.cable.rogers.com) has joined #linuxmint-help
+2013-10-27 22:08:07	User	Do I need to burn that to a USN thumb or can I just copy the 801 meg file to the thumb drive?
+2013-10-27 22:08:15	User	USB thumb
+2013-10-27 22:08:18	<--	corkeh_again (BUTTES@SpotChat-048i81.mi.frontiernet.net) has quit (Ping timeout: 121 seconds)
+2013-10-27 22:08:42	<--	simpson__ (simpson@SpotChat-qjs1ti.dip0.t-ipconnect.de) has quit (Ping timeout: 121 seconds)
+2013-10-27 22:09:03	User	is anybody here tonight?

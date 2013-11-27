@@ -1,0 +1,64 @@
+2013-11-15 12:58:49	-->	billybigrigger (~billybigr@S0106602ad06f924c.cg.shawcable.net) has joined #owncloud
+2013-11-15 12:58:49	--	Topic for #owncloud is "This channel is for support and discussion of ownCloud (http://owncloud.org), contributors are welcome in #owncloud-dev | Don't ask to ask, just ask! | Report issues https://github.com/owncloud/core/issues | Get help http://forum.owncloud.org | Translate http://transifex.net/projects/p/owncloud"
+2013-11-15 12:58:49	--	Topic set by danimo on Sat, 01 Jun 2013 14:15:43
+2013-11-15 12:58:49	--	Nicks #owncloud: [6JTAAN77L [Sim] _br_ _flake _KaszpiR_ _larva _ruben _Tassadar _tremo `Z` Ac-town adaptr addikt|away afiestas agaida ahiemstra Airwave allee Amgine amospalla AndresSM Andy50 anymouse aptituz_ ardi Ashareth azaghal bartv bauruine bedahr ben1066 BeS^Off bholst billybigrigger bipolar Bl_nK blip2 Blizzz BobJonkman1 Borg branko Bretos brot Bucciarati burn camerin ccolorado CeilingKitten Champi chrisward cire cloakable codehero CodemasterAUT Contex CruX| cswelin__ daktak dandre daniel_oc danimo darrik dazo_afk deathleff DeBot debris` decoder_ DeepDiver defnordic demlak DemoFreak deskro devil_ diamond_gr digitltom Doc_exe Domin Dominique donmichelangelo Dotted dpac|away dreamer DrRen duxd Earthwings ekeih Eleth eloib Enfo espiral falstaff FaV1r3s fc__ fikst flami folivora frafra frals frinring FunkyPenguin GabrieleV gladiac glebihan glebihan__ gmc GrantN05 grelli guillom guntha guruz guse harrow Haxxa HeavyMetal hechi_away Hei_Ku heraclitus herby_ hery2 houqp hyper_ch IAmTheClaw Icewind ikkeT Ilmehtar Invader iron_houzi IvarB Jakey jan1337z jancborchardt Jare JasonDC jave jaywink jdspiral jefferai jekader johnyb jussi JvD_ Kaboon Karmalicious keithzg kevinsky Killsudo Kiranos Kitzu koenwillems kolp Kondou koolhead17 kraut Lazar_Dobrescu Lickitysplitted lilalinux LordDeath lubyou ludkiller lukost MacGyverX manitu manmi marass martinalex mbiebl McLive MCM-Mike MeanderingCode MechtiIde meeech mete- mhulan|away miniyo miroslav MissionCritical mkpaa_ MoeMorox moparisthebest Mozillion mrbanie MrBlueSky125 MTGap murmelbahn mx-r neferty neoclust Neros nibbler nice92 nighoo NiTeMaRe nocturn Nothing4You_ notizblock nutcase obli-AWAY ohama olegb Oliber orly_owl otto P1ersson PaulePanter pcfe Perun_ peteyg petn-randall phunyguy pierre_bear piggz Pimmetje pinPoint piti Pixelz plopix pounard premera prurigro pybe qqq QuentinF rabautz Raboo racerx raghunayyar ramsesHD Raydiation rcmc-ronny RealRancor redbrick redHen rendezz riddle rocker2344_ Rojod Rootert rrix rtr- rupert ruskie rysiek|pl sakuramboo samppah Sander^work sanderr scalability-junk SchrodingersScat sgw shadeslayer Shura_ Siggi0904|OFF Simson-san|away simusik smgoller- Soru spY|da stein-afk sudoSamurai SunTsu sven^ szagul taffit tanghus Tekati tempus_fol Tera testpil0t TGiFallen th Tha-Fox the_eye TheBadShepperd Thin_` ThreeM tigerfoot timtaler Tm_T tomarch_ tomaw tonsofpcs tpn Tux-Tn twisted` txxt Tykling Uninstall ushio Vanadis vegardx wachw WebbyIT whilo wilder WinstonSmith_ wolog wookie Worf xSmurf YamakasY zimba12 zizzfizzix_ zlit zmo zyclonite zz_pellegrino]
+2013-11-15 12:58:49	--	Channel #owncloud: 306 nicks (0 ops, 0 voices, 306 normals)
+2013-11-15 12:58:51	--	Mode #owncloud [+cnt]
+2013-11-15 12:58:51	--	Channel created on Wed, 17 Mar 2010 06:06:38
+2013-11-15 12:59:04	billybigrigger	hey all, im having a problem getting owncloud 6 beta to install on freebsd
+2013-11-15 12:59:12	billybigrigger	something wrong with the apps/ dir permissions
+2013-11-15 12:59:43	billybigrigger	apache user/group is www/www and i ran chown -R www:www owncloud/
+2013-11-15 13:00:00	billybigrigger	Can't write into apps directory
+2013-11-15 13:00:00	billybigrigger	This can usually be fixed by giving the webserver write access to the apps directory or disabling the appstore in the config file.
+2013-11-15 13:00:09	billybigrigger	so i tried chown'ing to root
+2013-11-15 13:00:10	billybigrigger	same error
+2013-11-15 13:01:07	<--	sven^ (~quassel@squint.a-oben.org) has quit (Quit: No Ping reply in 180 seconds.)
+2013-11-15 13:01:28	billybigrigger	i even tried to chmod 777 the apps/ dir and i still get the same error, restarting apache after every permission change...any ideas?
+2013-11-15 13:02:00	--	addikt|away is now known as addikt
+2013-11-15 13:05:12	<--	Raydiation (~bernhard@chello080108042248.32.11.vie.surfer.at) has left #owncloud
+2013-11-15 13:05:15	petn-randall	billybigrigger: never do chmod 777, that's calling for trouble.
+2013-11-15 13:06:05	billybigrigger	i know
+2013-11-15 13:06:20	billybigrigger	thats why i said 'i even tried'
+2013-11-15 13:06:21	billybigrigger	:P
+2013-11-15 13:06:31	billybigrigger	any ideas?
+2013-11-15 13:10:15	billybigrigger	petn-randall: ?
+2013-11-15 13:10:51	--	addikt is now known as addikt|away
+2013-11-15 13:11:34	-->	RiDDleR (~Me@agsb-5d853df0.pool.mediaWays.net) has joined #owncloud
+2013-11-15 13:11:39	<--	fikst (~fikst@d54C442D5.access.telenet.be) has quit (Ping timeout: 272 seconds)
+2013-11-15 13:11:44	<--	RiDDleR (~Me@agsb-5d853df0.pool.mediaWays.net) has quit (Changing host)
+2013-11-15 13:11:44	-->	RiDDleR (~Me@unaffiliated/riddler) has joined #owncloud
+2013-11-15 13:13:46	<--	agaida (~quassel@ip-178-202-206-36.unitymediagroup.de) has quit (Remote host closed the connection)
+2013-11-15 13:16:00	--	guillom is now known as basile
+2013-11-15 13:18:25	-->	fikst (~fikst@d54C442D5.access.telenet.be) has joined #owncloud
+2013-11-15 13:18:41	-->	agaida (~quassel@ip-178-202-206-36.unitymediagroup.de) has joined #owncloud
+2013-11-15 13:20:07	<--	Lazar_Dobrescu (~Lazar@2605:6400:1:fed5:22:bc2f:8e65:936c) has quit (Remote host closed the connection)
+2013-11-15 13:20:56	-->	Lazar_Dobrescu (~Lazar@2605:6400:1:fed5:22:bc2f:8e65:936c) has joined #owncloud
+2013-11-15 13:26:15	<--	tigerfoot (~tigerfoot@opensuse/member/Bruno-friedmann) has quit (Excess Flood)
+2013-11-15 13:26:25	--	zz_pellegrino is now known as pellegrino
+2013-11-15 13:26:50	-->	tigerfoot (~tigerfoot@opensuse/member/Bruno-friedmann) has joined #owncloud
+2013-11-15 13:30:21	-->	fossxplorer (~Foss@unaffiliated/fossxplorer) has joined #owncloud
+2013-11-15 13:41:35	<--	jaywink (~jaywink@91-157-61-28.elisa-laajakaista.fi) has quit (Ping timeout: 246 seconds)
+2013-11-15 13:42:59	-->	jaywink (~jaywink@91-157-61-28.elisa-laajakaista.fi) has joined #owncloud
+2013-11-15 13:53:40	<--	duxd (~duxd@of1.psych.ubc.ca) has quit (Quit: This computer has gone to sleep)
+2013-11-15 13:55:08	<--	jaywink (~jaywink@91-157-61-28.elisa-laajakaista.fi) has quit (Ping timeout: 264 seconds)
+2013-11-15 13:59:17	-->	jaywink (~jaywink@91-157-61-28.elisa-laajakaista.fi) has joined #owncloud
+2013-11-15 14:07:55	<--	Lazar_Dobrescu (~Lazar@2605:6400:1:fed5:22:bc2f:8e65:936c) has quit (Quit: Leaving.)
+2013-11-15 14:18:01	<--	MechtiIde (~Mechtilde@ip-95-223-148-17.unitymediagroup.de) has quit (Ping timeout: 268 seconds)
+2013-11-15 14:21:40	<--	flami (~quassel@HSI-KBW-134-3-46-21.hsi14.kabel-badenwuerttemberg.de) has quit (Remote host closed the connection)
+2013-11-15 14:24:55	-->	onny (~onny@krlh-5f71e181.pool.mediaWays.net) has joined #owncloud
+2013-11-15 14:28:30	<--	fossxplorer (~Foss@unaffiliated/fossxplorer) has quit (Ping timeout: 268 seconds)
+2013-11-15 14:54:11	--	AndresSM is now known as AndresSM_away
+2013-11-15 14:59:30	--	pellegrino is now known as zz_pellegrino
+2013-11-15 15:11:17	-->	duxd (~duxd@of1.psych.ubc.ca) has joined #owncloud
+2013-11-15 15:18:31	<--	guse (~guse@gateway/tor-sasl/guse) has quit (Ping timeout: 240 seconds)
+2013-11-15 15:19:50	-->	guse (~guse@gateway/tor-sasl/guse) has joined #owncloud
+2013-11-15 15:22:08	<--	nibbler (~sven@ppp-83-171-188-237.dynamic.mnet-online.de) has quit (Ping timeout: 264 seconds)
+2013-11-15 15:29:49	<--	donmichelangelo (~donmichel@pD95DC22F.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2013-11-15 15:30:25	-->	donmichelangelo (~donmichel@pD95DC22F.dip0.t-ipconnect.de) has joined #owncloud
+2013-11-15 15:30:59	<--	fikst (~fikst@d54C442D5.access.telenet.be) has quit (Remote host closed the connection)
+2013-11-15 15:31:58	<--	mhulan|away (~kvirc@ip4-83-240-74-147.cust.nbox.cz) has quit (Ping timeout: 264 seconds)
+2013-11-15 15:34:11	<--	tempus_fol (~tempus@gateway/tor-sasl/tempusfol) has quit (Remote host closed the connection)
+2013-11-15 15:35:00	-->	tempus_fol (~tempus@gateway/tor-sasl/tempusfol) has joined #owncloud
+2013-11-15 15:41:10	<--	espiral (~maze@unaffiliated/espiral) has quit (Ping timeout: 260 seconds)
+2013-11-15 15:42:39	<--	onny (~onny@krlh-5f71e181.pool.mediaWays.net) has quit (Ping timeout: 272 seconds)
+2013-11-15 15:43:08	<--	Blizzz (~blizzz@ubuntu/member/blizzz) has quit (Ping timeout: 264 seconds)

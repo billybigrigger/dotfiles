@@ -1,0 +1,236 @@
+2013-10-27 17:46:39	--	irc: connecting to server irc.spotchat.org/6667...
+2013-10-27 17:46:40	--	irc: connected to irc.spotchat.org/6667 (109.234.106.53)
+2013-10-27 17:46:40	--	harpy.de.SpotChat.org (harpy.de.SpotChat.org): *** Looking up your hostname...
+2013-10-27 17:46:41	--	harpy.de.SpotChat.org (harpy.de.SpotChat.org): *** Found your hostname (S0106602ad06f924c.cg.shawcable.net)
+2013-10-27 17:46:42	--	harpy.de.SpotChat.org (harpy.de.SpotChat.org): Welcome to SpotChat!
+2013-10-27 17:46:42	--	Welcome to the SpotChat IRC Network billybigrigger!billybigrig@S0106602ad06f924c.cg.shawcable.net
+2013-10-27 17:46:42	--	Your host is harpy.de.SpotChat.org, running version InspIRCd-2.0
+2013-10-27 17:46:42	--	This server was created 13:17:10 Sep 22 2013
+2013-10-27 17:46:42	--	harpy.de.SpotChat.org InspIRCd-2.0 BHRSWcdghikorswx CJMNORSTabceghiklmnopqrstvz Jabeghkloqv
+2013-10-27 17:46:42	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=beg,k,Jl,CMNORSTcimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,CNORSTUcmz FNC KICKLEN=255 MAP :are supported by this server
+2013-10-27 17:46:42	--	MAXBANS=60 MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=SpotChat NICKLEN=31 OVERRIDE PREFIX=(qaohv)*!@%+ REMOVE SECURELIST SSL=109.234.106.53:6697 :are supported by this server
+2013-10-27 17:46:42	--	STARTTLS STATUSMSG=*!@%+ TOPICLEN=307 UHNAMES VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2013-10-27 17:46:42	--	655AAFGCR :your unique ID
+2013-10-27 17:46:42	--	harpy.de.SpotChat.org message of the day
+2013-10-27 17:46:42	--	- ***************************************************************************
+2013-10-27 17:46:42	--	- *                _____             __       __          __                *
+2013-10-27 17:46:42	--	- *               / ___/____  ____  / /______/ /_  ____ _/ /_               *
+2013-10-27 17:46:42	--	- *               \__ \/ __ \/ __ \/ __/ ___/ __ \/ __ `/ __/               *
+2013-10-27 17:46:42	--	- *              ___/ / /_/ / /_/ / /_/ /__/ / / / /_/ / /_                 *
+2013-10-27 17:46:42	--	- *             /____/ .___/\____/\__/\___/_/ /_/\__,_/\__/                 *
+2013-10-27 17:46:42	--	- *                 /__/                                                    *
+2013-10-27 17:46:42	--	- *                                                                         *
+2013-10-27 17:46:42	--	- *                                                                         *
+2013-10-27 17:46:42	--	- *    Operator and owner: Company NuTime UG (http://www.nutime.de)         *
+2013-10-27 17:46:42	--	- *    complete imprint can be found here:                                  *
+2013-10-27 17:46:42	--	- *    -> http://www.spotchat.org/imprint.php                               *
+2013-10-27 17:46:42	--	- *                                                                         *
+2013-10-27 17:46:42	--	- *    irc.spotchat.org is reachable through these ports:                   *
+2013-10-27 17:46:42	--	- *       - 6667                                                            *
+2013-10-27 17:46:42	--	- *       - 9997                                                            *
+2013-10-27 17:46:42	--	- *       - 6697 (SSL)                                                      *
+2013-10-27 17:46:42	--	- *                                                                         *
+2013-10-27 17:46:42	--	- *    The network operators assume that you have read, understood          *
+2013-10-27 17:46:42	--	- *    and accepted the following rules:                                    *
+2013-10-27 17:46:42	--	- *                                                                         *
+2013-10-27 17:46:42	--	- *       - bots are allowed if they cause no harm to other users           *
+2013-10-27 17:46:42	--	- *         on this network or annoy them in any way.                       *
+2013-10-27 17:46:42	--	- *         [e.g. Eggdrop, TNT, Dancer etc.]                                *
+2013-10-27 17:46:42	--	- *       - bots disturbing the normal flow of this network                 *
+2013-10-27 17:46:42	--	- *         are not allowed.                                                *
+2013-10-27 17:46:42	--	- *       - bots are to be marked with the usermode +B </mode nick +B>      *
+2013-10-27 17:46:42	--	- *       - 3 connections per IP are allowed on this IRC Network.           *
+2013-10-27 17:46:42	--	- *         Exceptions can be arranged in consultation with the operators   *
+2013-10-27 17:46:42	--	- *       - NOT allowed are: warez, xdcc, dissemination of pornographic,    *
+2013-10-27 17:46:42	--	- *         overexposure of violence or right-wing content and              *
+2013-10-27 17:46:42	--	- *         flooding respectively spamming                                  *
+2013-10-27 17:46:42	--	- *         This includes creating and operating Channels which may expose  *
+2013-10-27 17:46:42	--	- *         hacking or cracking activities or planning them in any way.     *
+2013-10-27 17:46:42	--	- *                                                                         *
+2013-10-27 17:46:42	--	- *    The operators of this network, reserve the right to block channels   *
+2013-10-27 17:46:42	--	- *    or users who breach these rules and to change the above rules        *
+2013-10-27 17:46:42	--	- *    without prior notice.                                                *
+2013-10-27 17:46:42	--	- *                                                                         *
+2013-10-27 17:46:42	--	- *    Anyone who operates computer sabotage against us makes himself       *
+2013-10-27 17:46:42	--	- *    liable to prosecution under Section 303b of the German Criminal Code *
+2013-10-27 17:46:42	--	- *    and we will press charges against him.                               *
+2013-10-27 17:46:42	--	- *                                                                         *
+2013-10-27 17:46:42	--	- *                                                                         *
+2013-10-27 17:46:42	--	- *    |----- Network Management - NetAdmin - ServicesRoot - Oper ------|   *
+2013-10-27 17:46:42	--	- *    |                                                                |   *
+2013-10-27 17:46:42	--	- *    | Mekonikum                        Mekonikum@SpotChat.org        |   *
+2013-10-27 17:46:42	--	- *    | toby                             toby@SpotChat.org             |   *
+2013-10-27 17:46:42	--	- *    | Kuja                             Kuja@SpotChat.org             |   *
+2013-10-27 17:46:42	--	- *    | d00p                             d00p@SpotChat.org             |   *
+2013-10-27 17:46:42	--	- *    | psychon                          psychon@SpotChat.org          |   *
+2013-10-27 17:46:42	--	- *    |----------------------------------------------------------------|   *
+2013-10-27 17:46:42	--	- *                                                                         *
+2013-10-27 17:46:42	--	- *                                                                         *
+2013-10-27 17:46:42	--	- *    |------------------------ Services ------------------------------|   *
+2013-10-27 17:46:42	--	- *    |                                                                |   *
+2013-10-27 17:46:42	--	- *    |                HelpServ, NickServ, ChanServ,                   |   *
+2013-10-27 17:46:42	--	- *    |                BotServ, MemoServ                               |   *
+2013-10-27 17:46:42	--	- *    |----------------------------------------------------------------|   *
+2013-10-27 17:46:42	--	- *                                                                         *
+2013-10-27 17:46:42	--	- *    Using "/msg SERVICENAME HELP" will show you a short overview         *
+2013-10-27 17:46:42	--	- *    of the commands you can use for these services.                      *
+2013-10-27 17:46:42	--	- *                                                                         *
+2013-10-27 17:46:42	--	- *    Help, I need somebody:                                               *
+2013-10-27 17:46:42	--	- *                                                                         *
+2013-10-27 17:46:43	--	- *    Help can be found with the IRCop's in the channel #SpotChat          *
+2013-10-27 17:46:43	--	- *    (marked with * or ! prior to their nicknames)                        *
+2013-10-27 17:46:43	--	- *    In case a user is masquerading as IRC-Op and no operator             *
+2013-10-27 17:46:43	--	- *    can be found in #SpotChat, please immediately contact the            *
+2013-10-27 17:46:43	--	- *    network management / operator!                                       *
+2013-10-27 17:46:43	--	- *                                                                         *
+2013-10-27 17:46:43	--	- *    >>>>>>>> The Spotchat-Team wishes you a lot of fun <<<<<<<<<         *
+2013-10-27 17:46:43	--	- *                                                                         *
+2013-10-27 17:46:43	--	- *    Important commands overview (no shortcuts):                          *
+2013-10-27 17:46:43	--	- *                                                                         *
+2013-10-27 17:46:43	--	- *    - register nickname:                                                 *
+2013-10-27 17:46:43	--	- *    /msg nickserv register password email                                *
+2013-10-27 17:46:43	--	- *                                                                         *
+2013-10-27 17:46:43	--	- *    - identify with Nickserv:                                            *
+2013-10-27 17:46:43	--	- *    /msg nickserv identify password                                      *
+2013-10-27 17:46:43	--	- *                                                                         *
+2013-10-27 17:46:43	--	- *    Explanation to the channel prefixes:                                 *
+2013-10-27 17:46:43	--	- *                                                                         *
+2013-10-27 17:46:43	--	- *    * = Founder                                                          *
+2013-10-27 17:46:43	--	- *    ! = Admin / Protected                                                *
+2013-10-27 17:46:43	--	- *    @ = Op                                                               *
+2013-10-27 17:46:43	--	- *    % = HalfOp                                                           *
+2013-10-27 17:46:43	--	- *    + = Voice                                                            *
+2013-10-27 17:46:43	--	- *                                                                         *
+2013-10-27 17:46:43	--	- ***************************************************************************
+2013-10-27 17:46:43	--	End of message of the day.
+2013-10-27 17:46:43	--	There are 1 users and 472 invisible on 3 servers
+2013-10-27 17:46:43	--	19 :operator(s) online
+2013-10-27 17:46:43	--	85 :channels formed
+2013-10-27 17:46:43	--	I have 458 clients and 1 servers
+2013-10-27 17:46:43	--	Current Local Users: 458  Max: 525
+2013-10-27 17:46:43	--	Current Global Users: 473  Max: 543
+2013-10-27 17:46:43	--	SpotChat-06cuv1.cg.shawcable.net :is now your displayed host
+2013-10-27 17:46:43	--	User mode [+ix] by billybigrigger
+2013-10-27 17:46:43	--	InfoServ (InfoServ@services.SpotChat.org): *** Message(s) of the Day ***
+2013-10-27 17:46:43	--	InfoServ (InfoServ@services.SpotChat.org): [Portscans] Notice from Kuja, posted 15:31 on 09/10/2011:
+2013-10-27 17:46:43	--	InfoServ (InfoServ@services.SpotChat.org): On connecting to this Network you are agreeing to be scanned for open Proxies. Please disregard any messages from Monitoring or Security software about this matter, it helps us keeping our Network a safe place.
+2013-10-27 17:46:43	--	InfoServ (InfoServ@services.SpotChat.org): *** End of Message(s) of the Day ***
+2013-10-27 17:46:43	--	NickServ (NickServ@services.SpotChat.org): Welcome to SpotChat, billybigrigger! Here on SpotChat, we provide services to enable the registration of nicknames and channels! For details, type /msg NickServ help and /msg ChanServ help.
+2013-10-27 21:24:59	--	irc: connecting to server irc.spotchat.org/6667...
+2013-10-27 21:24:59	--	irc: connected to irc.spotchat.org/6667 (109.234.106.53)
+2013-10-27 21:24:59	--	harpy.de.SpotChat.org (harpy.de.SpotChat.org): *** Looking up your hostname...
+2013-10-27 21:25:01	--	harpy.de.SpotChat.org (harpy.de.SpotChat.org): *** Found your hostname (S0106602ad06f924c.cg.shawcable.net)
+2013-10-27 21:25:02	--	harpy.de.SpotChat.org (harpy.de.SpotChat.org): Welcome to SpotChat!
+2013-10-27 21:25:02	--	Welcome to the SpotChat IRC Network billybigrigger!billybigrig@S0106602ad06f924c.cg.shawcable.net
+2013-10-27 21:25:02	--	Your host is harpy.de.SpotChat.org, running version InspIRCd-2.0
+2013-10-27 21:25:02	--	This server was created 13:17:10 Sep 22 2013
+2013-10-27 21:25:02	--	harpy.de.SpotChat.org InspIRCd-2.0 BHRSWcdghikorswx CJMNORSTabceghiklmnopqrstvz Jabeghkloqv
+2013-10-27 21:25:02	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=beg,k,Jl,CMNORSTcimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,CNORSTUcmz FNC KICKLEN=255 MAP :are supported by this server
+2013-10-27 21:25:02	--	MAXBANS=60 MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=SpotChat NICKLEN=31 OVERRIDE PREFIX=(qaohv)*!@%+ REMOVE SECURELIST SSL=109.234.106.53:6697 :are supported by this server
+2013-10-27 21:25:02	--	STARTTLS STATUSMSG=*!@%+ TOPICLEN=307 UHNAMES VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2013-10-27 21:25:02	--	655AAFGVF :your unique ID
+2013-10-27 21:25:02	--	harpy.de.SpotChat.org message of the day
+2013-10-27 21:25:02	--	- ***************************************************************************
+2013-10-27 21:25:02	--	- *                _____             __       __          __                *
+2013-10-27 21:25:02	--	- *               / ___/____  ____  / /______/ /_  ____ _/ /_               *
+2013-10-27 21:25:02	--	- *               \__ \/ __ \/ __ \/ __/ ___/ __ \/ __ `/ __/               *
+2013-10-27 21:25:02	--	- *              ___/ / /_/ / /_/ / /_/ /__/ / / / /_/ / /_                 *
+2013-10-27 21:25:02	--	- *             /____/ .___/\____/\__/\___/_/ /_/\__,_/\__/                 *
+2013-10-27 21:25:02	--	- *                 /__/                                                    *
+2013-10-27 21:25:02	--	- *                                                                         *
+2013-10-27 21:25:02	--	- *                                                                         *
+2013-10-27 21:25:02	--	- *    Operator and owner: Company NuTime UG (http://www.nutime.de)         *
+2013-10-27 21:25:02	--	- *    complete imprint can be found here:                                  *
+2013-10-27 21:25:02	--	- *    -> http://www.spotchat.org/imprint.php                               *
+2013-10-27 21:25:02	--	- *                                                                         *
+2013-10-27 21:25:02	--	- *    irc.spotchat.org is reachable through these ports:                   *
+2013-10-27 21:25:02	--	- *       - 6667                                                            *
+2013-10-27 21:25:02	--	- *       - 9997                                                            *
+2013-10-27 21:25:02	--	- *       - 6697 (SSL)                                                      *
+2013-10-27 21:25:02	--	- *                                                                         *
+2013-10-27 21:25:02	--	- *    The network operators assume that you have read, understood          *
+2013-10-27 21:25:02	--	- *    and accepted the following rules:                                    *
+2013-10-27 21:25:02	--	- *                                                                         *
+2013-10-27 21:25:02	--	- *       - bots are allowed if they cause no harm to other users           *
+2013-10-27 21:25:02	--	- *         on this network or annoy them in any way.                       *
+2013-10-27 21:25:02	--	- *         [e.g. Eggdrop, TNT, Dancer etc.]                                *
+2013-10-27 21:25:02	--	- *       - bots disturbing the normal flow of this network                 *
+2013-10-27 21:25:02	--	- *         are not allowed.                                                *
+2013-10-27 21:25:02	--	- *       - bots are to be marked with the usermode +B </mode nick +B>      *
+2013-10-27 21:25:02	--	- *       - 3 connections per IP are allowed on this IRC Network.           *
+2013-10-27 21:25:02	--	- *         Exceptions can be arranged in consultation with the operators   *
+2013-10-27 21:25:02	--	- *       - NOT allowed are: warez, xdcc, dissemination of pornographic,    *
+2013-10-27 21:25:02	--	- *         overexposure of violence or right-wing content and              *
+2013-10-27 21:25:02	--	- *         flooding respectively spamming                                  *
+2013-10-27 21:25:02	--	- *         This includes creating and operating Channels which may expose  *
+2013-10-27 21:25:02	--	- *         hacking or cracking activities or planning them in any way.     *
+2013-10-27 21:25:02	--	- *                                                                         *
+2013-10-27 21:25:02	--	- *    The operators of this network, reserve the right to block channels   *
+2013-10-27 21:25:02	--	- *    or users who breach these rules and to change the above rules        *
+2013-10-27 21:25:02	--	- *    without prior notice.                                                *
+2013-10-27 21:25:02	--	- *                                                                         *
+2013-10-27 21:25:02	--	- *    Anyone who operates computer sabotage against us makes himself       *
+2013-10-27 21:25:02	--	- *    liable to prosecution under Section 303b of the German Criminal Code *
+2013-10-27 21:25:02	--	- *    and we will press charges against him.                               *
+2013-10-27 21:25:02	--	- *                                                                         *
+2013-10-27 21:25:02	--	- *                                                                         *
+2013-10-27 21:25:02	--	- *    |----- Network Management - NetAdmin - ServicesRoot - Oper ------|   *
+2013-10-27 21:25:02	--	- *    |                                                                |   *
+2013-10-27 21:25:02	--	- *    | Mekonikum                        Mekonikum@SpotChat.org        |   *
+2013-10-27 21:25:02	--	- *    | toby                             toby@SpotChat.org             |   *
+2013-10-27 21:25:02	--	- *    | Kuja                             Kuja@SpotChat.org             |   *
+2013-10-27 21:25:02	--	- *    | d00p                             d00p@SpotChat.org             |   *
+2013-10-27 21:25:02	--	- *    | psychon                          psychon@SpotChat.org          |   *
+2013-10-27 21:25:02	--	- *    |----------------------------------------------------------------|   *
+2013-10-27 21:25:02	--	- *                                                                         *
+2013-10-27 21:25:02	--	- *                                                                         *
+2013-10-27 21:25:02	--	- *    |------------------------ Services ------------------------------|   *
+2013-10-27 21:25:02	--	- *    |                                                                |   *
+2013-10-27 21:25:02	--	- *    |                HelpServ, NickServ, ChanServ,                   |   *
+2013-10-27 21:25:02	--	- *    |                BotServ, MemoServ                               |   *
+2013-10-27 21:25:02	--	- *    |----------------------------------------------------------------|   *
+2013-10-27 21:25:02	--	- *                                                                         *
+2013-10-27 21:25:02	--	- *    Using "/msg SERVICENAME HELP" will show you a short overview         *
+2013-10-27 21:25:02	--	- *    of the commands you can use for these services.                      *
+2013-10-27 21:25:02	--	- *                                                                         *
+2013-10-27 21:25:02	--	- *    Help, I need somebody:                                               *
+2013-10-27 21:25:02	--	- *                                                                         *
+2013-10-27 21:25:02	--	- *    Help can be found with the IRCop's in the channel #SpotChat          *
+2013-10-27 21:25:02	--	- *    (marked with * or ! prior to their nicknames)                        *
+2013-10-27 21:25:02	--	- *    In case a user is masquerading as IRC-Op and no operator             *
+2013-10-27 21:25:02	--	- *    can be found in #SpotChat, please immediately contact the            *
+2013-10-27 21:25:02	--	- *    network management / operator!                                       *
+2013-10-27 21:25:02	--	- *                                                                         *
+2013-10-27 21:25:02	--	- *    >>>>>>>> The Spotchat-Team wishes you a lot of fun <<<<<<<<<         *
+2013-10-27 21:25:02	--	- *                                                                         *
+2013-10-27 21:25:02	--	- *    Important commands overview (no shortcuts):                          *
+2013-10-27 21:25:02	--	- *                                                                         *
+2013-10-27 21:25:02	--	- *    - register nickname:                                                 *
+2013-10-27 21:25:02	--	- *    /msg nickserv register password email                                *
+2013-10-27 21:25:02	--	- *                                                                         *
+2013-10-27 21:25:02	--	- *    - identify with Nickserv:                                            *
+2013-10-27 21:25:02	--	- *    /msg nickserv identify password                                      *
+2013-10-27 21:25:02	--	- *                                                                         *
+2013-10-27 21:25:02	--	- *    Explanation to the channel prefixes:                                 *
+2013-10-27 21:25:02	--	- *                                                                         *
+2013-10-27 21:25:02	--	- *    * = Founder                                                          *
+2013-10-27 21:25:02	--	- *    ! = Admin / Protected                                                *
+2013-10-27 21:25:02	--	- *    @ = Op                                                               *
+2013-10-27 21:25:02	--	- *    % = HalfOp                                                           *
+2013-10-27 21:25:02	--	- *    + = Voice                                                            *
+2013-10-27 21:25:02	--	- *                                                                         *
+2013-10-27 21:25:02	--	- ***************************************************************************
+2013-10-27 21:25:02	--	End of message of the day.
+2013-10-27 21:25:02	--	There are 1 users and 430 invisible on 3 servers
+2013-10-27 21:25:02	--	19 :operator(s) online
+2013-10-27 21:25:02	--	83 :channels formed
+2013-10-27 21:25:02	--	I have 416 clients and 1 servers
+2013-10-27 21:25:02	--	Current Local Users: 416  Max: 525
+2013-10-27 21:25:02	--	Current Global Users: 431  Max: 543
+2013-10-27 21:25:02	--	SpotChat-06cuv1.cg.shawcable.net :is now your displayed host
+2013-10-27 21:25:02	--	User mode [+ix] by billybigrigger
+2013-10-27 21:25:02	--	InfoServ (InfoServ@services.SpotChat.org): *** Message(s) of the Day ***
+2013-10-27 21:25:02	--	InfoServ (InfoServ@services.SpotChat.org): [Portscans] Notice from Kuja, posted 15:31 on 09/10/2011:
+2013-10-27 21:25:02	--	InfoServ (InfoServ@services.SpotChat.org): On connecting to this Network you are agreeing to be scanned for open Proxies. Please disregard any messages from Monitoring or Security software about this matter, it helps us keeping our Network a safe place.
+2013-10-27 21:25:02	--	InfoServ (InfoServ@services.SpotChat.org): *** End of Message(s) of the Day ***
+2013-10-27 21:25:02	--	NickServ (NickServ@services.SpotChat.org): Welcome to SpotChat, billybigrigger! Here on SpotChat, we provide services to enable the registration of nicknames and channels! For details, type /msg NickServ help and /msg ChanServ help.

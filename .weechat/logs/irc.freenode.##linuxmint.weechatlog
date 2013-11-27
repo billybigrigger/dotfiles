@@ -1,0 +1,51 @@
+2013-10-16 15:36:19	-->	billybigrigger (~billybigr@S0106602ad06f924c.cg.shawcable.net) has joined ##linuxmint
+2013-10-16 15:36:19	--	Topic for ##linuxmint is "Official support channel is #linuxmint-help on irc.spotchat.org"
+2013-10-16 15:36:19	--	Topic set by Bodsda on Sun, 02 Jan 2011 14:09:33
+2013-10-16 15:36:19	--	Nicks ##linuxmint: [@ChanServ [deXter] arcsky Aziroshin badtrumpet billybigrigger bleomycin_ CaveJohnson ceil chriswk clefebvre_ Cork czardoz Dai_1987 DasMoeh deanrock0 deego devnill_ dh64 dome dunz0r Dutchy ephemer0l FloTiX glebihan glebihan_ Guest83005 Hawson Hukkinen Ishibnc jA_cOp JakePee James0r jekle johntramp juser K1rk kantlivelong kc8qvp kInOzAwA ksx4system Lejoni LHL_Jordan loans LongCatTH lowpro30_ markovh Mayzie melter_ mikul modernbob MrGarlic mypapit niftylettuce OlivierDuParagno pbcw phenom pinage404 Provel prude qdk robotti Rubin ScoobaSteve SirCmpwn SkepticSarah Sora1995|Cloud Thor tonyoy ttl- urkl utfans05 Vanadis Vroomie wachpwnski yano zap Zenox]
+2013-10-16 15:36:19	--	Channel ##linuxmint: 78 nicks (1 op, 0 voices, 77 normals)
+2013-10-16 15:36:21	--	Mode ##linuxmint [+cnt]
+2013-10-16 15:36:21	--	Channel created on Fri, 15 Jan 2010 07:28:42
+2013-10-16 15:36:21	billybigrigger	hey all
+2013-10-16 15:36:50	billybigrigger	does anyone have links to the gtk themes mint uses?
+2013-10-16 15:37:07	billybigrigger	im running cinnamon 2.0 on arch and adwaita sucks bad
+2013-10-16 15:41:04	-->	radsy (~irc@ppp118-209-7-213.lns20.mel4.internode.on.net) has joined ##linuxmint
+2013-10-16 15:47:42	<--	lowpro30_ (~lowpro30@pool-173-74-78-66.dllstx.fios.verizon.net) has quit (Ping timeout: 272 seconds)
+2013-10-16 15:56:51	<--	clefebvre_ (~clem@92.251.173.130.threembb.ie) has quit (Ping timeout: 272 seconds)
+2013-10-16 16:11:24	<--	Provel (~Provel@75-132-18-44.dhcp.stls.mo.charter.com) has quit (Read error: Connection reset by peer)
+2013-10-16 16:14:52	-->	Provel (~Provel@75-132-18-44.dhcp.stls.mo.charter.com) has joined ##linuxmint
+2013-10-16 16:25:18	wachpwnski	billybigrigger: most are gtk themes
+2013-10-16 16:54:59	<--	wachpwnski (~wachpwnsk@c-71-57-82-213.hsd1.in.comcast.net) has quit (Quit: Leaving.)
+2013-10-16 17:37:04	-->	crazyjust (~ed@75.97.33.109.res-cmts.sebh.ptd.net) has joined ##linuxmint
+2013-10-16 17:38:11	<--	crazyjust (~ed@75.97.33.109.res-cmts.sebh.ptd.net) has left ##linuxmint
+2013-10-27 17:40:26	-->	billybig1 (~billybigr@S0106602ad06f924c.cg.shawcable.net) has joined ##linuxmint
+2013-10-27 17:40:26	--	Topic for ##linuxmint is "Official support channel is #linuxmint-help on irc.spotchat.org"
+2013-10-27 17:40:26	--	Topic set by Bodsda on Sun, 02 Jan 2011 14:09:33
+2013-10-27 17:40:26	--	Nicks ##linuxmint: [@ChanServ [deXter] _-_ _dd apb1963 arcsky badtrumpet billybig1 BillyZane bleomycin_ chriswk Cork czardoz Dai_1987 DasMoeh deanrock0 deego ephemer0l FloTiX glebihan glebihan__ Guest83005 hays Hukkinen Ishibnc jA_cOp JakePee jekle johntramp Jordan__ K1rk kantlivelong kc8qvp kingi ksx4system Lejoni_ little-tommy LongCatTH markovh Matrixiumn Mayzie melter mesamoo mikul modernbob MrGarlic niftylettuce pbcw Peio phenom poffpoffpass Provel prude qdk robotti Rubin_ rumpel ScoobaSteve shutdown76 SirCmpwn Skald_9_ skynet-2000 Sora1995|Cloud Thor thyphus ttl- utfans05_ Vanadis Vroomie VunKruz yano zap Zenox zz0]
+2013-10-27 17:40:26	--	Channel ##linuxmint: 74 nicks (1 op, 0 voices, 73 normals)
+2013-10-27 17:40:27	--	Mode ##linuxmint [+cnt]
+2013-10-27 17:40:28	--	Channel created on Fri, 15 Jan 2010 07:28:42
+2013-10-27 17:41:04	billybig1	hey all, im running arch, but decided to upgrade to cinnamon 2.0.6 today, is anyone else expeirencing "session not found 'cinnamon'"? or is this an arch specific bug?
+2013-10-27 17:41:24	billybig1	i've tried software rending and it complains it cant find '
+2013-10-27 17:41:30	billybig1	'cinnamon2d' sessions
+2013-10-27 17:41:35	billybig1	s/sessions/s
+2013-10-27 17:41:42	billybig1	holy feck i can't type today
+2013-10-27 17:44:41	<--	rumpel (~rumpel@114.85.241.238) has quit (Ping timeout: 272 seconds)
+2013-10-27 17:56:14	<--	Skald_9_ (~bert@d51535828.access.telenet.be) has quit (Quit: Ik ga weg)
+2013-10-27 18:17:26	Jordan__	billybig1 cinnamon 2.x is beta. You may try an earlier version
+2013-10-27 18:37:20	-->	juser (~juser@grm-studby-128-39-149-158.studby.uia.no) has joined ##linuxmint
+2013-10-27 19:17:47	<--	badtrumpet (~badtrumpe@host217-36-225-30.in-addr.btopenworld.com) has quit (Ping timeout: 272 seconds)
+2013-10-27 19:18:53	<--	modernbob (~modernbob@unaffiliated/modernbob) has quit (Quit: Leaving)
+2013-10-27 19:20:08	-->	modernbob (~modernbob@crawfordneb.info) has joined ##linuxmint
+2013-10-27 19:20:09	<--	modernbob (~modernbob@crawfordneb.info) has quit (Changing host)
+2013-10-27 19:20:09	-->	modernbob (~modernbob@unaffiliated/modernbob) has joined ##linuxmint
+2013-10-27 19:22:56	-->	badtrumpet (~badtrumpe@host217-36-225-30.in-addr.btopenworld.com) has joined ##linuxmint
+2013-10-27 19:45:23	<--	_dd (~Vesa@dyn-xdsl-83-150-117-247.nebulazone.fi) has quit (Remote host closed the connection)
+2013-10-27 20:03:11	-->	brian_ (~brian@bas16-ottawa23-1088700657.dsl.bell.ca) has joined ##linuxmint
+2013-10-27 20:04:08	<--	brian_ (~brian@bas16-ottawa23-1088700657.dsl.bell.ca) has quit (Quit: Leaving)
+2013-10-27 20:11:40	-->	justaguy (~ju@unaffiliated/justaguy) has joined ##linuxmint
+2013-10-27 20:12:25	justaguy	expected more people to be in the mint section here :p
+2013-10-27 20:27:19	<--	zz0 (~zz0@unaffiliated/zz0) has quit (Remote host closed the connection)
+2013-10-27 20:41:59	<--	johntramp (~john@125-237-7-66.jetstream.xtra.co.nz) has quit (Read error: Connection reset by peer)
+2013-10-27 20:52:52	billybig1	Jordan__: since when was it beta?
+2013-10-27 20:53:09	<--	justaguy (~ju@unaffiliated/justaguy) has left ##linuxmint
+2013-10-27 20:59:11	--	Matrixiumn is now known as CaveJohnson
